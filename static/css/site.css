@@ -159,3 +159,8 @@ h1 {
 article{
   padding-top: 5em
 }
+
+.nopad
+{
+padding-top: 0em
+}
