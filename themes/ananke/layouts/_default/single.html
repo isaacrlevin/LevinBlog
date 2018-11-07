@@ -1,0 +1,52 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+{{ $icon_size := "32px" }}
+<header>
+    <div class="pb3-m  {{ .Site.Params.background_color_class | default "bg-light-blue" }}">
+      <div class="tc-l pv3 ph3 ph4-ns buffer">
+        <h1 class="f2 f-subheadline-l fw2 white mb0 lh-title">
+            {{ .Title }}
+        </h1>
+
+
+    <div class="article-meta-data list-inline white">
+              {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
+        <time class="article-meta-data-section list-inline-item f2 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{- .Date.Format "January 2, 2006" -}}
+        </time>
+        {{ if isset .Params "repo" }}
+
+        <span class="article-meta-data-section list-inline-item ">
+        <a title="View Code" class="f2 hover-white link-transition linkedin link dib z-999 pt3 pt0-l mr2" href={{ printf "%s" $.Params.repo }}>
+          {{ partial "svg/code.svg" (dict "size" $icon_size) }}
+        </a>
+        <a title="View Code" class="f2 hover-black link link-transition no-underline white-90" href={{ printf "%s" $.Params.repo }} target="_blank">Code</a>
+        {{ end }}
+      </span>
+        <a title="Comments" class="article-meta-data-section list-inline-item f2 hover-white link-transition linkedin link dib z-999 pt0-l mr2" href="#disqus">
+            {{ partial "svg/comment.svg" (dict "size" $icon_size) }}
+          </a>
+        {{- partial "tags.html" . -}}
+
+      </div>
+     </div> </div>
+  </header>
+  <article class="flex-l flex-wrap justify-between w-100 w-70-ns center ph3 ph0-l">
+   <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
+        {{- .Content -}}
+
+      <div id="disqus" class="mt6">
+        {{ template "_internal/disqus.html" . }}
+      </div>
+    </main>
+
+    <aside class="w-30-l mt6-l">
+      {{- partial "menu-contextual.html" . -}}
+    </aside>
+
+  </article>
+{{ end }}

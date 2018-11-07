@@ -1,0 +1,8 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-black no-underline white dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+    &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+  </a>
+    <div>{{ partial "social-follow.html" . }}</div>
+  </div>
+</footer>

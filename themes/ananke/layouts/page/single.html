@@ -1,0 +1,26 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+  <header>
+      <div class="pb3-m  {{ .Site.Params.background_color_class | default "bg-light-blue" }}">
+        <div class="tc-l pv3 ph3 ph4-ns buffer">
+          <h1 class="f2 f-subheadline-l fw2 white mb0 lh-title">
+            {{ .Title | default .Site.Title }}
+          </h1>
+          {{ with .Params.description }}
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              {{ . }}
+            </h2>
+          {{ end }}
+        </div>
+      </div>
+    </header>
+
+
+  <div class="flex-l mt2 mw9 center">
+    <article class="center cf pv5 ph3 ph4-ns">
+      <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+        {{ .Content }}
+      </div>
+    </article>
+  </div>
+{{ end }}
