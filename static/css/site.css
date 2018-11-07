@@ -1,0 +1,161 @@
+#TableOfContents ul li {
+  margin-bottom: 1em;
+}
+
+.svg-icon {
+  display: inline-flex;
+  align-self: center;
+}
+.svg-icon svg {
+  height: 1em;
+  width: 1em;
+}
+.svg-icon.svg-baseline svg {
+  top: 0.125em;
+  position: relative;
+}
+
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -50px;
+  margin-top: -65px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.page-wrap:before {
+  content: "";
+  display: block;
+}
+
+.site-header,
+.page-wrap:before {
+  /* .push must be the same height as footer */
+  height: 65px;
+}
+
+.site-footer,
+.page-wrap:after {
+  /* .push must be the same height as footer */
+  height: 50px;
+}
+.site-footer {
+  background: #96ccff;
+}
+
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #aabcfe;
+  width: 100%;
+  table-layout: fixed;
+}
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #aabcfe;
+  color: #669;
+  background-color: #e8edff;
+}
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #aabcfe;
+  color: #039;
+  background-color: #b9c9fe;
+}
+.tg .tg-0pky {
+  border-color: inherit;
+  text-align: left;
+  vertical-align: top;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+.facebook,
+.github,
+.gitlab,
+.instagram,
+.linkedin,
+.twitter,
+.youtube {
+  fill: white;
+}
+
+.mt2 {
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  .buffer {
+    padding-top: 80px;
+  }
+}
+
+.article-meta-data {
+  table-layout: fixed !important;
+}
+
+.article-meta-data {
+  width: 100%;
+  display: table;
+  display: table;
+  table-layout: initial;
+}
+
+.list-inline {
+  padding-left: 0px;
+
+  list-style: none;
+}
+.list-inline-item:not(:last-child) {
+  margin-right: 1em;
+}
+.mv4 {
+  margin-bottom: 0em;
+}
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #96ccff;
+}
+
+.back-to-top i {
+  font-size: 60px;
+}
+
+article{
+  padding-top: 5em
+}

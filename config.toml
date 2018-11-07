@@ -1,0 +1,36 @@
+title = "Isaac Levin's Blog"
+baseURL = "https://www.isaaclevin.com"
+languageCode = "en-us"
+theme = "ananke"
+
+disqusShortname = "isaaclevin"
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+pygmentsCodeFences = true
+uglyURLs = false
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/isaac2004"
+  instagram = ""
+  youtube = ""
+  github = "https://github.com/isaac2004"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/isaacrobinlevin/"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-light-blue"
+  featured_image = ""
+  recent_posts_number = 4
+  custom_css = ["css/site.css"]
+
+
