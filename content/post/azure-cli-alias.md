@@ -1,6 +1,6 @@
 ---
 date: 2018-07-01T11:25:05-04:00
-tags: ["Azure", "cli", DevOps"]
+tags: ["Azure", "cli", "DevOps"]
 title: "Azure CLIs Are Awesome"
 
 ---

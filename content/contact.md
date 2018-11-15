@@ -6,6 +6,6 @@ menu:
   main: {weight: "4"}
 ---
 
+Contact me for any reason, happy to chat with you
 
-Contact me for any reason, happy to chat with you!
-{{< form-contact action="https://formspree.io/isaac@isaaclevin.com"  >}}
+{{< form-contact >}}
