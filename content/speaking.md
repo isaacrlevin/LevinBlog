@@ -18,11 +18,10 @@ menu:
     <th class="tg-0pky">Dates</th>
   </tr>
   <tr>
-    <td class="tg-0pky"><a href="http://phillydotnet.org/camps/2018-2/
-" target="_blank">Philly Code Camp</a></td>
-    <td class="tg-0pky">Malvern, PA</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed <br />Building Your Own YouTube, sortof</td>
-    <td class="tg-0pky">11/13/2018</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
   </tr>
 </table>
 
@@ -40,6 +39,13 @@ menu:
     <th class="tg-0pky">Location</th>
     <th class="tg-0pky">Presentation</th>
     <th class="tg-0pky">Dates</th>
+  </tr>
+<tr>
+    <td class="tg-0pky"><a href="http://phillydotnet.org/camps/2018-2/
+" target="_blank">Philly Code Camp</a></td>
+    <td class="tg-0pky">Malvern, PA</td>
+    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed <br />Building Your Own YouTube, sortof</td>
+    <td class="tg-0pky">11/13/2018</td>
   </tr>
   <tr>
     <td class="tg-0pky"><a href="https://codecampnyc.org/" target="_blank">Code Camp NYC</a></td>
