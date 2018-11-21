@@ -26,8 +26,6 @@ A few things to call out here, we have to create a [SendGrid](https://sendgrid.c
 <br /><br />
 This makes it easy test locally (there is a localsettings.json file to put these settings, keep it out of your repo) and once you are ready to publish, Visual Studio has a handy tool to push the local settings to the Azure Portal
 <br /><br />
--- Insert image here
-<br /><br />
 Once we are all set, we can deploy and test with Postman if we want. But in reality, we will need a html form to submit to our function, let's look at this now.
 <br /><br />
 ## Using jQuery to Trigger the Function
@@ -45,4 +43,3 @@ Than I build out a simple html form, and wire up a little jQuery to make an ajax
 And voila, this just works, and not very many lines of code. The best thing in this case is that since this is just some slight UI changes and ajax calls, it is easy to use this in a modular way, better yet if you reference jQuery in other parts of your app.
 <br /><br />
 Azure Functions are great for doing small little tasks, and I would love to hear what other small tasks you use Functions for.
-
