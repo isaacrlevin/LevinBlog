@@ -7562,6 +7562,7 @@ pre {
 .instagram,
 .linkedin,
 .twitter,
+.reddit,
 .youtube {
   fill: #bababa;
 }
@@ -7585,6 +7586,9 @@ pre {
 }
 .linkedin:hover {
   fill: #0077b5;
+}
+.reddit:hover {
+  fill: #ff5700;
 }
 #TableOfContents ul li {
   margin-bottom: 1em;

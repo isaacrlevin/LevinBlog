@@ -11,7 +11,23 @@
         <h1 class="f2 f-subheadline-l fw2 white mb0 lh-title">
             {{ .Title }}
         </h1>
-
+        {{ $icon_size := "40px" }}
+        <a href={{printf "https://twitter.com/share?url=%s&text=%s" ($.URL | absURL) $.Title }} onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;"
+          class="link-transition twitter link dib z-999 pt3 pt0-l mr2">
+          {{ partial "svg/twitter.svg" (dict "size" $icon_size) }}
+        </a>
+        <a href={{printf "https://www.linkedin.com/shareArticle?mini=true&url=%s" ($.URL | absURL) }} onclick="window.open(this.href, 'linkedin-share', 'width=580,height=296');return false;"
+          class="link-transition linkedin link dib z-999 pt3 pt0-l mr2">
+          {{ partial "svg/linkedin.svg" (dict "size" $icon_size) }}
+        </a>
+        <a href={{ printf "https://www.facebook.com/sharer/sharer.php?u=%s" ($.URL | absURL) }} onclick="window.open(this.href, 'facebook-share', 'width=580,height=296');return false;"
+          class="link-transition facebook link dib z-999 pt3 pt0-l mr2">
+          {{ partial "svg/facebook.svg" (dict "size" $icon_size) }}
+        </a>
+        <a href={{ printf "https://reddit.com/submit?url=%s&title=%s" ($.URL | absURL) $.Title}} onclick="window.open(this.href, 'reddit-share', 'width=580,height=550'); return false;"
+        class="link-transition reddit link dib z-999 pt3 pt0-l mr2">
+          {{ partial "svg/reddit.svg" (dict "size" $icon_size) }}
+        </a>
 
     <div class="article-meta-data list-inline white">
               {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
@@ -38,7 +54,6 @@
   <article class="flex-l flex-wrap justify-between w-100 w-70-ns center ph3 ph0-l">
    <main class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
         {{- .Content -}}
-
       <div id="disqus" class="mt6">
         {{ template "_internal/disqus.html" . }}
       </div>
