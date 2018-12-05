@@ -14,7 +14,7 @@ I recently remapped my blog to a static website hosted in Azure Blob Storage. Du
 <br /><br />
 In order to make this work, I knew I was going to have to use an html form to do an http post of some sort to get simple data from the client-side (sender's email address, name and body of message). Well Azure Functions have a handy-dandy Http trigger that accepts post http requests. Going through the Azure Function wizard, choosing Http Trigger gets you what you want.
 <br /><br />
-{{< figure src="/images/function-setup.png">}}
+{{< figure src="/images/contact-form/function-setup.png">}}
 <br /><br />
 Now all we need is to build out a simple function that parses the http request, gets the fields we need, and build the email to send
 
@@ -34,7 +34,7 @@ Why did people stop using jQuery? It is so easy to wire up a little DOM manipula
 <br /><br />
 To call my function, all I need is the URL that my Http Trigger Function generates in the Azure Portal
 <br /><br />
-{{< figure src="/images/function-screen.png">}}
+{{< figure src="/images/contact-form/function-screen.png">}}
 <br />
 Than I build out a simple html form, and wire up a little jQuery to make an ajax() post to it
 <br /><br />

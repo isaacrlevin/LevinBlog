@@ -24,7 +24,7 @@ I was going through a box of old stuff from high school and college and came acr
 
 <br />
 
-{{< figure src="/images/mygoals.jpg" >}}
+{{< figure src="/images/mygoals.jpg" class="tc-l" >}}
 
 <br />
 
