@@ -1,5 +1,5 @@
 ---
-date: 2018-12-04T11:15:58-04:00
+date: 2018-12-06T08:25:05-04:00
 tags: ["c#", "DevOps", "CLI" , "Azure"]
 title: "Six Opinionated Tips to be a Better .NET Developer"
 ---
