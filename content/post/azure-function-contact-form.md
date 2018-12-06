@@ -8,7 +8,7 @@ title: "Building a Simple Contact Form with Azure Functions"
 <br /><br />
 I write about Azure Functions over and over again because they are the perfect solution for what I am trying to do, small little things that I don't want to spin up a larger unnecessary app to do it. That along with the fact they just run and go away, the price point for the things I do make it basically free.
 <br /><br />
-I recently remapped my blog to a static website hosted in Azure Blob Storage. During the process, I decided that it would be nice to have a way for people to contact me if they wanted to (no idea why they would). I looked at some options around contact form services and I was not really impressed with the free options and didn't want to create some account to manage. Than I had a thought, why not have an Azure Function that I could http post to and sent an email from there, easy peasy. And boy was it!
+I recently remapped my blog to a static website hosted in Azure Blob Storage. During the process, I decided that it would be nice to have a way for people to contact me if they wanted to (no idea why they would). I looked at some options around contact form services and I was not really impressed with the free options and didn't want to create some account to manage. Then I had a thought, why not have an Azure Function that I could http post to and sent an email from there, easy peasy. And boy was it!
 <br /><br />
 ## Building the Function with an Http Trigger
 <br /><br />
