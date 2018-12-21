@@ -19,7 +19,7 @@ menu:
 <br />
 <br />
 
-## Isaac Interviewed on Developer on Fire
+## Isaac's Developer on Fire Interview
 
 {{< figure src="https://developeronfire.com/assets/images/IsaacLevin.jpg" >}}
 
