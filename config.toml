@@ -17,6 +17,10 @@ uglyURLs = false
   priority = 0.5
   filename = "sitemap.xml"
 
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true
+
 [params]
   favicon = ""
   description = "The last theme you'll ever need. Maybe."
