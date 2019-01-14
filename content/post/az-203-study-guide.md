@@ -1,8 +1,8 @@
 ---
-date:
+date: 2019-01-14T11:00:59-04:00
 tags: ["Azure", "Certifications"]
 title: "AZ 203 Developing Solutions for Microsoft Azure Study Guide"
-hide: true
+
 ---
 
 ## Intro
