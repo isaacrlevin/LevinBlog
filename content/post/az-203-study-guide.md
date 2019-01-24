@@ -90,7 +90,7 @@ Here’s a high level list of the skills and objectives measured on the AZ-203 D
 * Develop solutions that use blob storage
   - Move items in Blob storage between storage accounts or containers ([C# Code](https://github.com/Azure-Samples/storage-blob-dotnet-getting-started/blob/master/BlobStorage/Advanced.cs), [AzCopy](https://docs.microsoft.com/en-us/azure/storage/scripts/storage-common-transfer-between-storage-accounts?toc=%2fpowershell%2fmodule%2ftoc.json))
   - Set and retrieve properties and metadata ([Setting properties and metadata during the import process](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-properties-metadata))
-  - Implement blob leasing (Azure CLI](https://docs.microsoft.com/en-us/cli/azure/storage/blob/lease))
+  - Implement blob leasing ([Azure CLI](https://docs.microsoft.com/en-us/cli/azure/storage/blob/lease))
   - Implement data archiving and retention ([Azure Blob Access Tiers for Archiving](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers), [Store business-critical data in Azure Blob storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-immutable-storage))
 
 <br />
