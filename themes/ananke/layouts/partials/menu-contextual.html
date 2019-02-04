@@ -21,12 +21,15 @@
   <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">Related</p>
     <ul class="pa0 list">
-	   {{ range . }}
+     {{ range . }}
+     {{ if  isset .Params "hide" }}
+     {{ else }}
 	     <li  class="mb2">
           <a href="{{ .RelPermalink }}">
             {{- .Title -}}
           </a>
         </li>
+      {{ end }}
 	    {{ end }}
     </ul>
 </div>

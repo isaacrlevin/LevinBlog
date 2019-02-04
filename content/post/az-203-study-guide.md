@@ -1,9 +1,16 @@
 ---
 date: 2019-01-14T11:00:59-04:00
 tags: ["Azure", "Certifications"]
-title: "AZ 203 Developing Solutions for Microsoft Azure Study Guide"
+title: "AZ-203 Developing Solutions for Microsoft Azure Study Guide"
 
 ---
+
+<!-- <strong>This is one guide in a series of guides that can act as study material for Microsoft's new Azure oriented certification exams.</strong>
+
+* [AZ-300 Exam Guide](/post/az-300-study-guide)
+* [AZ-301 Exam Guide](/post/az-301-study-guide) -->
+
+<br />
 
 <strong>Update here, I passed this exam in January 2019 exclusively using this study guide. Let me know if you have any questions using the contact page.</strong>
 <br />
@@ -12,7 +19,7 @@ title: "AZ 203 Developing Solutions for Microsoft Azure Study Guide"
 
 <br />
 
-As a Microsoft employee who works with customers and a cloud enthusiast, I see it essential to be knowledgeable of how the cloud can bring the best value to the developer. Because of this, I am taking the AZ 203 exam, which is titled "Developing Solutions for Microsoft Azure". This exam was in beta for some time and was recently released proper in January 2019. Developers used to the Microsoft certification world will see this exam as a replacement for 70-532, which is the older iteration of Azure technology geared for developers. Passing this exam will reward developers with the "Microsoft Certified Azure Developer Associate" certification. Going forward, most Microsoft certifications are moving to a [job-role based](https://buildazure.com/2018/09/24/introducing-role-based-microsoft-azure-certification-shakeup/) (great take by Chris Pietschmann at Build Azure) approach, which in my opinion is a good move, as it allows folks to focus on passing exams that contain content that will directly be used on the job. For more information about the exam, take a look at the [Official Exam Page](https://www.microsoft.com/learning/exam-AZ-203.aspx)
+As a Microsoft employee who works with customers and a cloud enthusiast, I see it essential to be knowledgeable of how the cloud can bring the best value to the developer. Because of this, I am taking the AZ-203 exam, which is titled "Developing Solutions for Microsoft Azure". This exam was in beta for some time and was recently released proper in January 2019. Developers used to the Microsoft certification world will see this exam as a replacement for 70-532, which is the older iteration of Azure technology geared for developers. Passing this exam will reward developers with the "Microsoft Certified Azure Developer Associate" certification. Going forward, most Microsoft certifications are moving to a [job-role based](https://buildazure.com/2018/09/24/introducing-role-based-microsoft-azure-certification-shakeup/) (great take by Chris Pietschmann at Build Azure) approach, which in my opinion is a good move, as it allows folks to focus on passing exams that contain content that will directly be used on the job. For more information about the exam, take a look at the [Official Exam Page](https://www.microsoft.com/learning/exam-AZ-203.aspx)
 
 <br />
 ## Skills Measured
