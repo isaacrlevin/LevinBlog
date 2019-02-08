@@ -425,9 +425,9 @@ ul {
     z-index: 100;
   }
 }
-/* img {
+img {
   max-width: 100%;
-} */
+}
 .cover {
   background-size: cover !important;
 }
@@ -1301,7 +1301,7 @@ ul {
 .pre {
   overflow-x: auto;
   overflow-y: hidden;
-  overflow: scroll;
+
 }
 .top-0 {
   top: 0;
@@ -7511,7 +7511,7 @@ code {
 pre {
   overflow-x: auto;
   overflow-y: hidden;
-  overflow: scroll;
+
 }
 pre code {
   display: block;

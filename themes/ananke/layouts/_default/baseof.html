@@ -54,7 +54,8 @@
 
       gtag('config', 'UA-106184886-1');
     </script>
-    <script type="text/javascript">  var appInsights = window.appInsights || function (config) { function i(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, u = document, e = window, o = "script", s = "AuthenticatedUserContext", h = "start", c = "stop", l = "Track", a = l + "Event", v = l + "Page", y = u.createElement(o), r, f; y.src = config.url || "https://az416426.vo.msecnd.net/scripts/a/ai.0.js"; u.getElementsByTagName(o)[0].parentNode.appendChild(y); try { t.cookie = u.cookie } catch (p) { } for (t.queue = [], t.version = "1.0", r = ["Event", "Exception", "Metric", "PageView", "Trace", "Dependency"]; r.length;)i("track" + r.pop()); return i("set" + s), i("clear" + s), i(h + a), i(c + a), i(h + v), i(c + v), i("flush"), config.disableExceptionTracking || (r = "onerror", i("_" + r), f = e[r], e[r] = function (config, i, u, e, o) { var s = f && f(config, i, u, e, o); return s !== !0 && t["_" + r](config, i, u, e, o), s }), t }({ instrumentationKey: "eda1f010-6b17-4193-946e-f4c8532dc41c" }); window.appInsights = appInsights; appInsights.trackPageView();</script>  
+    <script type="text/javascript">  var appInsights = window.appInsights || function (config) { function i(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, u = document, e = window, o = "script", s = "AuthenticatedUserContext", h = "start", c = "stop", l = "Track", a = l + "Event", v = l + "Page", y = u.createElement(o), r, f; y.src = config.url || "https://az416426.vo.msecnd.net/scripts/a/ai.0.js"; u.getElementsByTagName(o)[0].parentNode.appendChild(y); try { t.cookie = u.cookie } catch (p) { } for (t.queue = [], t.version = "1.0", r = ["Event", "Exception", "Metric", "PageView", "Trace", "Dependency"]; r.length;)i("track" + r.pop()); return i("set" + s), i("clear" + s), i(h + a), i(c + a), i(h + v), i(c + v), i("flush"), config.disableExceptionTracking || (r = "onerror", i("_" + r), f = e[r], e[r] = function (config, i, u, e, o) { var s = f && f(config, i, u, e, o); return s !== !0 && t["_" + r](config, i, u, e, o), s }), t }({ instrumentationKey: "eda1f010-6b17-4193-946e-f4c8532dc41c" }); window.appInsights = appInsights; appInsights.trackPageView();</script>
+
   </head>
   {{ $icon_size := "32px" }}
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
@@ -68,5 +69,65 @@
     </a>
     {{ block "footer" . }}{{ partial "site-footer.html" . }}{{ end }}
     {{ block "scripts" . }}{{ partial "site-scripts.html" . }}{{ end }}
+    <script>
+      (function($) {
+
+    // Get the .gif images from the "data-alt".
+    var getGif = function() {
+      var gif = [];
+      $('img').each(function() {
+        if ($(this).data('alt') != undefined && $(this).data('alt') != "")
+        {
+        var data = $(this).data('alt');
+        gif.push(data);
+        }
+      });
+
+      return gif;
+    }
+
+    var gif = getGif();
+
+    // Preload all the gif images.
+    var image = [];
+
+    $.each(gif, function(index) {
+      image[index]     = new Image();
+      image[index].src = gif[index];
+    });
+
+    // Change the image to .gif when clicked and vice versa.
+    $('figure').on('click', function() {
+
+      var $this   = $(this),
+          $index  = $this.index(),
+
+      $img = null;
+      if ($this.children('div').length > 0)
+      {
+        $img    = $this.children('div').find('.thumbnail');
+      }
+      else
+      {
+        $img = $this.children('img');
+      }
+
+          $imgSrc = $img.attr('src'),
+          $imgAlt = $img.attr('data-alt'),
+          $imgExt = $imgAlt.split('.');
+
+      if($imgExt[1] === 'gif') {
+        $img.attr('src', $img.data('alt')).attr('data-alt', $imgSrc);
+      } else {
+        $img.attr('src', $imgAlt).attr('data-alt', $img.data('alt'));
+      }
+
+      // Add play class to help with the styling.
+      $this.toggleClass('play');
+
+    });
+
+    })(jQuery);
+    </script>
   </body>
 </html>

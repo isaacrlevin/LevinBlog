@@ -10,19 +10,19 @@ title: "Using Azure CloudShell as a Dev Sandbox"
 Back in around the Build 2017 timeframe, the first implementation of [Azure CloudShell](https://docs.microsoft.com/azure/cloud-shell/overview) was rolled out, bringing the ability to run Azure CLI commands from the context of a logged in Azure session, from anywhere the Azure Portal could be loaded (i.e. a browser). This allowed you to do many things via the command line in the Azure world without having to use the GUI or have the tooling installed on your machine. Since that time, there have been a ton of features rolled out to CloudShell, and it can be accessed via it's own url [https://shell.azure.com/](https://shell.azure.com/), though you can still access it via the portal like so.
 
 <br />
-{{< figure src="/images/cloud-shell/get-started.png" >}}
+[{{< figure src="/images/cloud-shell/get-started.png" >}}](/images/cloud-shell/get-started.png)
 <br />
 
 After initiating CloudShell if you haven't before, it will ask you a few things, like what Resource Group you want to install CloudShell in (CloudShell is temporary but needs Azure Files to persist your files). You are also given the option to default what terminal interface you want (PowerShell of Linux Bash). The experience you see when opening CloudShell is a terminal view that is connected to your chosen Azure Directory.
 
 <br />
-{{< figure src="/images/cloud-shell/first-view.png" >}}
+[{{< figure src="/images/cloud-shell/first-view.png" >}}](/images/cloud-shell/first-view.png)
 <br />
 
 From here, you can do some typical Azure things, like maybe create a resource group and see the output.
 
 <br />
-{{< figure width="1000" src="/images/cloud-shell/resource-group.png" >}}
+[{{< figure src="/images/cloud-shell/resource-group.png" >}}](/images/cloud-shell/resource-group.png)
 <br />
 
 That is pretty cool, the idea of being able to do many things Azure related in the browser without the tooling on your matching is pretty powerful.
@@ -35,7 +35,7 @@ That is pretty cool, the idea of being able to do many things Azure related in t
 I was poking around at the idea of doing some dev tasks on my [Surface Go](https://www.microsoft.com/p/surface-go/8v9dp4lnknsz), which didn't have VS Code on it yet, using what online tools I had. I wanted to take a look at CloudShell and see how far I could go, since there are some cool features and tools built in. I asked around with some of my friends on Twitter, and found out there are a whole slew of [tools pre-installed on CloudShell](https://docs.microsoft.com/azure/cloud-shell/features#tools), like .NET Core, Node.js, Java, Python, git and many more.
 
 <br />
-{{< figure width="1000" src="/images/cloud-shell/tools.png" >}}
+[{{< figure src="/images/cloud-shell/tools.png" >}}](/images/cloud-shell/tools.png)
 <br />
 
 ## An Idea
@@ -46,13 +46,13 @@ Than I had a fun thought, could I create an ASP.NET Core application, using the 
 I did my first step, creating a ASP.NET Core App and validating the correct bits were put there.
 
 <br />
-{{< figure width="1000" src="/images/cloud-shell/new-api.png" >}}
+[{{< figure src="/images/cloud-shell/new-api.png" >}}](/images/cloud-shell/new-api.png)
 <br />
 
 If I simply run `code .` in the context of the generated project folder, an instance of VS Code will open inside CloudShell
 
 <br />
-{{< figure width="1000" src="/images/cloud-shell/code.png" >}}
+[{{< figure src="/images/cloud-shell/code.png" >}}](/images/cloud-shell/code.png)
 <br />
 
 At this point, I can make coding changes per my need, and now I want to be able to run the application and test it in a browser. I than saw my friend Anthony Chu mentioned the ability to run [ngrok](https://ngrok.com/)(a way to expose local server to public internet) inside of CloudShell.
@@ -71,7 +71,7 @@ lsb_release -idrc
 ```
 
 <br />
-{{< figure src="/images/cloud-shell/lsb.png" >}}
+[{{< figure src="/images/cloud-shell/lsb.png" >}}](/images/cloud-shell/lsb.png)
 <br />
 
 Ok, I have x64 Ubuntu, to work with, so I can go download the zip from the [download page](https://ngrok.com/download)(be sure to signup for a free account), unzip the file, and save the application to our path.
@@ -97,13 +97,13 @@ Now I can run ngrok from my terminal, and a tunnel to whatever port I specify an
 Than I just run my app in one session, and tunnel with ngrok in the other. Take the url generated and open it in a browser.
 
 <br />
-{{< figure width="1000" src="/images/cloud-shell/ngrok.gif" >}}
+{{< gif gif-src="/images/cloud-shell/ngrok.gif" src="/images/cloud-shell/ngrok.png" >}}
 <br />
 
 Pretty darn cool! To add an extra layer, let me open VS Code in CloudShell, and make some changes.
 
 <br />
-{{< figure width="1000" src="/images/cloud-shell/ngrok2.gif" >}}
+{{< gif gif-src="/images/cloud-shell/ngrok2.gif" src="/images/cloud-shell/ngrok2.png" >}}
 <br />
 
 <strong>WOAH!!!</strong>
@@ -121,7 +121,7 @@ git push -u origin master
 ```
 
 <br />
-{{< figure width="1000" src="/images/cloud-shell/github.png" >}}
+[{{< figure src="/images/cloud-shell/github.png" >}}](/images/cloud-shell/github.png)
 <br />
 
 And finally, maybe we should deploy the code to the cloud. So I need to create an Azure App Service and deploy to it. Here is snippet for that
@@ -162,7 +162,7 @@ echo $site1
 Now you have the url of your webapp in Azure. Putting that in a browser takes you to the site that you just deployed to Azure.
 
 <br />
-{{< figure width="1000" src="/images/cloud-shell/azure-app.png" >}}
+[{{< gif src="/images/cloud-shell/azure-app.png" >}}](/images/cloud-shell/azure-app.png)
 <br />
 
 Pretty great stuff here! Being able to create, develop, test, and deploy an application to Azure <strong>AND</strong> commit to source control with no tooling other than a browser is pretty powerful. This example was with .NET but there are tons of languages supported in CloudShell (look above for all of them).

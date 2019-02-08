@@ -23,13 +23,13 @@ dotnet run
 <br />
 Running that serves up a kestrel instance of the default WebApi template, with no IDE required. Extending this further, we can `watch` on the same command and it will re-run the `run` command whenever a file changes in the project.
 <br /><br />
-{{< figure src="/images/6tips/dotnet-watch.gif" >}}
+{{< gif gif-src="/images/6tips/dotnet-watch.gif" src="/images/6tips/dotnet-watch.png" >}}
 <br />
 That is pretty cool! There are some really cool things you can do with the CLI, but there are also some very important things you can do as part of SDLC with CLI tools. Using the .NET CLI to build, test, and publish your applications is super easy, especially if you use an ALM tool where you can control the configuration of your build environment.
 <br /><br />
 One amazing additional thing to consider with the CLI is the extension capabilities. [Global Tools](https://docs.microsoft.com/dotnet/core/tools/global-tools) are custom developments that can be downloaded via nuget and are executed via the command line. You can use global tools to build custom demands for functions that as a developer we tend to do repetitively. How about being able to get a random blog post in infamous [cowsay](https://www.nuget.org/packages/dotnet-cowsay/) format. (**Full disclosure, I wrote this, disregard the shameless self-promotion**).
 <br /><br />
-{{< figure src="/images/6tips/cowsay.gif" >}}
+{{< gif gif-src="/images/6tips/cowsay.gif" src="/images/6tips/cowsay.png" >}}
 <br />
 There are tons of useful global tools available developed by Microsoft or the community, take a look at some of them [here](https://github.com/natemcmaster/dotnet-tools). I highly encourage folks to use the CLI as much as they can, who knows you might become someone who never opens Visual Studio again! (not advocating that, VS is awesome)
 <br /><br />
@@ -51,7 +51,7 @@ Once you complete the wizard, you will have the SDK from nuget installed into yo
 <br />
 This is a built in Application Insights viewer that allows us to see what kind of telemetry our application tracks, with filtering and other features included. This is a powerful experience that is great for getting a first taste of Application Insights. If you like what you see, I highly recommend using Application Insights for your applications, as it a great experience at a very good price point.
  <br /><br />
-{{< figure src="/images/6tips/appinsights-add4.png" width="800" >}}
+{{< figure src="/images/6tips/appinsights-add4.png" >}}
 <br />
 
 ## 3. Use Tuples, but not too much
