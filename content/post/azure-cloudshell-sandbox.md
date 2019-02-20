@@ -80,7 +80,9 @@ Ok, I have x64 Ubuntu, to work with, so I can go download the zip from the [down
 <strong>NOTE: The url and my path may/will be different than yours.</strong>
 <br />
 <br />
-
+<strong>NOTE: Also you can upload the files directly with CloudShell instead of using curl.</strong>
+<br />
+<br />
 ```bash
 mkdir DevSandbox
 cd DevSandBox
@@ -92,7 +94,11 @@ ngrok authtoken <YOUR_AUTH_TOKEN>
 ```
 
 <br />
-Now I can run ngrok from my terminal, and a tunnel to whatever port I specify and I will get a unique url. One thing that I will need to do is run my application, and than run ngrok against the port that my application is running on. To do this, I will need to have 2 running terminal sessions. Good thing, I can split sessions with [tmux](https://eoinoc.net/tmux-for-noobs).
+<strong>NOTE: Ngrok does not work over https, which is on by default with ASP.NET Core 2.1 and on. Disabling the https redirect in `Startup.cs` will resolve this.</strong>
+<br />
+
+<br />
+Now I can run ngrok from my terminal, and a tunnel to whatever port I specify and I will get a unique url. One thing that I will need to do is run my application, and than run ngrok against the port that my application is running on. To do this, I will need to have 2 running terminal sessions. Good thing, I can split sessions with [tmux](https://eoinoc.net/tmux-for-noobs). Here is some more information on [tmux support](http://azurepost.com/split-azure-cloud-console-multiple-panes/)
 <br /><br />
 Than I just run my app in one session, and tunnel with ngrok in the other. Take the url generated and open it in a browser.
 

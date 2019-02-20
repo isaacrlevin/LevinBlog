@@ -29,6 +29,12 @@ menu:
     <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
     <td class="tg-0pky">04/09/2019 - 04/10/2019</td>
   </tr>
+  </tr>
+    <td class="tg-0pky"><a href="http://dotnetsouth.tech/" target="_blank">DotNet South</a></td>
+    <td class="tg-0pky">Atlanta, Georgia</td>
+    <td class="tg-0pky">Building Your Own YouTube, sortof<br />The Four CLIs of The Apocalypse</td>
+    <td class="tg-0pky">05/13/2019 - 05/14/2019</td>
+  </tr>
 </table>
 
 <br />
