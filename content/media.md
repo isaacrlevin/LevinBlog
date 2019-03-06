@@ -28,3 +28,15 @@ menu:
 <audio style="width: 85%" src="https://traffic.libsyn.com/developeronfire/DeveloperOnFire-401-IsaacLevin.mp3" controls="controls"></audio>
 
 <a href="https://traffic.libsyn.com/developeronfire/DeveloperOnFire-401-IsaacLevin.mp3" target="_blank">Download</a>
+
+<br />
+<br />
+## Application Insights with Isaac Levin - RunAsRadio
+
+{{< figure src="/images/Isaac-Levin.png" >}}
+
+<a href="http://runasradio.com/Shows/Show/626">Application Insights with Isaac Levin</a>
+
+<audio style="width: 85%" src="http://s3.amazonaws.com/runas/runasradio_0626_appinsights.mp3" controls="controls"></audio>
+
+<a href="http://s3.amazonaws.com/runas/runasradio_0626_appinsights.mp3" target="_blank">Download</a>

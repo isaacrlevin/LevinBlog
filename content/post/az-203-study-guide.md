@@ -105,7 +105,7 @@ Here’s a high level list of the skills and objectives measured on the AZ-203 D
 
 <br />
 
-#### Implement Azure Security (10-15%)
+### Implement Azure Security (10-15%)
 
 <br />
 
