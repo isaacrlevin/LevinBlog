@@ -83,7 +83,7 @@ Here’s a high level list of the skills and objectives measured on the AZ-203 D
 <br />
 
 * Develop solutions that use storage tables
-  - Design and implement policies for tables ([Azure Storage Security Guide](Azure Storage security guide)]
+  - Design and implement policies for tables ([Azure Storage Security Guide](https://docs.microsoft.com/en-us/azure/storage/common/storage-security-guide)
   - Query table storage by using code ([.NET Sample](https://docs.microsoft.com/en-us/azure/cosmos-db/table-storage-how-to-use-dotnet?toc=%2Fen-us%2Fazure%2Fstorage%2Ftables%2FTOC.json&bc=%2Fen-us%2Fazure%2Fbread%2Ftoc.json))
   - Implement partitioning schemes ([Data partitioning strategies](https://docs.microsoft.com/en-us/azure/architecture/best-practices/data-partitioning-strategies#partitioning-azure-blob-storage) has section on Table Storage)
 

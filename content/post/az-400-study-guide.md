@@ -1,8 +1,8 @@
 ---
-
+date: 2019-03-11T11:00:59-04:00
 tags: ["Azure", "Certifications"]
 title: "AZ-400 Microsoft Azure DevOps Solutions"
-hide: true
+
 ---
 
 ## Intro
@@ -31,34 +31,34 @@ Here’s a high level list of the skills and objectives measured on the AZ-400 M
 <br />
 
 *   Recommend a migration and consolidation strategy for DevOps tools
-    -   Analyze existing artifact (e.g. deployment packages, NuGet) and container repositories
+    -   Analyze existing artifact (e.g. deployment packages, NuGet) and container repositories ([Azure Artifacts](https://docs.microsoft.com/en-us/azure/devops/pipelines/artifacts/artifacts-overview))
     -   Analyze existing test management tools ([Azure Test Plans](https://azure.microsoft.com/en-us/services/devops/test-plans/))
     -   Analyze existing work management tools ([Azure Boards](https://docs.microsoft.com/en-us/azure/devops/boards/get-started))
-    -   Recommend migration and integration strategies for artifact repositories, source control, test management, and work management
+    -   Recommend migration and integration strategies for artifact repositories, source control, test management, and work management ([Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops-services?view=azure-devops))
 *   Design and implement an Agile work management approach
-    -   Identify and recommend project metrics, KPIs, and DevOps measurements (e.g. cycle time, lead time, Azure Kubernetes Service, WIP limit)
-    -   Implement tools and processes to support Agile work management
-    -   Mentor team members on Agile techniques and practices
-    -   Recommend an organization structure that supports scaling Agile practices
+    -   Identify and recommend project metrics, KPIs, and DevOps measurements (e.g. [cycle time, lead time](https://docs.microsoft.com/en-us/azure/devops/report/dashboards/cycle-time-and-lead-time?view=azure-devops), Azure Kubernetes Service, [WIP limit](https://docs.microsoft.com/en-us/azure/devops/boards/boards/wip-limits?view=azure-devops))
+    -   Implement tools and processes to support Agile work management ([Agile Culture](https://docs.microsoft.com/en-us/azure/devops/boards/plans/agile-culture?view=azure-devops))
+    -   Mentor team members on Agile techniques and practices ([About teams and Agile tools](https://docs.microsoft.com/en-us/azure/devops/organizations/settings/about-teams-and-settings?toc=/azure/devops/boards/plans/toc.json&bc=/azure/devops/boards/plans/breadcrumb/toc.json&view=azure-devops))
+    -   Recommend an organization structure that supports scaling Agile practices ([Implement Scaled Agile Framework® to support epics, release trains, and multiple backlogs](https://docs.microsoft.com/en-us/azure/devops/boards/plans/scaled-agile-framework?view=azure-devops))
     -   Recommend in-team and cross-team collaboration mechanisms
 *   Design a quality strategy
-    -   Analyze existing quality environment
+    -   Analyze existing quality environment ([Analyze test results](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/test-analytics?view=azure-devops))
     -   Identify and recommend quality metrics
-    -   Recommend a strategy for feature flag lifecycle
-    -   Recommend a strategy for measuring and managing technical debt
+    -   Recommend a strategy for feature flag lifecycle ([Explore how to progressively expose your features in production for some or all users](https://docs.microsoft.com/en-us/azure/devops/articles/phase-features-with-feature-flags?view=azure-devops))
+    -   Recommend a strategy for measuring and managing technical debt ([Managing Technical Debt with Azure DevOps and SonarCloud](https://www.azuredevopslabs.com/labs/azuredevops/sonarcloud/))
     -   Recommend changes to team structure to optimize quality
-    -   Recommend performance testing strategy
+    -   Recommend performance testing strategy ([Load test with the Azure portal](https://docs.microsoft.com/en-us/azure/devops/test/load-test/app-service-web-app-performance-test?view=azure-devops))
 *   Design a secure development process
-    -   Inspect and validate code base for compliance
+    -   Inspect and validate code base for compliance ([Code ownership and software quality](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/code-ownership-software-quality))
     -   Inspect and validate infrastructure for compliance
-    -   Recommend a secure development strategy
-    -   Recommend tools and practices to integrate code security validation (e.g. static code analysis)
-    -   Recommend tools and practices to integrate infrastructure security validation
+    -   Recommend a secure development strategy ([Learn how to add continuous security validation to your CI/CD pipeline](https://docs.microsoft.com/en-us/azure/devops/articles/security-validation-cicd-pipeline))
+    -   Recommend tools and practices to integrate code security validation (e.g. static code analysis) ([Learn how to add continuous security validation to your CI/CD pipeline](https://docs.microsoft.com/en-us/azure/devops/articles/security-validation-cicd-pipeline))
+    -   Recommend tools and practices to integrate infrastructure security validation ([Learn how to add continuous security validation to your CI/CD pipeline](https://docs.microsoft.com/en-us/azure/devops/articles/security-validation-cicd-pipeline))
 *   Design a tool integration strategy
     -   Design a license management strategy (e.g. Azure DevOps users, [concurrent pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs-vsts), test environments, open source software licensing, DevOps tools and services, package management licensing)
-    -   Design a strategy for end-to-end traceability from work items to working software
+    -   Design a strategy for end-to-end traceability from work items to working software ([Linking, traceability, and managing dependencies](https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-work-items-support-traceability?view=azure-devops&tabs=new-web-form))
     -   Design a strategy for integrating monitoring and feedback to development teams
-    -   Design an authentication and access strategy
+    -   Design an authentication and access strategy ([Default permissions and access for Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/organizations/security/permissions-access?view=azure-devops))
     -   Design a strategy for integrating on-premises and cloud resources
 
 <br />
@@ -70,14 +70,14 @@ Here’s a high level list of the skills and objectives measured on the AZ-400 M
 *   Design a version control strategy
     -   [Recommend branching models](https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance)
     -   [Recommend version control systems](https://docs.microsoft.com/en-us/azure/devops/user-guide/source-control)
-    -   Recommend code flow strategy
+    -   Recommend code flow strategy ([Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow))
 *   Implement and integrate source control
-    -   Integrate external source control
-    -   Integrate source control into third-party continuous integration and continuous deployment (CI/CD) systems
+    -   Integrate external source control ([Build source repositories](https://docs.microsoft.com/en-us/azure/devops/pipelines/repos/?view=azure-devops))
+    -   Integrate source control into third-party continuous integration and continuous deployment (CI/CD) systems ([Continuously deploy from a Jenkins build](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/integrate-jenkins-pipelines-cicd?view=azure-devops&tabs=yaml))
 *   Implement and manage build infrastructure
-    -   Implement private and hosted agents
+    -   Implement private and hosted agents ([Build and release agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops))
     -   Integrate third party build systems
-    -   Recommend strategy for concurrent pipelines
+    -   Recommend strategy for concurrent pipelines ([Parallel Jobs](https://docs.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs?view=azure-devops))
     -   Manage VSTS pipeline configuration (e.g. agent queues, [service endpoints](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints), [pools](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues), [webhooks](https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks))
 *   Implement code flow
     -   [Implement pull request strategies](https://docs.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=vsts&tabs=new-nav)
@@ -110,14 +110,14 @@ Here’s a high level list of the skills and objectives measured on the AZ-400 M
     -   Monitor quality of tests
     -   Integrate security analysis tools (e.g. [SonarQube](https://docs.microsoft.com/en-us/azure/devops/java/sonarqube), [WhiteSource Bolt](https://www.azuredevopslabs.com/labs/vstsextend/WhiteSource/), Open Web Application Security Project)
 *   Implement a container build strategy
-    -   Create deployable images (e.g. Docker, Azure Container Registry)
-    -   Analyze and integrate Docker multi-stage builds
+    -   Create deployable images (e.g. Docker, Azure Container Registry) ([Push an image](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/docker?view=azure-devops&tabs=yaml#push-an-image))
+    -   Analyze and integrate Docker multi-stage builds ([Docker](https://docs.microsoft.com/en-us/azure/devops/pipelines/languages/docker?view=azure-devops&tabs=yaml#push-an-image))
 *   Implement a build strategy
     -   Design [build triggers](https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers), tools, [integrations](https://azure.microsoft.com/en-us/products/devops-tool-integrations/), and workflow
     -   Implement a hybrid build process
-    -   Implement multi-agent builds
+    -   Implement multi-agent builds ([Multiple jobs](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/multiple-phases?view=azure-devops&tabs=yaml))
     -   Recommend build tools and configuration
-    -   Set up an automated build workflow
+    -   Set up an automated build workflow ([CI Quickstart](https://docs.microsoft.com/en-us/azure/devops/pipelines/get-started-designer?view=azure-devops-2019&tabs=new-nav))
 
 <br />
 
@@ -126,24 +126,24 @@ Here’s a high level list of the skills and objectives measured on the AZ-400 M
 <br />
 
 *   Design a release strategy
-    -   Recommend release tools
-    -   Identify and recommend release approvals and gates
-    -   Recommend strategy for measuring quality of release and release process
-    -   Recommend strategy for release notes and documentation
+    -   Recommend release tools ([Why use Azure Pipelines for releases?](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/what-is-release-management?view=azure-devops))
+    -   Identify and recommend release approvals and gates ([Release approvals and gates overview](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/approvals/?view=azure-devops))
+    -   Recommend strategy for measuring quality of release and release process ([Communicate package quality with release views](https://docs.microsoft.com/en-us/azure/devops/artifacts/feeds/views?view=azure-devops))
+    -   Recommend strategy for release notes and documentation ([Azure DevOps Release Notes Generator](https://azure.microsoft.com/en-us/resources/samples/azure-devops-release-notes/))
     -   Select appropriate deployment pattern
 *   Set up a release management workflow
-    -   Automate inspection of health signals for release approvals by using release gates
+    -   Automate inspection of health signals for release approvals by using release gates ([Use approvals and gates to control your deployment](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/deploy-using-approvals?view=azure-devops))
     -   Configure automated integration and [functional test](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/test/run-functional-tests) execution
-    -   Create a release pipeline (e.g. Azure Kubernetes Service, Service Fabric, WebApp)
+    -   Create a release pipeline (e.g. [Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops), [Service Fabric](https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-service-fabric), [WebApp](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-webdeploy-webapps?view=azure-devops))
     -   [Create multi-phase release pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/define-multistage-release-process)
-    -   Integrate secrets with release pipeline
-    -   Provision and configure environments
-    -   Manage and modularize tasks and templates (e.g. task and variable groups)
+    -   Integrate secrets with release pipeline ([Azure Key Vault task](https://docs.microsoft.com/en-us/azure/devops/pipelines/tasks/deploy/azure-key-vault?view=azure-devops))
+    -   Provision and configure environments ([Release stages, queuing policies, and options](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/environments?view=azure-devops))
+    -   Manage and modularize tasks and templates (e.g. [task](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/task-groups?view=azure-devops) and [variable groups](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/variable-groups?view=azure-devops&tabs=yaml))
 *   Implement an appropriate deployment pattern
     -   [Implement blue-green deployments](https://azure.microsoft.com/en-us/blog/blue-green-deployments-using-azure-traffic-manager/)
-    -   Implement canary deployments
+    -   [Implement canary deployments](https://docs.microsoft.com/en-us/azure/devops/articles/phase-rollout-with-rings?view=azure-devops)
     -   [Implement progressive exposure deployments](https://blogs.msdn.microsoft.com/devops/2018/05/07/release-gates-enable-progressive-exposure-and-phased-deployments/)
-    -   Scale a release pipeline to deploy to multiple endpoints (e.g. [deployment groups](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/deployment-groups), Azure Kubernetes Service, Service Fabric)
+    -   Scale a release pipeline to deploy to multiple endpoints (e.g. [deployment groups](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/deployment-groups), [Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/devops/pipelines/apps/cd/deploy-aks?view=azure-devops), [Service Fabric](https://docs.microsoft.com/en-us/azure/devops-project/azure-devops-project-service-fabric))
 
 <br />
 
@@ -152,8 +152,8 @@ Here’s a high level list of the skills and objectives measured on the AZ-400 M
 <br />
 
 *   Design a dependency management strategy
-    -   Recommend artifact management tools and practices
-    -   Abstract common packages to enable sharing and reuse
+    -   Recommend artifact management tools and practices ([Azure Artifacts in Azure DevOps Services and Azure DevOps Server](https://docs.microsoft.com/en-us/azure/devops/artifacts/overview?view=azure-devops))
+    -   Abstract common packages to enable sharing and reuse ([Collaborate more and build faster with packages](https://docs.microsoft.com/en-us/azure/devops/artifacts/collaborate-with-packages?view=azure-devops))
     -   Inspect codebase to identify code dependencies that can be converted to packages
     -   Identify and recommend standardized package types and versions across the solution
     -   Refactor existing build pipelines to implement version strategy that publishes packages
@@ -178,7 +178,7 @@ Here’s a high level list of the skills and objectives measured on the AZ-400 M
     -   [Create nested resource templates](https://samcogan.com/modularisation-and-re-use-with-nested-arm-templates/)
     -   [Manage secrets in resource templates](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-keyvault-parameter)
     -   [Provision Azure resources](https://blogs.msdn.microsoft.com/azuredev/2017/02/11/iac-on-azure-an-introduction-of-infrastructure-as-code-iac-with-azure-resource-manager-arm-template/)
-    -   Recommend an Infrastructure as Code (IaC) strategy
+    -   Recommend an Infrastructure as Code (IaC) strategy ([What is Infrastructure as Code?](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code))
     -   Recommend appropriate technologies for configuration management
 *   Manage Azure Kubernetes Service infrastructure
     -   [Provision Azure Kubernetes Service (e.g. using ARM templates, CLI)](https://www.azuredevopslabs.com/labs/vstsextend/kubernetes/)

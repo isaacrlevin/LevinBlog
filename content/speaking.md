@@ -17,13 +17,8 @@ menu:
     <th class="tg-0pky">Presentation</th>
     <th class="tg-0pky">Dates</th>
   </tr>
+
   <tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.fladotnet.com/codecamp/Home.aspx" target="_blank">South Florida Code Camp</a></td>
-    <td class="tg-0pky">Davie, Florida</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
-    <td class="tg-0pky">03/02/2019</td>
-  </tr>
     <td class="tg-0pky"><a href="https://intelligentcloud.dk/" target="_blank">Intelligent Cloud Conference</a></td>
     <td class="tg-0pky">Cinemaxx, Copenhagen</td>
     <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
@@ -51,6 +46,12 @@ menu:
     <th class="tg-0pky">Location</th>
     <th class="tg-0pky">Presentation</th>
     <th class="tg-0pky">Dates</th>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="https://www.fladotnet.com/codecamp/Home.aspx" target="_blank">South Florida Code Camp</a></td>
+    <td class="tg-0pky">Davie, Florida</td>
+    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
+    <td class="tg-0pky">03/02/2019</td>
   </tr>
 <tr>
     <td class="tg-0pky"><a href="http://phillydotnet.org/camps/2018-2/
