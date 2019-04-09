@@ -8,7 +8,7 @@ menu:
 
 ## Channel 9 On.NET Show - Investigating Production Issues with Azure Monitor and Snapshot Debugger
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Ug2ZO5zbYmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ug2ZO5zbYmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br />
 <br />
