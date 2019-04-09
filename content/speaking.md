@@ -24,7 +24,13 @@ menu:
     <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
     <td class="tg-0pky">04/09/2019 - 04/10/2019</td>
   </tr>
+  <tr>
+    <td class="tg-0pky"><a href="https://bostonazurebootcamp.com/2019" target="_blank">Global Azure Bootcamp - Boston</a></td>
+    <td class="tg-0pky">Boston, Massachusetts</td>
+    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
+    <td class="tg-0pky">04/27/2019</td>
   </tr>
+  <tr>
     <td class="tg-0pky"><a href="http://dotnetsouth.tech/" target="_blank">DotNet South</a></td>
     <td class="tg-0pky">Atlanta, Georgia</td>
     <td class="tg-0pky">Building Your Own YouTube, sortof<br />The Four CLIs of The Apocalypse</td>
@@ -131,19 +137,16 @@ menu:
 <br />
 ### If you are interested in me speaking at your event, please contact me [here](/contact)
 
-
 # Presentations
 
-* <a href="#ai">Application Insights, The Tool You Never Knew You Needed</a>
-* <a href="#ams">Building Your Own YouTube, sortof</a>
-* <a href="#4cli">The Four CLIs of the Apocalypse</a>
-* <a href="#wfh">Working from Home, it's Not for Everyone</a>
-
+- <a href="#ai">Application Insights, The Tool You Never Knew You Needed</a>
+- <a href="#ams">Building Your Own YouTube, sortof</a>
+- <a href="#4cli">The Four CLIs of the Apocalypse</a>
+- <a href="#wfh">Working from Home, it's Not for Everyone</a>
 
 <div id="ai" class="mt4"></div>
 
 ## [Application Insights, The Tool You Never Knew You Needed](https://github.com/isaac2004/levin-talks/raw/master/AppInsights/AppInsightsPresentation.pptx)
-
 
 Understanding how our applications function in the wild is essential for developers when issues arise. With the power of knowledge, we can enable ourselves to provide the best experience to our fellow developers, and our stakeholders. One of the solutions that supplies this power is Application Insights. Application Insights is a service provided by Microsoft allowing you to monitor your application live, detect performance anomalies, and observe this data with powerful analytics. Together we will see how easy it is to add Application Insights to our applications, whether we have access to the code-base or not. Once instrumented, we will dive deeper into the capabilities of Application Insights and show how to leverage all the rich data collected from our application. Finally, as developers the last thing we want to do is troubleshoot an issue in Production, with everyone watching and the stakes are high. Watch as we monitor a live application that is throwing exceptions and how Application Insights can be used to help us solve the problem faster. When we are done, attendees will be empowered with the knowledge to leverage Application Insights to be more productive with their work.
 
@@ -166,9 +169,9 @@ ASP.NET Core 3.0 will include many additions that further expands the capabiliti
  <div id="ams" class="mt4"></div>
 
 ## [Building Your Own YouTube, sortof](https://github.com/isaac2004/levin-talks/raw/master/MediaServices/Azure%20Media%20Services.pptx)
+
 <br />
 Azure Media Services allows an organization to enhance accessibility, distribution, and scalability for video content. By leveraging Media Services, developers have the ability to develop feature rich solutions for video content management. This session will demonstrate the ease to upload and process videos using Azure Functions and Azure Media Services, and deliver these videos in a way where they are view able on the web using Azure Media Player. We will also take a look at leveraging Cognitive Services to enable AI on our Media and seeing the rich insights from it.
-
 
  <div id="4cli" class="mt4"></div>
 
@@ -182,7 +185,6 @@ Using Git Bash, Angular CLI, .NET CLI, and the Azure CLI, we will build 2 separa
 
 ## [How To Work From Home Without Living At Work](https://github.com/isaac2004/levin-talks/raw/master/WorkFromHome/WorkFromHomePresentation.pptx)
 
-In the ever-changing world of talent hiring, perks are king. To lure the best and the brightest to join their firms, more and more companies are giving their employees the option to work from home. This allows the individual to better control the their work-life balance. Though it sounds amazing at first, over time your professional responsibility can drift into your home life; causing issues around work/life balance. Every person that works from home takes the risk of working more  - and more. Likely without even realizing it, like I did. My work from home story has highs and lows, and sharing where I have been successful as well as unsuccessful can help anyone considering the option. I have also had the opportunity to speak with colleagues who work from home as well, and I want to share what I have learned.
+In the ever-changing world of talent hiring, perks are king. To lure the best and the brightest to join their firms, more and more companies are giving their employees the option to work from home. This allows the individual to better control the their work-life balance. Though it sounds amazing at first, over time your professional responsibility can drift into your home life; causing issues around work/life balance. Every person that works from home takes the risk of working more - and more. Likely without even realizing it, like I did. My work from home story has highs and lows, and sharing where I have been successful as well as unsuccessful can help anyone considering the option. I have also had the opportunity to speak with colleagues who work from home as well, and I want to share what I have learned.
 <br /><br />
 With these exciting opportunities, it is important to declare early on what your priorities are; and how you can ensure you meet those priorities. After this discussion, people who attend this talk will have a new understanding of how people who work from home can be successful.
-
