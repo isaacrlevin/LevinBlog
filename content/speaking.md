@@ -17,24 +17,23 @@ menu:
     <th class="tg-0pky">Presentation</th>
     <th class="tg-0pky">Dates</th>
   </tr>
-
-  <tr>
-    <td class="tg-0pky"><a href="https://intelligentcloud.dk/" target="_blank">Intelligent Cloud Conference</a></td>
-    <td class="tg-0pky">Cinemaxx, Copenhagen</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
-    <td class="tg-0pky">04/09/2019 - 04/10/2019</td>
-  </tr>
   <tr>
     <td class="tg-0pky"><a href="https://bostonazurebootcamp.com/2019" target="_blank">Global Azure Bootcamp - Boston</a></td>
-    <td class="tg-0pky">Boston, Massachusetts</td>
+    <td class="tg-0pky">Boston, MA</td>
     <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
     <td class="tg-0pky">04/27/2019</td>
   </tr>
   <tr>
     <td class="tg-0pky"><a href="http://dotnetsouth.tech/" target="_blank">DotNet South</a></td>
-    <td class="tg-0pky">Atlanta, Georgia</td>
+    <td class="tg-0pky">Atlanta, GA</td>
     <td class="tg-0pky">Building Your Own YouTube, sortof<br />The Four CLIs of The Apocalypse</td>
     <td class="tg-0pky">05/13/2019 - 05/14/2019</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="https://www.thatconference.com/" target="_blank">That Conference</a></td>
+    <td class="tg-0pky">Wisconsin Dells, WI</td>
+    <td class="tg-0pky">How To Work From Home Without Living At Work</td>
+    <td class="tg-0pky">08/05/2019 - 08/08/2019</td>
   </tr>
 </table>
 
@@ -54,8 +53,14 @@ menu:
     <th class="tg-0pky">Dates</th>
   </tr>
   <tr>
+    <td class="tg-0pky"><a href="https://intelligentcloud.dk/" target="_blank">Intelligent Cloud Conference</a></td>
+    <td class="tg-0pky">Cinemaxx, Copenhagen</td>
+    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
+    <td class="tg-0pky">04/09/2019 - 04/10/2019</td>
+  </tr>
+  <tr>
     <td class="tg-0pky"><a href="https://www.fladotnet.com/codecamp/Home.aspx" target="_blank">South Florida Code Camp</a></td>
-    <td class="tg-0pky">Davie, Florida</td>
+    <td class="tg-0pky">Davie, FL</td>
     <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
     <td class="tg-0pky">03/02/2019</td>
   </tr>
@@ -152,7 +157,7 @@ Understanding how our applications function in the wild is essential for develop
 
  <div id="wfh" class="mt4"></div>
 
-## [Ship It Good, Deploying ASP.NET Core Like a Pro]
+## Ship It Good, Deploying ASP.NET Core Like a Pro
 
 Do you write web apps using ASP.NET Core? When it comes time to deploy your app, how do you do it? Do you use Visual Studio, or maybe you are fancy and use some CI/CD process. Regardless of what mechanism you use to deploy, what are you deploying? There are many things to consider when we deploy our ASP.NET Core apps but sometimes, we as developers don't pay attention.
 <br /><br />
@@ -160,7 +165,7 @@ In this session, we will learn all the different ways we can deploy our apps and
 
 <div id="wfh" class="mt4"></div>
 
-## [What to Expect When You Are Expecting ASP.NET Core 3.0 ]
+## What to Expect When You Are Expecting ASP.NET Core 3.0
 
 As the world eagerly awaits (pun intended) the release of .NET Core 3.0, developers see great stories about how the desktop client will be revolutionized by it being brought into Core. Some people may see that as the web being left out, but that is not the case at all.
 <br /><br />
