@@ -77,7 +77,7 @@ At this time, your site is live, and if you upload your built site (building a s
 
 <br />
 
-## Configure Azure Hosting/DNS/CDN/CloudFlare
+## Configure Azure Hosting, DNS, CDN and CloudFlare
 
 <br />
 
