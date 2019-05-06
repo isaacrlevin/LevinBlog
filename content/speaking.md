@@ -18,12 +18,6 @@ menu:
     <th class="tg-0pky">Dates</th>
   </tr>
   <tr>
-    <td class="tg-0pky"><a href="https://bostonazurebootcamp.com/2019" target="_blank">Global Azure Bootcamp - Boston</a></td>
-    <td class="tg-0pky">Boston, MA</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
-    <td class="tg-0pky">04/27/2019</td>
-  </tr>
-  <tr>
     <td class="tg-0pky"><a href="http://dotnetsouth.tech/" target="_blank">DotNet South</a></td>
     <td class="tg-0pky">Atlanta, GA</td>
     <td class="tg-0pky">Building Your Own YouTube, sortof<br />The Four CLIs of The Apocalypse</td>
@@ -51,6 +45,12 @@ menu:
     <th class="tg-0pky">Location</th>
     <th class="tg-0pky">Presentation</th>
     <th class="tg-0pky">Dates</th>
+  </tr>
+    <tr>
+    <td class="tg-0pky"><a href="https://bostonazurebootcamp.com/2019" target="_blank">Global Azure Bootcamp - Boston</a></td>
+    <td class="tg-0pky">Boston, MA</td>
+    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
+    <td class="tg-0pky">04/27/2019</td>
   </tr>
   <tr>
     <td class="tg-0pky"><a href="https://intelligentcloud.dk/" target="_blank">Intelligent Cloud Conference</a></td>
