@@ -23,6 +23,12 @@ menu:
     <td class="tg-0pky">How To Work From Home Without Living At Work</td>
     <td class="tg-0pky">08/05/2019 - 08/08/2019</td>
   </tr>
+  <tr>
+    <td class="tg-0pky"><a href="https://www.musiccitytech.com/conferences/music-city-code/" target="_blank">Music City Code</a></td>
+    <td class="tg-0pky">Madison, TN</td>
+    <td class="tg-0pky">How To Work From Home Without Living At Work</td>
+    <td class="tg-0pky">09/05/2019 - 09/07/2019</td>
+  </tr>
 </table>
 
 <br />
