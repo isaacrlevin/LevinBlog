@@ -1,8 +1,7 @@
 ---
-
+date: 2019-06-14T08:25:05-04:00
 tags: ["c#", "Visual Studio", ".NET" , "Azure"]
 title: "Deoptimize Your Snapshots Now in Snapshot Debugger"
-hide: true
 ---
 
 ## Have You Tried Snapshot Debugger Yet? No? Why Not?
