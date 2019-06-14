@@ -6,6 +6,7 @@ title: "Deoptimize Your Snapshots Now in Snapshot Debugger"
 
 ## Have You Tried Snapshot Debugger Yet? No? Why Not?
 
+date: 2019-04-25T08:25:05-04:00
 <br />
 If you don't know by now, I am a huge fan of [Snapshot Debugger](https://docs.microsoft.com/azure/azure-monitor/app/snapshot-debugger), which if you are not aware is a tool that allows .NET developers to get better visibility into their remote applications. Snapshot Debugger is accessible via 2 locations, the Azure Portal (Product Name is Application Insights Snapshot Debugger), where you can see variables in your call stack like so.
 <br /><br />
