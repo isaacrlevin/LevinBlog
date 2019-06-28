@@ -50,7 +50,7 @@ menu:
     <th class="tg-0pky">Event</th>
     <th class="tg-0pky">Location</th>
     <th class="tg-0pky">Presentation</th>
-    <th class="tg-0pky">Dates</th>
+    <th class="tg-0pky da">Dates</th>
   </tr>
   <tr>
     <td class="tg-0pky"><a href="http://dotnetsouth.tech/" target="_blank">DotNet South</a></td>
