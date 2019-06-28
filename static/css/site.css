@@ -115,6 +115,11 @@ h1 {
     padding-top: 80px;
   }
 }
+@media screen and (min-width: 1000px) {
+.da {
+  width: 15%
+}
+}
 
 .article-meta-data {
   table-layout: fixed !important;

@@ -15,7 +15,7 @@ menu:
     <th class="tg-0pky">Event</th>
     <th class="tg-0pky">Location</th>
     <th class="tg-0pky">Presentation</th>
-    <th class="tg-0pky">Dates</th>
+    <th class="tg-0pky da">Dates</th>
   </tr>
   <tr>
     <td class="tg-0pky"><a href="https://www.thatconference.com/" target="_blank">That Conference</a></td>
