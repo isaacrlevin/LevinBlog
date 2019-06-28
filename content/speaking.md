@@ -29,6 +29,12 @@ menu:
     <td class="tg-0pky">How To Work From Home Without Living At Work</td>
     <td class="tg-0pky">09/05/2019 - 09/07/2019</td>
   </tr>
+    <tr>
+    <td class="tg-0pky"><a href="https://www.devupconf.org/" target="_blank">Devup Conference</td>
+    <td class="tg-0pky">St. Louis, MO</td>
+    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed <br />How I Learned to Stop Worrying and Love the CLI<br />	How To Work From Home Without Living At Work</td>
+    <td class="tg-0pky">10/14/2019 - 10/16/2019</td>
+  </tr>
 </table>
 
 <br />
@@ -150,10 +156,12 @@ menu:
 
 # Presentations
 
-- <a href="#ai">Application Insights, The Tool You Never Knew You Needed</a>
-- <a href="#ams">Building Your Own YouTube, sortof</a>
-- <a href="#4cli">The Four CLIs of the Apocalypse</a>
-- <a href="#wfh">Working from Home, it's Not for Everyone</a>
+- <a href="#ai"> Application Insights, The Tool You Never Knew You Needed</a>
+- <a href="#ams"> Building Your Own YouTube, sortof</a>
+- <a href="#4cli"> How I Learned to Stop Worrying and Love the CLI</a>
+- <a href="#wfh">	How To Work From Home Without Living At Work</a>
+- <a href="#ship"> Ship It Good, Deploying ASP.NET Core Like a Pro</a>
+- <a href="#core3">	What to Expect When You Are Expecting ASP.NET Core 3.0</a>
 
 <div id="ai" class="mt4"></div>
 
@@ -161,7 +169,7 @@ menu:
 
 Understanding how our applications function in the wild is essential for developers when issues arise. With the power of knowledge, we can enable ourselves to provide the best experience to our fellow developers, and our stakeholders. One of the solutions that supplies this power is Application Insights. Application Insights is a service provided by Microsoft allowing you to monitor your application live, detect performance anomalies, and observe this data with powerful analytics. Together we will see how easy it is to add Application Insights to our applications, whether we have access to the code-base or not. Once instrumented, we will dive deeper into the capabilities of Application Insights and show how to leverage all the rich data collected from our application. Finally, as developers the last thing we want to do is troubleshoot an issue in Production, with everyone watching and the stakes are high. Watch as we monitor a live application that is throwing exceptions and how Application Insights can be used to help us solve the problem faster. When we are done, attendees will be empowered with the knowledge to leverage Application Insights to be more productive with their work.
 
- <div id="wfh" class="mt4"></div>
+ <div id="ship" class="mt4"></div>
 
 ## Ship It Good, Deploying ASP.NET Core Like a Pro
 
@@ -169,7 +177,7 @@ Do you write web apps using ASP.NET Core? When it comes time to deploy your app,
 <br /><br />
 In this session, we will learn all the different ways we can deploy our apps and how we can find the perfect solution that works for your needs. Using Azure Pipelines, CLIs, and yes, Visual Studio, we will deploy an application to Azure in different scenarios.
 
-<div id="wfh" class="mt4"></div>
+<div id="core3" class="mt4"></div>
 
 ## What to Expect When You Are Expecting ASP.NET Core 3.0
 
