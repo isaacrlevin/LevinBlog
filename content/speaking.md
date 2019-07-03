@@ -35,6 +35,12 @@ menu:
     <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed <br />How I Learned to Stop Worrying and Love the CLI<br />	How To Work From Home Without Living At Work</td>
     <td class="tg-0pky">10/14/2019 - 10/16/2019</td>
   </tr>
+      <tr>
+    <td class="tg-0pky"><a href="https://www.techbash.com/" target="_blank">TechBash</td>
+    <td class="tg-0pky">Poconos, PA</td>
+    <td class="tg-0pky">How I Learned to Stop Worrying and Love the CLI</td>
+    <td class="tg-0pky">11/12/2019 - 11/15/2019</td>
+  </tr>
 </table>
 
 <br />
