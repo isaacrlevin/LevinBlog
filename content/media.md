@@ -6,44 +6,86 @@ menu:
   main: { name: "Media", weight: "3" }
 ---
 
-## Channel 9 On.NET Show - Investigating Production Issues with Azure Monitor and Snapshot Debugger
+<section class="flex-ns flex-wrap justify-around mt5">
+    <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f6">
+                Channel 9 On.NET Show - Investigating Production Issues with Azure Monitor and Snapshot Debugger
+            </div>
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                <iframe src="https://www.youtube.com/embed/Ug2ZO5zbYmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </center>
+    </div>
+    <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f6">
+                Interview at Philly Code Camp
+            </div>
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                <iframe src="https://www.youtube.com/embed/ipUCz1Z6B-8?start=11787" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </center>
+    </div>
+    <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f6">
+                Monitoring Applications on Fritz and Friends
+            </div>
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                <iframe src="https://www.youtube.com/embed/m4LW95T7TQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </center>
+    </div>
+    <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f6">
+                Isaac's Developer on Fire Interview
+            </div>
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                {{< figure src="https://developeronfire.com/assets/images/IsaacLevin.jpg" >}}
+                <a href="https://developeronfire.com/podcast/episode-401-isaac-levin-accountable-present-and-aware">Episode 401 | Isaac Levin - Accountable, Present, and Aware</a>
+                <audio style="width: 85%" src="https://traffic.libsyn.com/developeronfire/DeveloperOnFire-401-IsaacLevin.mp3" controls="controls"></audio>
+                <a href="https://traffic.libsyn.com/developeronfire/DeveloperOnFire-401-IsaacLevin.mp3" target="_blank">Download</a>
+            </div>
+        </div>
+    </center>
+    </div>
+    <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f6">
+                Application Insights with Isaac Levin - RunAsRadio
+            </div>
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                {{< figure src="/images/Isaac-Levin.png" >}}
+                <a href="http://runasradio.com/Shows/Show/626">Application Insights with Isaac Levin</a>
+                <audio style="width: 85%" src="http://s3.amazonaws.com/runas/runasradio_0626_appinsights.mp3" controls="controls"></audio>
+                <a href="http://s3.amazonaws.com/runas/runasradio_0626_appinsights.mp3" target="_blank">Download</a>
+            </div>
+        </div>
+    </center>
+    </div>
+    <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f6">
+                Building your own YouTube, sortof at <a href="http://dotnetsouth.tech/" target="_blank">DotNet South</a>
+            </div>
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+               <a href="https://www.recallact.com/presentation/azure-media-services-building-your-own-youtube-sort" target="_blank"> {{< figure src="/images/dotnetsouth-ams.png" >}} </a>
+            </div>
+        </div>
+    </center>
+    </div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ug2ZO5zbYmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br />
-<br />
 
-## Interview at Philly Code Camp
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ipUCz1Z6B-8?start=11787" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
-<br />
-## Monitoring Applications on Fritz and Friends
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m4LW95T7TQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
-<br />
-
-## Isaac's Developer on Fire Interview
-
-{{< figure src="https://developeronfire.com/assets/images/IsaacLevin.jpg" >}}
-
-<a href="https://developeronfire.com/podcast/episode-401-isaac-levin-accountable-present-and-aware">Episode 401 | Isaac Levin - Accountable, Present, and Aware</a>
-
-<audio style="width: 85%" src="https://traffic.libsyn.com/developeronfire/DeveloperOnFire-401-IsaacLevin.mp3" controls="controls"></audio>
-
-<a href="https://traffic.libsyn.com/developeronfire/DeveloperOnFire-401-IsaacLevin.mp3" target="_blank">Download</a>
-
-<br />
-<br />
-## Application Insights with Isaac Levin - RunAsRadio
-
-{{< figure src="/images/Isaac-Levin.png" >}}
-
-<a href="http://runasradio.com/Shows/Show/626">Application Insights with Isaac Levin</a>
-
-<audio style="width: 85%" src="http://s3.amazonaws.com/runas/runasradio_0626_appinsights.mp3" controls="controls"></audio>
-
-<a href="http://s3.amazonaws.com/runas/runasradio_0626_appinsights.mp3" target="_blank">Download</a>
+</section>
