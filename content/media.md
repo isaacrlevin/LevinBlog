@@ -10,9 +10,10 @@ menu:
     <div class="relative w-100 w-30-l mb4 bg-white">
     <center>
         <div class="mb3 pa4 mid-gray overflow-hidden">
-            <div class="f6">
+            <div class="f3">
                 Channel 9 On.NET Show - Investigating Production Issues with Azure Monitor and Snapshot Debugger
             </div>
+            <br />
             <div class="nested-links f5 lh-copy nested-copy-line-height">
                 <iframe src="https://www.youtube.com/embed/Ug2ZO5zbYmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -22,10 +23,11 @@ menu:
     <div class="relative w-100 w-30-l mb4 bg-white">
     <center>
         <div class="mb3 pa4 mid-gray overflow-hidden">
-            <div class="f6">
+            <div class="f3">
                 Interview at Philly Code Camp
             </div>
-            <div class="nested-links f5 lh-copy nested-copy-line-height">
+            <br />
+            <div class="nested-links f5 lh-copy nested-copy-line-height" style="vertical-align: center;">
                 <iframe src="https://www.youtube.com/embed/ipUCz1Z6B-8?start=11787" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
@@ -34,9 +36,10 @@ menu:
     <div class="relative w-100 w-30-l mb4 bg-white">
     <center>
         <div class="mb3 pa4 mid-gray overflow-hidden">
-            <div class="f6">
+            <div class="f3">
                 Monitoring Applications on Fritz and Friends
             </div>
+            <br />
             <div class="nested-links f5 lh-copy nested-copy-line-height">
                 <iframe src="https://www.youtube.com/embed/m4LW95T7TQE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -46,9 +49,10 @@ menu:
     <div class="relative w-100 w-30-l mb4 bg-white">
     <center>
         <div class="mb3 pa4 mid-gray overflow-hidden">
-            <div class="f6">
+            <div class="f3">
                 Isaac's Developer on Fire Interview
             </div>
+            <br />
             <div class="nested-links f5 lh-copy nested-copy-line-height">
                 {{< figure src="https://developeronfire.com/assets/images/IsaacLevin.jpg" >}}
                 <a href="https://developeronfire.com/podcast/episode-401-isaac-levin-accountable-present-and-aware">Episode 401 | Isaac Levin - Accountable, Present, and Aware</a>
@@ -61,9 +65,10 @@ menu:
     <div class="relative w-100 w-30-l mb4 bg-white">
     <center>
         <div class="mb3 pa4 mid-gray overflow-hidden">
-            <div class="f6">
+            <div class="f3">
                 Application Insights with Isaac Levin - RunAsRadio
             </div>
+            <br />
             <div class="nested-links f5 lh-copy nested-copy-line-height">
                 {{< figure src="/images/Isaac-Levin.png" >}}
                 <a href="http://runasradio.com/Shows/Show/626">Application Insights with Isaac Levin</a>
@@ -76,9 +81,10 @@ menu:
     <div class="relative w-100 w-30-l mb4 bg-white">
     <center>
         <div class="mb3 pa4 mid-gray overflow-hidden">
-            <div class="f6">
+            <div class="f3">
                 Building your own YouTube, sortof at <a href="http://dotnetsouth.tech/" target="_blank">DotNet South</a>
             </div>
+            <br />
             <div class="nested-links f5 lh-copy nested-copy-line-height">
                <a href="https://www.recallact.com/presentation/azure-media-services-building-your-own-youtube-sort" target="_blank"> {{< figure src="/images/dotnetsouth-ams.png" >}} </a>
             </div>
