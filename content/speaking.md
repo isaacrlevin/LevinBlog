@@ -35,7 +35,13 @@ menu:
     <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed <br />How I Learned to Stop Worrying and Love the CLI<br />	How To Work From Home Without Living At Work</td>
     <td class="tg-0pky">10/14/2019 - 10/16/2019</td>
   </tr>
-      <tr>
+  <tr>
+    <td class="tg-0pky"><a href="http://www.prairiedevcon.com" target="_blank">Prairie Dev Con Regina 2019</td>
+    <td class="tg-0pky">Regina, Saskatchewan</td>
+    <td class="tg-0pky">Application Insights: The Tool You Never Knew You Needed <br />Ship It Good, Deploying ASP.NET Core Like a Pro</td>
+    <td class="tg-0pky">10/22/2019 - 10/23/2019</td>
+  </tr>
+  <tr>
     <td class="tg-0pky"><a href="https://www.techbash.com/" target="_blank">TechBash</td>
     <td class="tg-0pky">Poconos, PA</td>
     <td class="tg-0pky">How I Learned to Stop Worrying and Love the CLI</td>
