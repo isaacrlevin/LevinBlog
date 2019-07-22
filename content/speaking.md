@@ -42,10 +42,10 @@ menu:
     <td class="tg-0pky">10/22/2019 - 10/23/2019</td>
   </tr>
   <tr>
-    <td class="tg-0pky"><a href="https://www.techbash.com/" target="_blank">TechBash</td>
-    <td class="tg-0pky">Poconos, PA</td>
-    <td class="tg-0pky">How I Learned to Stop Worrying and Love the CLI</td>
-    <td class="tg-0pky">11/12/2019 - 11/15/2019</td>
+    <td class="tg-0pky"><a href="https://www.updateconference.net/" target="_blank">Update Conference Prague 2019</td>
+    <td class="tg-0pky">Prague, Czech Republic</td>
+    <td class="tg-0pky">What to Expect When You Are Expecting ASP.NET Core 3.0</td>
+    <td class="tg-0pky">11/14/2019 - 11/15/2019</td>
   </tr>
 </table>
 
