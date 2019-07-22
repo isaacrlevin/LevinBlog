@@ -10,44 +10,8 @@ menu:
 
 <br />
 <br />
-<table class="tg">
-  <tr>
-    <th class="tg-0pky">Event</th>
-    <th class="tg-0pky">Location</th>
-    <th class="tg-0pky">Presentation</th>
-    <th class="tg-0pky da">Dates</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.thatconference.com/" target="_blank">That Conference</a></td>
-    <td class="tg-0pky">Wisconsin Dells, WI</td>
-    <td class="tg-0pky">How To Work From Home Without Living At Work</td>
-    <td class="tg-0pky">08/05/2019 - 08/08/2019</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.musiccitytech.com/conferences/music-city-code/" target="_blank">Music City Code</a></td>
-    <td class="tg-0pky">Madison, TN</td>
-    <td class="tg-0pky">What to Expect When You Are Expecting ASP.NET Core 3.0</td>
-    <td class="tg-0pky">09/05/2019 - 09/07/2019</td>
-  </tr>
-    <tr>
-    <td class="tg-0pky"><a href="https://www.devupconf.org/" target="_blank">Devup Conference</td>
-    <td class="tg-0pky">St. Louis, MO</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed <br />How I Learned to Stop Worrying and Love the CLI<br />	How To Work From Home Without Living At Work</td>
-    <td class="tg-0pky">10/14/2019 - 10/16/2019</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="http://www.prairiedevcon.com" target="_blank">Prairie Dev Con Regina 2019</td>
-    <td class="tg-0pky">Regina, Saskatchewan</td>
-    <td class="tg-0pky">Application Insights: The Tool You Never Knew You Needed <br />Ship It Good, Deploying ASP.NET Core Like a Pro</td>
-    <td class="tg-0pky">10/22/2019 - 10/23/2019</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.updateconference.net/" target="_blank">Update Conference Prague 2019</td>
-    <td class="tg-0pky">Prague, Czech Republic</td>
-    <td class="tg-0pky">What to Expect When You Are Expecting ASP.NET Core 3.0</td>
-    <td class="tg-0pky">11/14/2019 - 11/15/2019</td>
-  </tr>
-</table>
+
+{{< speaking false >}}
 
 <br />
 <br />
@@ -57,113 +21,10 @@ menu:
 <br />
 <br />
 
-<table class="tg">
-  <tr>
-    <th class="tg-0pky">Event</th>
-    <th class="tg-0pky">Location</th>
-    <th class="tg-0pky">Presentation</th>
-    <th class="tg-0pky da">Dates</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="http://dotnetsouth.tech/" target="_blank">DotNet South</a></td>
-    <td class="tg-0pky">Atlanta, GA</td>
-    <td class="tg-0pky">Building Your Own YouTube, sortof<br />The Four CLIs of The Apocalypse</td>
-    <td class="tg-0pky">05/13/2019 - 05/14/2019</td>
-  </tr>
-    <tr>
-    <td class="tg-0pky"><a href="https://bostonazurebootcamp.com/2019" target="_blank">Global Azure Bootcamp - Boston</a></td>
-    <td class="tg-0pky">Boston, MA</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
-    <td class="tg-0pky">04/27/2019</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://intelligentcloud.dk/" target="_blank">Intelligent Cloud Conference</a></td>
-    <td class="tg-0pky">Cinemaxx, Copenhagen</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
-    <td class="tg-0pky">04/09/2019 - 04/10/2019</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.fladotnet.com/codecamp/Home.aspx" target="_blank">South Florida Code Camp</a></td>
-    <td class="tg-0pky">Davie, FL</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
-    <td class="tg-0pky">03/02/2019</td>
-  </tr>
-<tr>
-    <td class="tg-0pky"><a href="http://phillydotnet.org/camps/2018-2/
-" target="_blank">Philly Code Camp</a></td>
-    <td class="tg-0pky">Malvern, PA</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed <br />Building Your Own YouTube, sortof</td>
-    <td class="tg-0pky">11/13/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://codecampnyc.org/" target="_blank">Code Camp NYC</a></td>
-    <td class="tg-0pky">New York, NY</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed <br />Building Your Own YouTube, sortof</td>
-    <td class="tg-0pky">10/20/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.devupconf.org/" target="_blank">Devup Conference</td>
-    <td class="tg-0pky">St. Louis, MO</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed <br />Building Your Own YouTube, sortof</td>
-    <td class="tg-0pky">10/08/2018 - 10/10/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.meetup.com/North-Boston-Azure-Cloud-User-Group/events/253946719/" target="_blank">North Boston Azure Cloud User Group</td>
-    <td class="tg-0pky">Boston, MA</td>
-    <td class="tg-0pky">Building Your Own YouTube, sortof</td>
-    <td class="tg-0pky">08/28/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.meetup.com/Greenwich-NET-User-Group/events/253570117/" target="_blank">Greenwich .NET User Group</td>
-    <td class="tg-0pky">Greenwich, CT</td>
-    <td class="tg-0pky">The Four CLIs of The Apocalypse</td>
-    <td class="tg-0pky">08/21/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.meetup.com/NYC-NET-Developers/events/248124361/" target="_blank">NYC .NET Developers Meetup</a></td>
-    <td class="tg-0pky">New York, NY</td>
-    <td class="tg-0pky">Building Your Own YouTube, sortof</td>
-    <td class="tg-0pky">06/28/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.meetup.com/Boston-NET-Architecture-Group/events/dvfzxlyxjbbc/" target="_blank">Boston .NET Architecture Group</a></td>
-    <td class="tg-0pky">Boston, MA</td>
-    <td class="tg-0pky">The Four CLIs of The Apocalypse</td>
-    <td class="tg-0pky">06/20/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.meetup.com/Greenwich-NET-User-Group/events/248246317/" target="_blank">Greenwich .NET User Group</a></td>
-    <td class="tg-0pky">Greenwich, CT</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
-    <td class="tg-0pky">04/24/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.bostoncodecamp.com/CC29/" target="_blank">Boston Code Camp</a></td>
-    <td class="tg-0pky">Boston, MA</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed <br />Working from Home, is it for you?</td>
-    <td class="tg-0pky">04/07/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.meetup.com/North-Boston-Azure-Cloud-User-Group/events/248694884/" target="_blank">North Boston Azure Cloud User Group</a></td>
-    <td class="tg-0pky">Boston, MA</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
-    <td class="tg-0pky">03/27/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.fladotnet.com/codecamp/" target="_blank">South Florida Code Camp</a></td>
-    <td class="tg-0pky">Davie, FL</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
-    <td class="tg-0pky">02/10/2018</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky"><a href="https://www.meetup.com/NYC-NET-Developers/events/243114534/" target="_blank">NYC .NET Developers Meetup</a></td>
-    <td class="tg-0pky">New York, NY</td>
-    <td class="tg-0pky">Application Insights, The Tool You Never Knew You Needed</td>
-    <td class="tg-0pky">12/14/2017</td>
-  </tr>
-</table>
+{{< speaking true >}}
 
 <br />
+
 ### If you are interested in me speaking at your event, please contact me [here](/contact)
 
 # Presentations

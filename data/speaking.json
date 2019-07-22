@@ -1,11 +1,170 @@
-{
-"engagements":[
-    {
-        "event": "Philly Code Camp",
-        "location": "",
-        "talks": "",
-        "date": ""
-    }
+[
+  {
+    "url": "https://www.thatconference.com/",
+    "event": "That Conference",
+    "location": "Wisconsin Dells, WI",
+    "talks": "How To Work From Home Without Living At Work",
+    "dates": "08/05/2019 - 08/08/2019",
+    "done": "false"
+  },
+  {
+    "url": "https://www.musiccitytech.com/conferences/music-city-code/",
+    "event": "Music City Code",
+    "location": "Madison, TN",
+    "talks": "What to Expect When You Are Expecting ASP.NET Core 3.0",
+    "dates": "09/05/2019 - 09/07/2019",
+    "done": "false"
+  },
+  {
+    "url": "https://www.devupconf.org/",
+    "event": "Devup Conference",
+    "location": "St. Louis, MO",
+    "talks": "Application Insights, The Tool You Never Knew You Needed|How I Learned to Stop Worrying and Love the CLI|How To Work From Home Without Living At Work",
+    "dates": "10/14/2019 - 10/16/2019",
+    "done": "false"
+  },
+  {
+    "url": "http://www.prairiedevcon.com/",
+    "event": "Prairie Dev Con Regina 2019",
+    "location": "Regina, Saskatchewan",
+    "talks": "Application Insights: The Tool You Never Knew You Needed|Ship It Good, Deploying ASP.NET Core Like a Pro",
+    "dates": "10/22/2019 - 10/23/2019",
+    "done": "false"
+  },
+  {
+    "url": "https://www.updateconference.net/",
+    "event": "Update Conference Prague 2019",
+    "location": "Prague, Czech Republic",
+    "talks": "What to Expect When You Are Expecting ASP.NET Core 3.0",
+    "dates": "11/14/2019 - 11/15/2019",
+    "done": "false"
+  },
+  {
+    "url": "http://dotnetsouth.tech/",
+    "event": "DotNet South",
+    "location": "Atlanta, GA",
+    "talks": "Building Your Own YouTube, sortof|The Four CLIs of The Apocalypse",
+    "dates": "05/13/2019 - 05/14/2019",
+    "done": "true"
+  },
+  {
+    "url": "https://bostonazurebootcamp.com/2019",
+    "event": "Global Azure Bootcamp - Boston",
+    "location": "Boston, MA",
+    "talks": "Application Insights, The Tool You Never Knew You Needed",
+    "dates": "04/27/2019",
+    "done": "true"
+  },
+  {
+    "url": "https://intelligentcloud.dk/",
+    "event": "Intelligent Cloud Conference",
+    "location": "Copenhagen, Denmark",
+    "talks": "Application Insights, The Tool You Never Knew You Needed",
+    "dates": "04/09/2019 - 04/10/2019",
+    "done": "true"
+  },
+  {
+    "url": "https://www.fladotnet.com/codecamp/Home.aspx",
+    "event": "South Florida Code Camp",
+    "location": "Davie, FL",
+    "talks": "Application Insights, The Tool You Never Knew You Needed",
+    "dates": "03/02/2019",
+    "done": "true"
+  },
+  {
+    "url": "http://phillydotnet.org/camps/2018-2/",
+    "event": "Philly Code Camp",
+    "location": "Malvern, PA",
+    "talks": "Application Insights, The Tool You Never Knew You Needed|Building Your Own YouTube, sortof",
+    "dates": "11/13/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://codecampnyc.org/",
+    "event": "Code Camp NYC",
+    "location": "New York, NY",
+    "talks": "Application Insights, The Tool You Never Knew You Needed|Building Your Own YouTube, sortof",
+    "dates": "10/20/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://www.devupconf.org/",
+    "event": "Devup Conference",
+    "location": "St. Louis, MO",
+    "talks": "Application Insights, The Tool You Never Knew You Needed|Building Your Own YouTube, sortof",
+    "dates": "10/08/2018 - 10/10/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://www.meetup.com/North-Boston-Azure-Cloud-User-Group/events/253946719/",
+    "event": "North Boston Azure Cloud User Group",
+    "location": "Boston, MA",
+    "talks": "Building Your Own YouTube, sortof",
+    "dates": "08/28/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://www.meetup.com/Greenwich-NET-User-Group/events/253570117/",
+    "event": "Greenwich .NET User Group",
+    "location": "Greenwich, CT",
+    "talks": "The Four CLIs of The Apocalypse",
+    "dates": "08/21/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://www.meetup.com/NYC-NET-Developers/events/248124361/",
+    "event": "NYC .NET Developers Meetup",
+    "location": "New York, NY",
+    "talks": "Building Your Own YouTube, sortof",
+    "dates": "06/28/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://www.meetup.com/Boston-NET-Architecture-Group/events/dvfzxlyxjbbc/",
+    "event": "Boston .NET Architecture Group",
+    "location": "Boston, MA",
+    "talks": "The Four CLIs of The Apocalypse",
+    "dates": "06/20/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://www.meetup.com/Greenwich-NET-User-Group/events/248246317/",
+    "event": "Greenwich .NET User Group",
+    "location": "Greenwich, CT",
+    "talks": "Application Insights, The Tool You Never Knew You Needed",
+    "dates": "04/24/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://www.bostoncodecamp.com/CC29/",
+    "event": "Boston Code Camp",
+    "location": "Boston, MA",
+    "talks": "Application Insights, The Tool You Never Knew You Needed|Working from Home, is it for you?",
+    "dates": "04/07/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://www.meetup.com/North-Boston-Azure-Cloud-User-Group/events/248694884/",
+    "event": "North Boston Azure Cloud User Group",
+    "location": "Boston, MA",
+    "talks": "Application Insights, The Tool You Never Knew You Needed",
+    "dates": "03/27/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://www.fladotnet.com/codecamp/",
+    "event": "South Florida Code Camp",
+    "location": "Davie, FL",
+    "talks": "Application Insights, The Tool You Never Knew You Needed",
+    "dates": "02/10/2018",
+    "done": "true"
+  },
+  {
+    "url": "https://www.meetup.com/NYC-NET-Developers/events/243114534/",
+    "event": "NYC .NET Developers Meetup",
+    "location": "New York, NY",
+    "talks": "Application Insights, The Tool You Never Knew You Needed",
+    "dates": "12/14/2018",
+    "done": "true"
+  }
 ]
-
-}
