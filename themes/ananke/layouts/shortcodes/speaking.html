@@ -6,13 +6,21 @@
       <th class="tg-0pky da">Dates</th>
     </tr>
     {{ $dataJ := getJSON "/data/speaking.json" }}
-    {{ range $dataJ }}
+    {{ $sortOrder := "asc"}}
+    {{if (eq ($.Get 0) "true" )}}
+    {{ $sortOrder = "desc"}}
+    {{end}}
+    {{ range sort $dataJ ".startDate" $sortOrder  }}
     {{ if (eq ($.Get 0) .done ) }}
     <tr>
         <td class="tg-0pky"><a href="{{ .url }}" target="_blank">{{ .eventName }}</a></td>
         <td class="tg-0pky">{{ .location }}</td>
         <td class="tg-0pky">{{ replace .talks "|" "<br />" | safeHTML }}</td>
-        <td class="tg-0pky">{{ .dates }}</td>
+        {{if (eq .startDate .endDate)}}
+        <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }}</td>
+        {{ else }}
+        <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }} - {{ .endDate | dateFormat "Jan 2, 2006" }}</td>
+        {{end}}
     </tr>
     {{end}}
     {{ end }}
