@@ -9,7 +9,7 @@
     {{ range $dataJ }}
     {{ if (eq ($.Get 0) .done ) }}
     <tr>
-        <td class="tg-0pky"><a href="{{ .url }}" target="_blank">{{ .event }}</a></td>
+        <td class="tg-0pky"><a href="{{ .url }}" target="_blank">{{ .eventName }}</a></td>
         <td class="tg-0pky">{{ .location }}</td>
         <td class="tg-0pky">{{ replace .talks "|" "<br />" | safeHTML }}</td>
         <td class="tg-0pky">{{ .dates }}</td>
