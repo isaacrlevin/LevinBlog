@@ -187,5 +187,14 @@
     "startDate": "2017-12-14",
     "endDate": "2017-12-14",
     "done": "true"
+  },
+  {
+    "url": "http://www.thatconference.com",
+    "eventName": "That Conference",
+    "location": "Wisconsin Dells, WI",
+    "talks": "Application Insights",
+    "startDate": "2019-08-05",
+    "endDate": "2019-08-10",
+    "done": "false"
   }
 ]
