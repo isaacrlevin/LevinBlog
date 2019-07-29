@@ -196,5 +196,14 @@
     "startDate": null,
     "endDate": null,
     "done": null
+  },
+  {
+    "url": null,
+    "eventName": null,
+    "location": null,
+    "talks": null,
+    "startDate": null,
+    "endDate": null,
+    "done": null
   }
 ]
