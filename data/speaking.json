@@ -187,5 +187,23 @@
     "startDate": "2017-12-14",
     "endDate": "2017-12-14",
     "done": "true"
+  },
+  {
+    "url": "https://www.meetup.com/Greenwich-NET-User-Group/events/263598103/",
+    "eventName": "Greenwich .NET User Group",
+    "location": "Greenwich, CT",
+    "talks": "What to Expect When You Are Expecting ASP.NET Core 3.0",
+    "startDate": "2019-08-29",
+    "endDate": "2019-08-29",
+    "done": "false"
+  },
+  {
+    "url": "https://www.meetup.com/dotnetdc/events/263258640/",
+    "eventName": ".NET DC User Group",
+    "location": "Washington D.C.",
+    "talks": "What to Expect When You Are Expecting ASP.NET Core 3.0",
+    "startDate": "2019-08-20",
+    "endDate": "2019-08-20",
+    "done": "false"
   }
 ]
