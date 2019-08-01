@@ -91,6 +91,36 @@ menu:
         </div>
     </center>
     </div>
+    <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f3">
+                he Four CLIs of the Apocalypse at <a href="http://dotnetsouth.tech/" target="_blank">DotNet South</a>
+            </div>
+            <br />
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+               <a href="https://www.recallact.com/presentation/four-clis-apocalypse" target="_blank"> {{< figure src="/images/dotnetsouth-cli.png" >}} </a>
+            </div>
+        </div>
+    </center>
+    </div>
+    <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f3">
+                Episode 102 – Application Insights with Isaac Levin - The 6 Figure Developer Podcast
+            </div>
+            <br />
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                {{< figure src="/images/6figure.png" >}}
+                <a href="https://6figuredev.com/podcast/episode-102-application-insights-with-isaac-levin/">Application Insights with Isaac Levin</a>
+                <audio style="width: 85%" src="https://media.blubrry.com/6figuredev/s/content.blubrry.com/6figuredev/6_Figure_Developer-102-Isaac_Levin.mp3" controls="controls"></audio>
+                <a href="https://media.blubrry.com/6figuredev/s/content.blubrry.com/6figuredev/6_Figure_Developer-102-Isaac_Levin.mp3" target="_blank">Download</a>
+            </div>
+        </div>
+    </center>
+    </div>
+
 
 
 
