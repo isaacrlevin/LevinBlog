@@ -22,7 +22,7 @@ uglyURLs = false
   hrefTargetBlank = true
 
 [params]
-  images = "/images/isaac.jpg"
+  images = ["/images/isaac.jpg"]
   env = "production"
   favicon = ""
   description = "The last theme you'll ever need. Maybe."
