@@ -8,7 +8,7 @@ repo: "https://github.com/isaac2004/UpdateBlogAzureFunction"
 ## Starting with a Manual, Multi-Step Process
 
 <br />
-I have [blogged](/post/building-blog) about the changes I made to my blog to make it more streamline and I continue to work on it in ways that make sense. One thing that I did a month ago was replace the static page that was my [speaking page][/speaking] and make it more dynamic. Before whenever I had a new speaking gig, I would go into my repo and edit the HTML, EVERY... TIME.... I quickly became not a fan of that, so I started to look into options that were less cringey. I discovered in Hugo you can have data-driven pages using a source like json to house content. What I did was build a [shortcode](https://gohugo.io/content-management/shortcodes/) to read data from a json file and output it in a format I wanted, in this case, an HTML table.
+I have [blogged](/post/building-blog) about the changes I made to streamline my site architecture and continue to work on ways to improve it. One thing that I did a month ago was replace the static page that was my [speaking page][/speaking] and make it more dynamic. Before whenever I had a new speaking gig, I would go into my repo and edit the HTML, EVERY... TIME.... I quickly became not a fan of that, so I started to look into options that were less cringey. I discovered in Hugo you can have data-driven pages using a source like json to house content. What I did was build a [shortcode](https://gohugo.io/content-management/shortcodes/) to read data from a json file and output it in a format I wanted, in this case, an HTML table.
 
 <br /><br />
 
