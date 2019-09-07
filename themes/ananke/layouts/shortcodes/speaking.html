@@ -7,11 +7,19 @@
     </tr>
     {{ $dataJ := getJSON "/data/speaking.json" }}
     {{ $sortOrder := "asc"}}
-    {{if (eq ($.Get 0) "true" )}}
+    {{if (eq ($.Get 0) "previous" )}}
     {{ $sortOrder = "desc"}}
     {{end}}
     {{ range sort $dataJ ".startDate" $sortOrder  }}
-    {{ if (eq ($.Get 0) .done ) }}
+    {{ $t := (time .endDate) }}
+    {{ $show := false}}
+    {{ if and (eq ($.Get 0) "upcoming" ) ($t.After now) }}
+    {{ $show = true}}
+    {{end}}
+    {{ if and (eq ($.Get 0) "previous" ) ($t.Before now) }}
+    {{ $show = true}}
+    {{end}}
+    {{ if $show}}
     <tr>
         <td class="tg-0pky"><a href="{{ .url }}" target="_blank">{{ .eventName }}</a></td>
         <td class="tg-0pky">{{ .location }}</td>

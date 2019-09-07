@@ -11,7 +11,7 @@ menu:
 <br />
 <br />
 
-{{< speaking "false" >}}
+{{< speaking "upcoming" >}}
 
 <br />
 <br />
@@ -21,7 +21,7 @@ menu:
 <br />
 <br />
 
-{{< speaking "true" >}}
+{{< speaking "previous" >}}
 
 <br />
 
