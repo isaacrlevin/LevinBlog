@@ -214,5 +214,14 @@
     "startDate": "2019-09-25",
     "endDate": "2019-09-25",
     "done": "false"
+  },
+  {
+    "url": "https://codecampnyc.org/",
+    "eventName": "NYC Code Camp",
+    "location": "New York, NY",
+    "talks": "Application Insights: The Tool You Never Knew You Needed",
+    "startDate": "2019-10-12",
+    "endDate": "2019-10-12",
+    "done": "false"
   }
 ]
