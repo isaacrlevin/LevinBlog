@@ -56,6 +56,21 @@ menu:
             </div>
         </div>
     </center>
+    </div> <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f3">
+                Isaac Levin, Application Insights - No Dogma Podcast
+            </div>
+            <br />
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                 {{< figure src="https://nodogmapodcast.bryanhogan.net/wp-content/uploads/Isaac-Levin-head.jpg" >}}
+                <a href="https://nodogmapodcast.bryanhogan.net/130-isaac-levin-application-insights/">Isaac Levin, Application Insights</a>
+                <audio style="width: 85%" src="https://audio.simplecast.com/3c80259d.mp3" controls="controls"></audio>
+                <a href="https://audio.simplecast.com/3c80259d.mp3" target="_blank">Download</a>
+            </div>
+        </div>
+    </center>
     </div>
 </section>
 
