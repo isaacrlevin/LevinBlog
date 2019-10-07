@@ -36,15 +36,6 @@
     "done": "false"
   },
   {
-    "url": "https://www.updateconference.net/",
-    "eventName": "Update Conference Prague 2019",
-    "location": "Prague, Czech Republic",
-    "talks": "What to Expect When You Are Expecting ASP.NET Core 3.0",
-    "startDate": "2019-11-14",
-    "endDate": "2019-11-15",
-    "done": "false"
-  },
-  {
     "url": "http://dotnetsouth.tech/",
     "eventName": "DotNet South",
     "location": "Atlanta, GA",
