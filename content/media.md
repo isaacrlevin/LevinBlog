@@ -128,6 +128,18 @@ menu:
             </div>
         </div>
     </center>
+    </div>    <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f3">
+               Application Insights The Tool You Never Knew You Needed at .NET Conf 2019
+            </div>
+            <br />
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                <iframe src="https://www.youtube.com/embed/SMGokUCi9oo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </center>
     </div>
 </section>
 
