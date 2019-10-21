@@ -27,15 +27,6 @@
     "done": "false"
   },
   {
-    "url": "http://www.prairiedevcon.com/",
-    "eventName": "Prairie Dev Con Regina 2019",
-    "location": "Regina, Saskatchewan",
-    "talks": "Application Insights: The Tool You Never Knew You Needed|Ship It Good, Deploying ASP.NET Core Like a Pro",
-    "startDate": "2019-10-22",
-    "endDate": "2019-10-23",
-    "done": "false"
-  },
-  {
     "url": "http://dotnetsouth.tech/",
     "eventName": "DotNet South",
     "location": "Atlanta, GA",
