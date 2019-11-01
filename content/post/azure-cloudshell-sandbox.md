@@ -122,7 +122,7 @@ echo "# TestApp" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/isaac2004/TestApp.git
+git remote add origin https://github.com/isaaclevin/TestApp.git
 git push -u origin master
 ```
 

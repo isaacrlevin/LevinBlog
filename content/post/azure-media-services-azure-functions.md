@@ -2,7 +2,7 @@
 date: 2018-06-12T11:25:05-04:00
 tags: ["Azure", "C#", "Azure Functions"]
 title: "Azure Media Services with Azure Functions"
-repo: "https://github.com/isaac2004/AzureMediaServicesDemo"
+repo: "https://github.com/isaaclevin/AzureMediaServicesDemo"
 
 ---
 

@@ -20,7 +20,7 @@ Now all we need is to build out a simple function that parses the http request, 
 
 <br />
 
-{{< gist isaac2004 1e5f2573c7e1f1653def164f9784a95d "Submit.cs" >}}
+{{< gist isaaclevin 1e5f2573c7e1f1653def164f9784a95d "Submit.cs" >}}
 <br />
 A few things to call out here, we have to create a [SendGrid](https://sendgrid.com/) account (which Azure has a free account version where you can send 25k messages a month, sweet deal) to send the email and add the corresponding SDK to our app. Once we have that, we will need to specify the Api key from SendGrid, and an email address you want to send the message to (In my example, I have a from email address that is seperate as well). When I work with Azure Functions, I typically store configuration information in the Application Settings section of my function in the Azure Portal.
 <br /><br />
@@ -38,7 +38,7 @@ To call my function, all I need is the URL that my Http Trigger Function generat
 <br />
 Than I build out a simple html form, and wire up a little jQuery to make an ajax() post to it
 <br /><br />
-{{< gist isaac2004 1e5f2573c7e1f1653def164f9784a95d "index.html" >}}
+{{< gist isaaclevin 1e5f2573c7e1f1653def164f9784a95d "index.html" >}}
 <br />
 And voila, this just works, and not very many lines of code. The best thing in this case is that since this is just some slight UI changes and ajax calls, it is easy to use this in a modular way, better yet if you reference jQuery in other parts of your app.
 <br /><br />
