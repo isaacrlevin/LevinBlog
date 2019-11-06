@@ -2,7 +2,7 @@
 date: 2018-03-01T11:00:59-04:00
 tags: ["Azure", "Application Insights", "ASP.NET Core"]
 title: "Extensions to Application Insights Telemetry Collection"
-repo: "https://github.com/isaaclevin/ApplicationInsightsTelemetryExtensions"
+repo: "https://github.com/isaacrlevin/ApplicationInsightsTelemetryExtensions"
 ---
 
 ## Extending the Greatness of Application Insights

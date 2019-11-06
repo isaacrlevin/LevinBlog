@@ -2,7 +2,7 @@
 date: 2019-08-28T11:00:59-04:00
 tags: ["c#", "Azure Functions", "Azure"]
 title: "Update My Blog Via Email with Azure Functions"
-repo: "https://github.com/isaaclevin/UpdateBlogAzureFunction"
+repo: "https://github.com/isaacrlevin/UpdateBlogAzureFunction"
 ---
 
 ## Starting with a Manual, Multi-Step Process
@@ -198,4 +198,4 @@ done| false
 
 <br />
 
-Wiring all this up, I have a function that checks my email, and if there is a certain message, it parses that message. It than does a clone of my blog's git repo and updates the data.json file with the event that was sent from email. Finally a commit and push is done to trigger a blog update. This was interesting as I discovered some new wrinkles to the App Service Sandbox. Take a look at the [GitHub repo](https://github.com/isaaclevin/UpdateBlogAzureFunction) of the function if you like.
+Wiring all this up, I have a function that checks my email, and if there is a certain message, it parses that message. It than does a clone of my blog's git repo and updates the data.json file with the event that was sent from email. Finally a commit and push is done to trigger a blog update. This was interesting as I discovered some new wrinkles to the App Service Sandbox. Take a look at the [GitHub repo](https://github.com/isaacrlevin/UpdateBlogAzureFunction) of the function if you like.
