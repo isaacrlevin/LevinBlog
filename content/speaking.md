@@ -53,7 +53,7 @@ In this session, we will learn all the different ways we can deploy our apps and
 
 <div id="core3" class="mt4"></div>
 
-## What to Expect When You Are Expecting ASP.NET Core 3.0
+## [What to Expect When You Are Expecting ASP.NET Core 3.0](https://github.com/isaaclevin/levin-talks/blob/master/ASP.NETCore3.0/What%20to%20Expect%20When%20You%20Are%20Expecting%20ASP.NET%20Core%203.0.pptx)
 
 As the world eagerly awaits (pun intended) the release of .NET Core 3.0, developers see great stories about how the desktop client will be revolutionized by it being brought into Core. Some people may see that as the web being left out, but that is not the case at all.
 <br /><br />
