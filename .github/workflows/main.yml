@@ -12,9 +12,12 @@ jobs:
       - uses: chabad360/hugo-actions@master
         with:
           buildPath: 'public'
-          # Use if you have a need to build the site to another directory
           hugoVersion: ''
-          # Use if your site requires a specific version of Hugo
-          # Append "extended_" to the begining to use Hugo Extended
           args: ''
-          # Use if you want to pass some custom arguments to Hugo
+      - uses: bacongobbler/azure-blob-storage-upload@v1.0.0
+        with:
+          source_dir: public
+          container_name: $web
+          connection_string: ${{ secrets.ConnectionString }}
+          extra_args: ''
+
