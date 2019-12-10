@@ -12,7 +12,6 @@ jobs:
       - uses: chabad360/hugo-actions@1.0.0
         with:
           # The path to build the site to
-          buildPath: dist
           # Arguments to pass to Hugo
           args: -d -v
           # The version of Hugo to use
