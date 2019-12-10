@@ -9,9 +9,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
-      - uses: chabad360/hugo-actions@1.0.0
+      - uses: chabad360/hugo-actions@master
         with:
-          # The path to build the site to
-          # Arguments to pass to Hugo
-          args: -d -v
-          # The version of Hugo to use
+          buildPath: 'public'
+          # Use if you have a need to build the site to another directory
+          hugoVersion: 'extended_0.58.3'
+          # Use if your site requires a specific version of Hugo
+          # Append "extended_" to the begining to use Hugo Extended
+          args: --gc '--minify --cleanDestinationDir
+          # Use if you want to pass some custom arguments to Hugo
