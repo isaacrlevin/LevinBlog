@@ -39,19 +39,19 @@ Application Insights might be my favorite tool of all time. Any opportunity I ha
 
 Application Insights is simply a REST service with a SDK that batches telemetry and pushes it to the Api, so you can leverage the full power of App Insights while working locally. The easiest way to get Application Insights is within Visual Studio by adding a Connected Service. Do this by Right-clicking on your project and select Add > Application Insights Telemetry
 <br /><br />
-{{< figure src="/images/6tips/appinsights-add.png" >}}
+{{< figure src="/images/6tips/appinsights-add.png" link="/images/6tips/appinsights-add.png" >}}
 <br />
 From there, you will be prompted with a wizard to walk-through setup of the Application Insights resource. From here, you can elect to just install the SDK on your app, which does nothing in Azure, but allows you to see what kind of data will be sent to the Api if you decide to use it.
  <br /><br />
-{{< figure src="/images/6tips/appinsights-add2.png" >}}
+{{< figure src="/images/6tips/appinsights-add2.png" link="/images/6tips/appinsights-add2.png" >}}
 <br />
 Once you complete the wizard, you will have the SDK from nuget installed into your app, and the necessary changes added to your app to utilize the SDK. If you start your application, you will see a new Application Insights button appear in Visual Studio when you are in debug mode.
  <br /><br />
-{{< figure src="/images/6tips/appinsights-add3.png" >}}
+{{< figure src="/images/6tips/appinsights-add3.png" link="/images/6tips/appinsights-add3.png" >}}
 <br />
 This is a built in Application Insights viewer that allows us to see what kind of telemetry our application tracks, with filtering and other features included. This is a powerful experience that is great for getting a first taste of Application Insights. If you like what you see, I highly recommend using Application Insights for your applications, as it a great experience at a very good price point.
  <br /><br />
-{{< figure src="/images/6tips/appinsights-add4.png" >}}
+{{< figure src="/images/6tips/appinsights-add4.png" link="/images/6tips/appinsights-add4.png" >}}
 <br />
 
 ## 3. Use Tuples, but not too much
@@ -157,25 +157,25 @@ while (true)
 <br />
 This is not ideal for a few reasons, most noticeably I am adding code as part of my debugging practice, which if checked in is not good. I can also add a breakpoint and F5 till my hand cramps, YUCK! Better yet, I can add a breakpoint and set Actions and Conditions to do what I want and just observe the Output window.
 <br /><br />
-{{< figure src="/images/6tips/breakpoints1.png" >}}
+{{< figure src="/images/6tips/breakpoints1.png" link="/images/6tips/breakpoints1.png" >}}
 <br />
 <br /><br />
-{{< figure src="/images/6tips/breakpoints2.png" >}}
+{{< figure src="/images/6tips/breakpoints2.png" link="/images/6tips/breakpoints2.png" >}}
 <br />
 Best part of this is that my app can continue to run, since I have the `Continue Execution` box checked and I am still able to see Output. Unchecking that box will stop on the breakpoint if the condition is met, pretty cool!!!
 <br /><br />
-{{< figure src="/images/6tips/breakpoints3.png" >}}
+{{< figure src="/images/6tips/breakpoints3.png" link="/images/6tips/breakpoints3.png" >}}
 <br />
 
 ## 5. The .NET CLI can help troubleshoot startup errors
 <br />
 Have you ever seen this after deploying your ASP.NET Core application to your target server?
 <br /><br />
-{{< figure src="/images/6tips/502.png" >}}
+{{< figure src="/images/6tips/502.png" link="/images/6tips/502.png" >}}
 <br />
 This error is a bummer, because it usually means there was an unhandled exception before your application entered it's startup process (aka all the middleware). This means more than likely, there are no logs (or very sparse ones) and no real way to discern what caused the app to fail. There is a very easy solution, especially since you already have the .NET Core Runtime installed on the target machine. Since the output of .NET Core apps is a dll, you can point the `dotnet` app host (the thing that runs .NET Core apps) to that published dll from the command line and see what the actual exception was. This will work with any app i.e. console, UWP, web or even Tizen apps!
 <br /><br />
-{{< figure src="/images/6tips/502-fix.png" >}}
+{{< figure src="/images/6tips/502-fix.png" link="/images/6tips/502-fix.png" >}}
 <br />
 Having this tool in your tool belt will help you get out of a jam where you have no exception detail, no logs, and no flippin' clue what to do next.
 <br /><br />
@@ -183,19 +183,19 @@ Having this tool in your tool belt will help you get out of a jam where you have
 <br />
 Gone are the days of having to jump through MANY hoops to figure out what referenced libraries in our applications do. Using version 15.8 of Visual Studio 2017, there is a setting labeled `Enable navigation to decompiled sources.` which is set by directing to Tools > Options > Text Editor > C# > Advanced
 <br /><br />
-{{< figure src="/images/6tips/decompile.png" >}}
+{{< figure src="/images/6tips/decompile.png" link="/images/6tips/decompile.png" >}}
 <br />
 Enabling this feature allows the viewing of metadata related to the library in question. If the developer of that library has configured metadata, you will be able to see a decompiled view of the definition using ILSpy. For instance if we wanted to view decompiled sources for well known library [Json.NET](https://www.newtonsoft.com/json). First we will right-click on a method we want to see the definition.
 <br /><br />
-{{< figure src="/images/6tips/decompile1.png" >}}
+{{< figure src="/images/6tips/decompile1.png" link="/images/6tips/decompile1.png" >}}
 <br />
 We will than see a message stating the Terms & Conditions of the feature and after clicking `Yes`
 <br /><br />
-{{< figure src="/images/6tips/decompile2.png" >}}
+{{< figure src="/images/6tips/decompile2.png" link="/images/6tips/decompile2.png" >}}
 <br />
 We see the decompiled source for the method in question, pretty cool huh!
 <br /><br />
-{{< figure src="/images/6tips/decompile3.png" >}}
+{{< figure src="/images/6tips/decompile3.png" link="/images/6tips/decompile3.png" >}}
 <br />
 ## Thank you and Take Care!
 <br />
