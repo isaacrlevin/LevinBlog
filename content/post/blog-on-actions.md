@@ -28,7 +28,7 @@ The first thing that I did in building my workflow was to identify the steps to 
  - Deploy built bits to specific container in Azure Blob Storage
 
 <br />
-Way to simple here, so now that I have this, I need to determine what I need in my workflow to complete this. Funny enough both these steps exist as created Actions in the Marketplace, so I then just need to specify when this Action runs and what platform it runs on (in my case Ubuntu).
+Way too simple here, so now that I have this, I need to determine what I need in my workflow to complete this. Funny enough both these steps exist as created Actions in the Marketplace, so I then just need to specify when this Action runs and what platform it runs on (in my case Ubuntu).
 <br /><br />
 
 - [Hugo-Site](https://github.com/marketplace/actions/hugo-site)
@@ -66,7 +66,7 @@ jobs:
 The only things to call out here is that I have a "secret" stored in GitHub (my connection string for blob storage) that I can easily reference from the workflow.
 
 <br />
-The workflow itself is saved on the GitHub repo, in a folder called `.github/workflows` and the Actions frame reads that file whenever a commit is made. THe `on` is important because it specifies that we should run this function EVERYTIME there is a commit (true CI/CD 😜).
+The workflow itself is saved on the GitHub repo, in a folder called `.github/workflows` and the Actions frame reads that file whenever a commit is made. The `on` is important because it specifies that we should run this function EVERYTIME there is a commit (true CI/CD 😜).
 <br /><br />
 
 ## Run The Thing

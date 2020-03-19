@@ -48,7 +48,7 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 
 # Edit your config.toml configuration file
 # and add the Ananke theme.
-echo 'theme = "ananke"' >> config.toml
+echo theme = "ananke" >> config.toml
 
 # Finally create a page and start the server
 hugo new posts/my-first-post.md

@@ -31,7 +31,7 @@
 
     <div class="article-meta-data list-inline white">
               {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
-        <time class="article-meta-data-section list-inline-item f2 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        <time style="padding-right:5%" class="article-meta-data-section list-inline-item f2 mv4 dib tracked" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
         {{- .Date.Format "January 2, 2006" -}}
         </time>
         {{ if isset .Params "repo" }}
@@ -40,12 +40,13 @@
         <a title="View Code" class="f2 hover-white link-transition linkedin link dib z-999 pt3 pt0-l mr2" href={{ printf "%s" $.Params.repo }}>
           {{ partial "svg/code.svg" (dict "size" $icon_size) }}
         </a>
-        <a title="View Code" class="f2 hover-black link link-transition no-underline white-90" href={{ printf "%s" $.Params.repo }} target="_blank">Code</a>
+        <a style="padding-right: 5%;" title="View Code" class="f2 hover-blue link link-transition no-underline white-90" href={{ printf "%s" $.Params.repo }} target="_blank">Code</a>
         {{ end }}
       </span>
-        <a title="Comments" class="article-meta-data-section list-inline-item f2 hover-white link-transition linkedin link dib z-999 pt0-l mr2" href="#disqus">
+        <a title="Comments" class="f2 hover-white link-transition linkedin link dib z-999 pt3 pt0-l mr2" href="#disqus">
             {{ partial "svg/comment.svg" (dict "size" $icon_size) }}
           </a>
+          <br /><br />
         {{- partial "tags.html" . -}}
 
       </div>
