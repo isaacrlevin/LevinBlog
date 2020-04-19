@@ -14,7 +14,7 @@ jobs:
       - name: does a thing
         env:
            COMMIT: ${{ env.POST_COMMIT_MESSAGE }}
-        run: ./scripts/do-a-thing.sh
+        run: ./scripts/parse-commit.sh
         
       - id: output
         run: echo "${{ env.COMMIT_ARRAY }}"
