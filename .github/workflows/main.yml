@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@master
       - id: log
         run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
-      - name: Bash Command Lines for GitHub Actions
-        uses: jdickey/bash@v.1.1.1
-         args = ["IFS='|' read -ra my_array <<< ${{ env.POST_COMMIT_MESSAGE }}"]
+      - id: parse
+        run: echo "IFS='|' read -ra my_array <<< $COMMIT"
+        env:
+          COMMIT: ${{ env.POST_COMMIT_MESSAGE }}
