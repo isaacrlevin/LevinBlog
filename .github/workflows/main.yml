@@ -11,10 +11,25 @@ jobs:
       - uses: actions/checkout@master
       - id: log
         run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
-      - name: does a thing
+      - name: parse commit
         env:
            COMMIT: ${{ env.POST_COMMIT_MESSAGE }}
-        run: ./scripts/parse-commit.sh
-        
+        run: ./scripts/parse-commit.sh        
       - id: output
         run: echo "${{ env.COMMIT_TITLE }} ${{ env.COMMIT_URL }} ${{ env.COMMIT_CONTENT }}"
+      - uses: ethomson/send-tweet-action@v1
+        with:
+          status: "NEW POST: ${{ env.POST_COMMIT_MESSAGE }}"
+          consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
+          consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
+          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+      - uses: BjornLuG/release-for-reddit-action@v1
+        with:
+          username: ${{ secrets.REDDIT_USERNAME }}
+          password: ${{ secrets.REDDIT_PASSWORD }}
+          app-id: ${{ secrets.REDDIT_APP_ID }}
+          app-secret: ${{ secrets.REDDIT_APP_SECRET }}
+          subreddit: Azure # Submit to /r/test
+          title: "${{ env.COMMIT_ARRAY[1] }}" 
+          url: "${{ env.COMMIT_ARRAY[1] }}"
