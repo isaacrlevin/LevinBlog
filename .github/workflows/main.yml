@@ -30,6 +30,6 @@ jobs:
           password: ${{ secrets.REDDIT_PASSWORD }}
           app-id: ${{ secrets.REDDIT_APP_ID }}
           app-secret: ${{ secrets.REDDIT_APP_SECRET }}
-          subreddit: Azure # Submit to /r/test
+          subreddit: Azure
           title: "${{ env.COMMIT_TITLE }}" 
           url: "${{ env.COMMIT_URL }}"
