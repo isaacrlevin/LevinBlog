@@ -12,7 +12,7 @@ jobs:
       - id: log
         run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
       - id: parse
-        run: echo "IFS='|' read -ra my_array <<< $COMMIT" && echo "::set-env name={COMMIT_ARRAY}::$my_array"
+        run: echo "IFS='|' read -ra my_array <<< $COMMIT" && echo "::set-env name=COMMIT_ARRAY::$my_array"
         env:
           COMMIT: ${{ env.POST_COMMIT_MESSAGE }}
       - id: output
