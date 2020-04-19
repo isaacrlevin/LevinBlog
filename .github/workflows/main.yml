@@ -17,4 +17,4 @@ jobs:
         run: ./scripts/parse-commit.sh
         
       - id: output
-        run: echo "${{ env.COMMIT_ARRAY[1] }}"
+        run: echo "${{ env.COMMIT_TITLE }} ${{ env.COMMIT_URL }} ${{ env.COMMIT_CONTENT }}"
