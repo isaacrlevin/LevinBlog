@@ -11,9 +11,10 @@ jobs:
       - uses: actions/checkout@master
       - id: log
         run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
-      - id: parse
-        run: echo "IFS='|' read -ra my_array <<< $COMMIT" && echo "::set-env name=COMMIT_ARRAY:'foo|bar'"
+      - name: does a thing
         env:
-          COMMIT: ${{ env.POST_COMMIT_MESSAGE }}
+           COMMIT: ${{ env.POST_COMMIT_MESSAGE }}
+        run: ./scripts/do-a-thing.sh
+        
       - id: output
         run: echo "${{ env.COMMIT_ARRAY }}"
