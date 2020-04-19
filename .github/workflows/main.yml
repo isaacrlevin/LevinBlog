@@ -19,7 +19,7 @@ jobs:
         run: echo "${{ env.COMMIT_TITLE }} ${{ env.COMMIT_URL }} ${{ env.COMMIT_CONTENT }}"
       - uses: ethomson/send-tweet-action@v1
         with:
-          status: "NEW POST: ${{ env.POST_COMMIT_MESSAGE }}"
+          status: "NEW POST: ${{ env.COMMIT_ARRAY[1] }} \n ${{ env.COMMIT_ARRAY[1] }} \n ${{ env.COMMIT_ARRAY[2] }}"
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
@@ -31,5 +31,5 @@ jobs:
           app-id: ${{ secrets.REDDIT_APP_ID }}
           app-secret: ${{ secrets.REDDIT_APP_SECRET }}
           subreddit: Azure # Submit to /r/test
-          title: "${{ env.COMMIT_ARRAY[1] }}" 
-          url: "${{ env.COMMIT_ARRAY[1] }}"
+          title: "${{ env.COMMIT_TITLE }}" 
+          url: "${{ env.COMMIT_URL }}"
