@@ -24,3 +24,4 @@ jobs:
           method: "POST" 
           contentType: "application/json"
           data: "{ 'url': '${{ env.COMMIT_URL }}' }"   
+          customHeaders: "{'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}"
