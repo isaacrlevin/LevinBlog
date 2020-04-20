@@ -17,19 +17,10 @@ jobs:
         run: ./scripts/parse-commit.sh        
       - id: output
         run: echo "${{ env.COMMIT_TITLE }} ${{ env.COMMIT_URL }} ${{ env.COMMIT_CONTENT }}"
-      - uses: ethomson/send-tweet-action@v1
+      - name: HTTP Request Action
+        uses: fjogeleit/http-request-action@v1.1.0
         with:
-          status: "NEW BLOG POST: ${{ env.COMMIT_TITLE }} \n ${{ env.COMMIT_URL }} \n ${{ env.COMMIT_CONTENT }}"
-          consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
-          consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
-          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-      - uses: BjornLuG/release-for-reddit-action@v1
-        with:
-          username: ${{ secrets.REDDIT_USERNAME }}
-          password: ${{ secrets.REDDIT_PASSWORD }}
-          app-id: ${{ secrets.REDDIT_APP_ID }}
-          app-secret: ${{ secrets.REDDIT_APP_SECRET }}
-          subreddit: Azure
-          title: "${{ env.COMMIT_TITLE }}" 
-          url: "${{ env.COMMIT_URL }}"
+          url: ${{ secrets.LOGIC_APP_URL }}
+          method: "POST" 
+          contentType: "application/json"
+          data: "{'url': '${{ env.COMMIT_URL }}'}"   
