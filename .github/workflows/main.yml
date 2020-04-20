@@ -23,5 +23,4 @@ jobs:
           url: ${{ secrets.LOGIC_APP_URL }}
           method: "POST" 
           contentType: "application/json"
-          data: "{ 'url': '${{ env.COMMIT_URL }}' }"   
-          customHeaders: "{'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive'}"
+          data: "{ \"url\": \"${{ env.COMMIT_URL }}\" }"   
