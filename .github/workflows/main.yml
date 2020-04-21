@@ -18,7 +18,7 @@ jobs:
       - id: output
         run: echo "${{ env.COMMIT_TITLE }} ${{ env.COMMIT_URL }} ${{ env.COMMIT_CONTENT }}"
       - name: Post Blog to LinkedIn
-        uses: fjogeleit/http-request-action@v1.1.0
+        uses: fjogeleit/http-request-action@v1.2.0
         with:
           url: ${{ secrets.LOGIC_APP_URL }}
           method: "POST" 
