@@ -11,12 +11,29 @@ jobs:
       - uses: actions/checkout@master
       - id: log
         run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
+      
       - name: parse commit
         env:
            COMMIT: ${{ env.POST_COMMIT_MESSAGE }}
         run: ./scripts/parse-commit.sh        
       - id: output
         run: echo "${{ env.COMMIT_TITLE }} ${{ env.COMMIT_URL }} ${{ env.COMMIT_CONTENT }}"
+      
+      - uses: actions/checkout@master
+      
+      - uses: chabad360/hugo-actions@master
+        with:
+          buildPath: 'public'
+          hugoVersion: ''
+          args: ''
+          
+      - uses: bacongobbler/azure-blob-storage-upload@v1.0.0
+        with:
+          source_dir: public
+          container_name: $web
+          connection_string: ${{ secrets.ConnString }}
+          extra_args: ''
+          
       - uses: ethomson/send-tweet-action@v1
         if: env.COMMIT_URL != ''      
         with:
@@ -25,6 +42,7 @@ jobs:
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          
       - uses: BjornLuG/release-for-reddit-action@v1
         if: env.COMMIT_URL != ''    
         with:
@@ -35,6 +53,7 @@ jobs:
           subreddit: Azure
           title: "${{ env.COMMIT_TITLE }}" 
           url: "${{ env.COMMIT_URL }}"
+          
       - name: Post to LinkedIn
         uses: fjogeleit/http-request-action@v1.2.0
         if: env.COMMIT_URL != ''    
