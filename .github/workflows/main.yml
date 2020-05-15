@@ -1,6 +1,9 @@
 name: Build and Publish Blog to Azure Blob Storage
 
-on: [push]
+on:
+  push:
+    branches-ignore:
+      - '**'
 
 jobs:
   build:
