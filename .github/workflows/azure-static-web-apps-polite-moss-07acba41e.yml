@@ -20,9 +20,10 @@ jobs:
         submodules: true
 
     - id: log
+      name: Store Commit Message
       run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
       
-    - name: parse commit
+    - name: Parse Commit Message for Title/Url/Message
       env:
          COMMIT: ${{ env.POST_COMMIT_MESSAGE }}
       run: ./scripts/parse-commit.sh        
@@ -46,6 +47,7 @@ jobs:
         app_artifact_location: 'public'
 
     - uses: ethomson/send-tweet-action@v1
+      name: Send Tweet
       if: env.COMMIT_URL != ''      
       with:
         status: "NEW BLOG POST: ${{ env.COMMIT_TITLE }} \n ${{ env.COMMIT_URL }} \n ${{ env.COMMIT_CONTENT }}"
@@ -55,6 +57,7 @@ jobs:
         access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
           
     - uses: BjornLuG/release-for-reddit-action@v1
+      name: Post to Reddit
       if: env.COMMIT_URL != ''    
       with:
         username: ${{ secrets.REDDIT_USERNAME }}
