@@ -1,6 +1,6 @@
 ---
 date: 2019-04-25T08:25:05-04:00
-tags: ["DevOps", "CLI" , "Azure", "personal"]
+tags: ["DevOps", "CLI" , "Azure", "Personal"]
 title: "How I Built A Blog"
 ---
 

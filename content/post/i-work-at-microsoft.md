@@ -1,6 +1,6 @@
 ---
 date: 2018-01-07T11:13:32-04:00
-tags: ["personal"]
+tags: ["Personal"]
 title: "Well I Work At Microsoft Now"
 ---
 

@@ -1,6 +1,6 @@
 ---
 date: 2020-01-08T08:25:05-04:00
-tags: ["DevOps", "CLI" , "Azure", "personal"]
+tags: ["DevOps", "CLI" , "Azure", "Personal"]
 title: "Building My Blog with GitHub Actions"
 ---
 

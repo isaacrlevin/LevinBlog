@@ -1,6 +1,6 @@
 ---
 date: 2017-08-03T11:15:58-04:00
-tags: ["c#", "Azure Functions", "Azure"]
+tags: ["C#", "Azure Functions", "Azure"]
 title: "Polling for Data in Reddit with Azure Functions"
 ---
 

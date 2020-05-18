@@ -1,6 +1,6 @@
 ---
 date: 2017-07-29T11:15:58-04:00
-tags: ["personal"]
+tags: ["Personal"]
 title: "My first blog post"
 ---
 

@@ -18,6 +18,7 @@
 Thumbs.db
 ehthumbs.db
 ehthumbs_vista.db
+public
 
 # Dump file
 *.stackdump
@@ -40,3 +41,5 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/windows,visualstudiocode
 
+deploy-stage.bat
+deploy-stage.ps1

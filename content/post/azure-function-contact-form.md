@@ -1,6 +1,6 @@
 ---
 date: 2018-11-21T11:25:05-04:00
-tags: ["c#", "Azure Functions", "Azure"]
+tags: ["C#", "Azure Functions", "Azure"]
 title: "Building a Simple Contact Form with Azure Functions"
 ---
 

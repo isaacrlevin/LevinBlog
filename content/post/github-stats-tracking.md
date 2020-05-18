@@ -1,6 +1,6 @@
 ---
 date: 2020-03-19T11:15:58-04:00
-tags: ["c#", "Azure Functions", "Azure", "GitHub"]
+tags: ["C#", "Azure Functions", "Azure", "GitHub"]
 title: "Storing GitHub Traffic with Azure Functions"
 repo: "https://github.com/isaacrlevin/GitHubStatTracker"
 ---
@@ -168,6 +168,7 @@ foreach (var view in views)
 I am glossing over a bit here, but most of the code you don't see is boilerplate, and you can look at the repo if you are curious. Now all I needed to do was hook it up to a function that runs on a CRON timer for once a day, and reap the rewards.
 
 <br />
+
 ### Hope you enjoy!
 
 <br />

@@ -1,6 +1,6 @@
 ---
 date: 2019-08-28T11:00:59-04:00
-tags: ["c#", "Azure Functions", "Azure"]
+tags: ["C#", "Azure Functions", "Azure"]
 title: "Update My Blog Via Email with Azure Functions"
 repo: "https://github.com/isaacrlevin/UpdateBlogAzureFunction"
 ---
