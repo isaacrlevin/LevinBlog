@@ -2,7 +2,7 @@
 date: 2020-03-19T11:15:58-04:00
 tags: ["C#", "Azure Functions", "Azure", "GitHub"]
 title: "Storing GitHub Traffic with Azure Functions"
-repo: "https://github.com/isaacrlevin/GitHubStatTracker"
+repo: "https://github.com/isaacrlevin/GitHub-Function"
 ---
 
 ## Frustrated by GitHub Insights
