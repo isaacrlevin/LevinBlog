@@ -6,7 +6,7 @@ menu:
   main: { name: "Projects", weight: "3" }
 ---
 
-#### [Coffee&OpenSource](https://www.coffeeandopensource.com/)
+#### [Coffee & Open Source](https://www.coffeeandopensource.com/)
 
 
 Live stream interviews and coding on Twitch
@@ -19,7 +19,7 @@ Open Source Utility to broadcast Teams Presence to multiple types of smart light
 
 <br />
 
-#### [GitHubStatTracker](https://ghst.azurewebsites.net/)
+#### [GitHub Stat Tracker](https://ghst.azurewebsites.net/)
 
 Site that allows users to collect GitHub Insights data for longer than the 14 days GitHub keeps it for. Uses Server-Side BLazor, Azure Functions and Azure Storage.
 

@@ -1,12 +1,21 @@
 [
-    {
+  {
+    "url": "https://www.dotnetconf.net/",
+    "eventName": ".NET Conf 2020",
+    "location": "Remote",
+    "talks": "Accelerate .NET to Azure with GitHub Actions",
+    "startDate": "2020-11-10",
+    "endDate": "2020-11-12",
+    "done": "false"
+  },
+  {
     "url": "https://www.microsoft.com/en-us/ignite-the-tour#cities",
     "eventName": "Microsoft Ignite The Tour 2019-2020",
     "location": "Chicago, IL",
     "talks": "Options for Data in the Cloud|Taking Your App to the Next Level with Monitoring, Performance and Scaling",
     "startDate": "2020-04-15",
     "endDate": "2020-04-16",
-    "done": "false"
+    "done": "true"
   },
   {
     "url": "https://www.thatconference.com/",
