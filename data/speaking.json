@@ -9,15 +9,6 @@
     "done": "false"
   },
   {
-    "url": "https://www.microsoft.com/en-us/ignite-the-tour#cities",
-    "eventName": "Microsoft Ignite The Tour 2019-2020",
-    "location": "Chicago, IL",
-    "talks": "Options for Data in the Cloud|Taking Your App to the Next Level with Monitoring, Performance and Scaling",
-    "startDate": "2020-04-15",
-    "endDate": "2020-04-16",
-    "done": "true"
-  },
-  {
     "url": "https://www.thatconference.com/",
     "eventName": "That Conference",
     "location": "Wisconsin Dells, WI",
@@ -222,6 +213,33 @@
     "talks": "Application Insights: The Tool You Never Knew You Needed",
     "startDate": "2019-10-12",
     "endDate": "2019-10-12",
+    "done": "true"
+  },
+  {
+    "url": "https://channel9.msdn.com/Events/dotnetConf/Focus-on-Windows",
+    "eventName": ".NET Conf Focus on Windows",
+    "location": "Remote",
+    "talks": "An Opinionated Way to Deploy Windows Apps using GitHub Actions",
+    "startDate": "2021-02-07",
+    "endDate": "2021-02-07",
+    "done": "true"
+  },
+  {
+    "url": "https://www.dotnetconf.net/",
+    "eventName": ".NET Conf 2021",
+    "location": "Remote",
+    "talks": "Accelerate .NET to Azure with GitHub Actions..... Again?",
+    "startDate": "2021-11-09",
+    "endDate": "2021-11-11",
+    "done": "true"
+  },
+  {
+    "url": "https://www.updateconference.net/",
+    "eventName": "Update Conference",
+    "location": "Prague, Czech Republic",
+    "talks": "Accelerate .NET to Azure with GitHub Actions",
+    "startDate": "2021-11-18",
+    "endDate": "2021-11-19",
     "done": "true"
   }
 ]
