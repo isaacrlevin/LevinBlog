@@ -22,7 +22,7 @@ jobs:
 
     - id: log
       name: Store Commit Message
-      run: echo "::set-env name=POST_COMMIT_MESSAGE::$(git log --no-merges -1 --pretty=%B)"
+      run: echo "POST_COMMIT_MESSAGE=$(git log --no-merges -1 --pretty=%B)" >> $GITHUB_ENV
       
     - name: Parse Commit Message for Title/Url/Message
       env:
