@@ -8,7 +8,7 @@ menu:
 <div style="float:left" >
 {{< figure src="/images/isaac.jpg" >}}
 </div>
-Hi, my name is Isaac Levin, and I am an Senior Product Marketing Manager working for Microsoft in the Azure Marketing Organization.I am a Microsoft Certified Azure Solutions Architect, DevOps Engineer, Azure Developer, Solutions Developer, Solutions Engineer and Solutions Associate living in Woodinville, WA. My emphasis in the developer space is primarily centered around .NET, .NET Core, and front-end technologies like Node.js and Angular. I have always been interested in things beyond the horizon, and my eyes lit up when I first started reading into Cloud Computing and how we can extend our reach by leveraging technologies not only maintained by large organizations but the Open Source Community as well. I have worked in various industries such as financial services, marketing, education, real estate, and most recently beverage.
+Hi, my name is Isaac Levin, and I am a Principal Product Marketing Manager working for Elastic, focusing on App Search.I am a Microsoft Certified Azure Solutions Architect, DevOps Engineer, Azure Developer, Solutions Developer, Solutions Engineer and Solutions Associate living in Woodinville, WA. My emphasis in the developer space is primarily centered around .NET, .NET Core, and front-end technologies like Node.js and Angular. I have always been interested in things beyond the horizon, and my eyes lit up when I first started reading into Cloud Computing and how we can extend our reach by leveraging technologies not only maintained by large organizations but the Open Source Community as well. I have worked in various industries such as financial services, marketing, education, real estate, and most recently beverage.
 <br />
 <br />
 
