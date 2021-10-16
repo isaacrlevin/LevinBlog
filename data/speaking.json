@@ -236,10 +236,19 @@
   {
     "url": "https://www.updateconference.net/",
     "eventName": "Update Conference",
-    "location": "Prague, Czech Republic",
+    "location": "Prague, Czech Republic (Virtual)",
     "talks": "Accelerate .NET to Azure with GitHub Actions",
     "startDate": "2021-11-18",
     "endDate": "2021-11-19",
+    "done": "true"
+  },
+  {
+    "url": "https://www.devintersection.com/",
+    "eventName": "DEVintersection Conference 2021",
+    "location": "Las Vegas, NV",
+    "talks": "Accelerate .NET to Azure with GitHub Actions|What do I do with my old .NET Framework Apps? Introducing the .NET Upgrade Assistant|A Little Bit of Everything – Get Ready for .NET 6",
+    "startDate": "2021-12-07",
+    "endDate": "2021-12-09",
     "done": "true"
   }
 ]
