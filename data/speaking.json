@@ -244,11 +244,38 @@
   },
   {
     "url": "https://www.devintersection.com/",
-    "eventName": "DEVintersection Conference 2021",
+    "eventName": "DEVintersection Conference Fall 2021",
     "location": "Las Vegas, NV",
     "talks": "Accelerate .NET to Azure with GitHub Actions|What do I do with my old .NET Framework Apps? Introducing the .NET Upgrade Assistant|A Little Bit of Everything – Get Ready for .NET 6",
     "startDate": "2021-12-07",
     "endDate": "2021-12-09",
     "done": "true"
+  },
+  {
+    "url": "https://www.devintersection.com/",
+    "eventName": "DEVintersection Conference Spring 2022",
+    "location": "Las Vegas, NV",
+    "talks": "Stretching Your .NET App with Elasticsearch|What do I do with my old .NET Framework Apps? Introducing the .NET Upgrade Assistant|A Little Bit of Everything – Get Ready for .NET 6",
+    "startDate": "2022-04-07",
+    "endDate": "2022-04-08",
+    "done": "true"
+  },
+  {
+    "url": "https://that.us/events/tx/2022/",
+    "eventName": "THAT Conference Texas",
+    "location": "Round Rock, TX",
+    "talks": "Application Insights: The Tool You Never Knew You Needed",
+    "startDate": "2022-05-25",
+    "endDate": "2022-05-25",
+    "done": "false"
+  },
+  {
+    "url": "https://www.azurelowlands.com/",
+    "eventName": "Azure Lowlands",
+    "location": "Utrecht, Netherlands",
+    "talks": "Accelerate .NET to Azure with GitHub Actions",
+    "startDate": "2022-06-30",
+    "endDate": "2022-06-30",
+    "done": "false"
   }
 ]

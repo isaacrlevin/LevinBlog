@@ -56,7 +56,8 @@ menu:
             </div>
         </div>
     </center>
-    </div> <div class="relative w-100 w-30-l mb4 bg-white">
+    </div>
+    <div class="relative w-100 w-30-l mb4 bg-white">
     <center>
         <div class="mb3 pa4 mid-gray overflow-hidden">
             <div class="f3">
@@ -68,6 +69,19 @@ menu:
                 <a href="https://nodogmapodcast.bryanhogan.net/130-isaac-levin-application-insights/">Isaac Levin, Application Insights</a>
                 <audio style="width: 85%" src="https://audio.simplecast.com/3c80259d.mp3" controls="controls"></audio>
                 <a href="https://audio.simplecast.com/3c80259d.mp3" target="_blank">Download</a>
+            </div>
+        </div>
+    </center>
+    </div>
+        <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f3">
+                #44 - So What Is Product Marketing, with Isaac Levin - The Work Item Podcast
+            </div>
+            <br />
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                <iframe src="https://www.youtube.com/embed/Xw1OqRQxbVg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </center>
@@ -128,7 +142,8 @@ menu:
             </div>
         </div>
     </center>
-    </div>    <div class="relative w-100 w-30-l mb4 bg-white">
+    </div>
+    <div class="relative w-100 w-30-l mb4 bg-white">
     <center>
         <div class="mb3 pa4 mid-gray overflow-hidden">
             <div class="f3">
@@ -207,6 +222,32 @@ menu:
             <br />
             <div class="nested-links f5 lh-copy nested-copy-line-height">
                 <iframe src="https://www.youtube.com/embed/1SSZ13sReis" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </center>
+    </div>
+        <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f3">
+               Azure Community Live # 24 - Isaac Levin / Accelerate .NET to Azure with Github Actions
+            </div>
+            <br />
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                <iframe src="https://www.youtube.com/embed/rovQfQ4uwuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </center>
+    </div>
+    <div class="relative w-100 w-30-l mb4 bg-white">
+    <center>
+        <div class="mb3 pa4 mid-gray overflow-hidden">
+            <div class="f3">
+               Add rich search experiences to your applications in Azure with Elastic | Azure Friday
+            </div>
+            <br />
+            <div class="nested-links f5 lh-copy nested-copy-line-height">
+                <iframe src="https://www.youtube.com/embed/s5UFiXlkYI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
     </center>
