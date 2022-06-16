@@ -277,5 +277,14 @@
     "startDate": "2022-06-30",
     "endDate": "2022-06-30",
     "done": "false"
+  },
+  {
+    "url": "https://that.us/activities/wi/2022/",
+    "eventName": "THAT Conference Wisconsin",
+    "location": "Round Rock, TX",
+    "talks": "Accelerate .NET to Azure with GitHub Actions",
+    "startDate": "2022-07-28",
+    "endDate": "2022-07-28",
+    "done": "false"
   }
 ]
