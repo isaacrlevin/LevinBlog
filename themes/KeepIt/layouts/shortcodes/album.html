@@ -3,7 +3,7 @@
 <center>
 {{ $albumUrl := print "/static/images/" ($.Get 0) }}
 {{ range readDir $albumUrl }}
-    {{ $imgURL := print "images/" ($.Get 0) "/" .Name | absURL }}
+    {{ $imgURL := print "/images/" ($.Get 0) "/" .Name | absURL }}
     <img height="300px" style="margin: 10px" src="{{ $imgURL }}"/>
 {{ end }}
 </center>
