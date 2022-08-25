@@ -43,7 +43,9 @@ uglyURLs = false
 [params]
     author = "Isaac Levin"               # Author's name
     subtitle = "Isaac Levin"       # Subtitle
+    description = "Incessant Ramblings of a Cloud Enthusiast"
     cdn_url = ""           # Base CDN URL
+    favicon = "favicon.ico"
     home_mode = "" # post or other
     dateFormatToUse = "" # set date format, default "2 January 2006"
 
