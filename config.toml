@@ -8,7 +8,8 @@ paginate = 12
 enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = ""
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "isaaclevin"
+uglyURLs = false
 
 [sitemap]
   changefreq = "monthly"
