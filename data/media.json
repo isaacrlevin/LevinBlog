@@ -1,0 +1,207 @@
+[
+    {
+        "type": "Podcast",
+        "date": "2018-12-18",
+        "medium": "audio",
+        "title": "Developer on Fire",
+        "description": "Episode 401 | Isaac Levin - Accountable, Present, and Aware",
+        "image": "https://developeronfire.com/assets/images/IsaacLevin.jpg",
+        "link": "https://developeronfire.com/podcast/episode-401-isaac-levin-accountable-present-and-aware",
+        "audio": "https://traffic.libsyn.com/developeronfire/DeveloperOnFire-401-IsaacLevin.mp3"
+    },
+    {
+        "type": "Podcast",
+        "date": "2019-03-06",
+        "medium": "audio",
+        "title": "RunAsRadio",
+        "description": "Application Insights with Isaac Levin",
+        "image": "/images/Isaac-Levin.png",
+        "link": "http://runasradio.com/Shows/Show/626",
+        "audio": "http://s3.amazonaws.com/runas/runasradio_0626_appinsights.mp3"
+    },
+    {
+        "type": "Podcast",
+        "medium": "audio",
+        "date": "2019-07-29",
+        "title": "The 6 Figure Developer Podcast",
+        "description": "Episode 102 – Application Insights with Isaac Levin",
+        "image": "/images/6figure.png",
+        "link": "https://6figuredev.com/podcast/episode-102-application-insights-with-isaac-levin/",
+        "audio": "https://media.blubrry.com/6figuredev/s/content.blubrry.com/6figuredev/6_Figure_Developer-102-Isaac_Levin.mp3"
+    },
+    {
+        "type": "Podcast",
+        "medium": "audio",
+        "date": "2019-09-23",
+        "title": "No Dogma Podcast",
+        "description": "Isaac Levin, Application Insights",
+        "image": "/images/me/profileimage.jpg",
+        "link": "https://nodogmapodcast.bryanhogan.net/130-isaac-levin-application-insights/",
+        "audio": "https://audio.simplecast.com/3c80259d.mp3"
+    },
+    {
+        "type": "Podcast",
+        "medium": "video",
+        "date": "2019-11-11",
+        "title": "The Work Item Podcast",
+        "youtubeid": "Xw1OqRQxbVg",
+        "description": "#44 - So What Is Product Marketing, with Isaac Levin",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "Event",
+        "date" : "2019-09-08",
+        "medium": "video",
+        "title": "Music City Code",
+        "description": "What to Expect When You Are Expecting ASP.NET Core 3.0",
+        "youtubeid": "9z-4adcgqS8",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "Event",
+        "date": "2019-05-10",
+        "medium": "video",
+        "title": "Intelligent Cloud Conference",
+        "description": "Application Insights: The Tool You Never Knew You Needed",
+        "youtubeid": "uA0lLzpYYeY",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "Event",
+        "date": "2019-10-04",
+        "medium": "video",
+        "title": ".NET Conf 2019",
+        "description": "Application Insights: The Tool You Never Knew You Needed",
+        "youtubeid": "SMGokUCi9oo",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "Event",
+        "date": "2020-11-13",
+        "medium": "video",
+        "title": ".NET Conf 2020",
+        "description": "Accelerate .NET to Azure with GitHub Actions",
+        "youtubeid": "3SP8SgcEFyw",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "Event",
+        "medium": "video",
+        "date": "2021-11-15",
+        "title": ".NET Conf 2021",
+        "description": "Accelerate .NET to Azure with GitHub Actions... Again?",
+        "youtubeid": "lpqpiQzVTyQ",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "Event",
+        "date": "2021-11-02",
+        "medium": "video",
+        "title": "Boston Azure",
+        "description": "Accelerate .NET to Azure with GitHub Actions... Again?",
+        "youtubeid": "kdlat6VA1-U",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "MISC",
+        "date": "2019-03-26",
+        "medium": "video",
+        "title": "Channel 9 On.NET Show",
+        "description": "Investigating Production Issues with Azure Monitor and Snapshot Debugger",
+        "youtubeid": "Ug2ZO5zbYmc",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "MISC",
+        "date": "2018-11-17",
+        "medium": "video",
+        "title": "Philly Code Camp",
+        "description": "Interview",
+        "youtubeid": "ipUCz1Z6B-8?start=11798",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "MISC",
+        "date": "2021-06-21",
+        "medium": "video",
+        "title": "The .NET Docs Show",
+        "description": "Complete the Developer Loop ⭕ with GitHub Codespaces",
+        "youtubeid": "vWzPYYoW0kM",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "MISC",
+        "medium": "video",
+        "date": "2018-06-16",
+        "title": "Fritz and Friends",
+        "description": "Monitoring Applications",
+        "youtubeid": "m4LW95T7TQE",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "MISC",
+        "date": "2020-08-24",
+        "medium": "video",
+        "title": "The .NET Docs Show",
+        "description": ".NET open-source projects 👨🏻‍💻 with Isaac Levin 👨🏻‍🦲",
+        "youtubeid": "12XAjpuwByo",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "MISC",
+        "medium": "video",
+        "date": "2020-08-20",
+        "title": "On .NET Live",
+        "description": "Sharing your status with Smart Bulbs and PresenceLight",
+        "youtubeid": "1SSZ13sReis",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "MISC",
+        "date": "2020-11-02",
+        "medium": "video",
+        "title": "Azure Community Live",
+        "description": "# 24 - Isaac Levin / Accelerate .NET to Azure with Github Actions",
+        "youtubeid": "rovQfQ4uwuA",
+        "image": "",
+        "link": "",
+        "audio": ""
+    },
+    {
+        "type": "MISC",
+        "date": "2022-02-11",
+        "medium": "video",
+        "title": "Azure Friday",
+        "description": "Add rich search experiences to your applications in Azure with Elastic",
+        "youtubeid": "s5UFiXlkYI4",
+        "image": "",
+        "link": "",
+        "audio": ""
+    }
+]

@@ -1,0 +1,45 @@
+{{ $dataJ := getJSON "/data/media.json" }}
+
+<main class="main-area">
+  <div class="centered">
+      <section class="cards">
+        {{ range sort $dataJ ".date" "desc"  }}
+        {{ if (eq ($.Get 0) (.type)) }}
+        <article class="card">
+              <span style="font-size: x-large;">{{ .title }}</span>
+              <br />
+              {{ .date | dateFormat "Jan 2, 2006" }}
+              <br />
+              <picture class="thumbnail">
+                {{ if eq (.medium) "video" }}
+                <iframe src="https://www.youtube.com/embed/{{ .youtubeid }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {{else}}
+                <figure>
+                  <img src="{{ .image }}">
+                </figure>
+                {{end}}
+              </picture>
+              <div class="card-content">
+                {{ if eq (.medium) "video" }}
+                <a href="https://www.youtube.com/watch?v={{ .youtubeid }}">{{ .description }}</a>
+                {{else}}
+                  <a href="{{ .link }}">{{ .description }}</a>
+                  {{end}}
+                  <p>
+                    {{ if eq (.medium) "audio" }}
+                      <audio style="width: 85%;" src="{{ .audio }}" controls="controls"></audio>
+                      <br />
+                      <a style="font-size: medium" href="{{ .audio }}" target="_blank">Download</a>
+                    {{end}}
+                  </p>
+              </div>
+              <!-- .card-content -->
+          </article>
+          {{end}}
+          {{end}}
+          <!-- .card -->
+      </section>
+      <!-- .cards -->
+  </div>
+  <!-- .centered -->
+</main>

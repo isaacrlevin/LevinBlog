@@ -1,47 +1,145 @@
-title = "Isaac Levin's Blog"
-baseURL = "https://www.isaaclevin.com"
-languageCode = "en-us"
-theme = "ananke"
+#baseURL = "https:www.isaaclevin.com"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Isaac Levin"
+theme = "KeepIt"
 
-disqusShortname = "isaaclevin"
-MetaDataFormat = "yaml"
-DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
-Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+paginate = 12
+enableEmoji = true
 enableRobotsTXT = true
-pygmentsCodeFences = true
-uglyURLs = false
+googleAnalytics = ""
+disqusShortname = "yourdiscussshortname"
+
 [sitemap]
   changefreq = "monthly"
-  priority = 0.5
   filename = "sitemap.xml"
-  
+  priority = 0.5
+
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
+[Permalinks]
+ posts = "/:year/:filename/"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 1
+
+#  [[menu.main]]
+#    name = "About"
+#    url = "/about"
+#    weight = 4
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
-[blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true
-
 [params]
-  images = ["https://www.isaaclevin.com/images/isaac.jpg"]
-  env = "production"
-  favicon = "favicon.ico"
-  description = "Hi, my name is Isaac Levin, and I am an Application Development Manager working for Microsoft in the Developer Support Organization. My emphasis in the developer space is primarily centered around .NET, .NET Core, and front-end technologies like Node.js and Angular. I have always been interested in things beyond the horizon, and my eyes lit up when I first started reading into Cloud Computing and how we can extend our reach by leveraging technologies not only maintained by large organizations but the OSS as well."
-  facebook = ""
-  twitter = "https://twitter.com/isaacrlevin"
-  instagram = ""
-  youtube = ""
-  github = "https://github.com/isaacrlevin"
-  gitlab = ""
-  linkedin = "https://www.linkedin.com/in/isaacrobinlevin/"
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-light-blue"
-  featured_image = ""
-  recent_posts_number = 4
-  custom_css = ["css/site.css"]
+    author = "Isaac Levin"               # Author's name
+    subtitle = "Isaac Levin"       # Subtitle
+    cdn_url = ""           # Base CDN URL
+    home_mode = "" # post or other
+    dateFormatToUse = "" # set date format, default "2 January 2006"
+
+    google_verification = ""
+    bing_verification = ""
+    yandex_verification = ""
+    pinterest_verification = ""
+    baidu_verification = ""
+
+    avatar = "/images/me/profileimage.jpg" #comment it to use gravatar
+    socialShare = true
+
+    description = "" # site description
+    keywords = "" # site keywords
+
+    license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+
+[params.gravatar]
+    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
 
 
+[params.social]
+    GitHub = "isaacrlevin"
+    Linkedin = "isaacrobinlevin"
+    Twitter = "isaacrlevin"
+    #Instagram = "xxxx"
+    Email   = "isaac@isaaclevin.com"
+    #Youtubelegacy = "xxxx"
+    #Youtubecustom = "xxxx"
+    Youtubechannel = "UCNalR7W6RGI0jVS_ZeIEQzA"
+    #Reddit = "xxxx"
+    #Codepen = "xxxx"
+    #Stackoverflow = "xxxxx"
+    #Paypal = "xxxx"
+    Twitch = "isaacrlevin"
+    #Strava = "xxxx"
+
+[params.share]
+Twitter = true
+Facebook = true
+Reddit = true
+Linkedin = true
+#Pinterest = true
+#HackerNews = true
+#Mix = true
+#Tumblr = true
+#VKontakte = true
+#Douban = true
+#Weibo = true
+
+# Used only for Seo schema
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
+[author]
+  name = "Isaac Levin"
+
+  [params.publisher]
+    name = "Isaac Levin"
+
+    [params.publisher.logo]
+      url = "logo.png"
+      width = 127
+      height = 40
+
+  [params.logo]
+    url = "logo.png"
+    width = 127
+    height = 40
+
+  [params.image]
+    url = "cover.png"
+    width = 800
+    height = 600
+
+[params.gitalk]
+owner = ""       # Your GitHub ID
+repo = ""        # The repo to store comments
+clientId = ""    # Your client ID
+clientSecret = "" # Your client secret
+
+[params.valine]
+  enable = false
+  language = 'en'
+  appId = 'your appId'
+  appKey = 'your appKey'
+  notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
+  verify = false # Verification code
+  avatar = 'mm'
+  placeholder = 'your comments ...'
+  visitor = true
+
+[params.utterances]       # https://utteranc.es/
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+
+[params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret

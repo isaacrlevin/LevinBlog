@@ -282,9 +282,36 @@
     "url": "https://that.us/activities/wi/2022/",
     "eventName": "THAT Conference Wisconsin",
     "location": "Round Rock, TX",
-    "talks": "Accelerate .NET to Azure with GitHub Actions",
+    "talks": "What do I do with my old .NET Framework Apps?",
     "startDate": "2022-07-28",
     "endDate": "2022-07-28",
+    "done": "true"
+  },
+  {
+    "url": "https://www.eventbrite.com/e/net-enterprise-developer-days-2022-hosted-by-amazon-web-services-registration-370692239467",
+    "eventName": ".NET Enterprise Developer Days 2022",
+    "location": "Austin, TX",
+    "talks": "What do I do with my old .NET Framework Apps?",
+    "startDate": "2022-09-07",
+    "endDate": "2022-09-08",
+    "done": "false"
+  },
+  {
+    "url": "https://www.telerik.com/devreach",
+    "eventName": "DevReach 2022",
+    "location": "Boston, MA",
+    "talks": "What do I do with my old .NET Framework Apps?",
+    "startDate": "2022-09-11",
+    "endDate": "2022-09-14",
+    "done": "false"
+  },
+    {
+    "url": "https://www.dotnet-developer-conference.de/",
+    "eventName": ".NET Developer Conference 22",
+    "location": "Cologne, Germany",
+    "talks": "A Little Bit of Everything – Get Ready for .NET 7",
+    "startDate": "2022-11-28",
+    "endDate": "2022-11-28",
     "done": "false"
   }
 ]

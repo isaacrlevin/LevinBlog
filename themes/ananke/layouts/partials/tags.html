@@ -1,9 +1,0 @@
-<ul class="pl0 mr3 center">
-  {{ range .Params.tags }}
-  <li class="list f5 f4-ns fw4 dib pr3">
-    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="white hover-black link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">
-      {{- . -}}
-    </a>
-  </li>
-  {{ end }}
-</ul>
