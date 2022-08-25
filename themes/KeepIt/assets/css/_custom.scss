@@ -1,0 +1,90 @@
+// ==============================
+// Custom style
+// ==============================
+// You can override the variables in _variables.scss to customize the style
+
+
+$color_1: white;
+$font-family_1: Helvetica, Arial, sans-serif;
+$font-family_2: 'Montserrat', Arial, Helvetica, sans-serif;
+$background-color_1: transparent;
+
+/* Flexbox stuff */
+.card {
+	background: white;
+	text-align: center;
+	margin-bottom: 2em;
+	flex: 0 1 calc(33.333% - 2em);
+	a {
+		color: $color_1;
+		text-decoration: none;
+		&:hover {
+			box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
+		}
+	}
+}
+.card-content {
+	padding: 1.4em;
+	h2 {
+		margin-top: 0;
+		margin-bottom: .5em;
+		font-weight: bold;
+	}
+	p {
+		font-size: 80%;
+	}
+}
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+form {
+	max-width: 420px;
+	margin: 50px auto;
+}
+.feedback-input {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 5px;
+	line-height: 22px;
+	background-color: $background-color_1;
+	border: 2px solid #7BAFD4;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width: 100%;
+	box-sizing: border-box;
+	outline: 0;
+	&:focus {
+		border: 2px solid #CC4949;
+	}
+}
+textarea {
+	height: 150px;
+	line-height: 150%;
+	resize: vertical;
+}
+[type="submit"] {
+	font-family: $font-family_2;
+	width: 100%;
+	background: #7BAFD4;
+	border-radius: 5px;
+	border: 0;
+	cursor: pointer;
+	color: $color_1;
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: all 0.3s;
+	margin-top: -4px;
+	font-weight: 700;
+	&:hover {
+		background: #CC4949;
+	}
+}
