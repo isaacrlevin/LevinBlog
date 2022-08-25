@@ -31,7 +31,7 @@
        {{ end }}
   </title>
   <meta name="title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end}}">
-  <meta name="description" content="{{ .Site.Params.Description }}" />
+  <meta name="description" content="Incessant Ramblings of a Cloud Enthusiast" />
   {{ partial "css.html" . }}
   {{ with .OutputFormats.Get "RSS" }}
   <link rel="alternate" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ site.Title }}">
