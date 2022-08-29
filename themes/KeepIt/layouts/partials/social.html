@@ -8,7 +8,10 @@
 <a href="https://twitter.com/{{.}}" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-twitter"></i></a>
 {{ end }}
 {{ with .Site.Params.Social.Instagram }}
-<a href="https://www.instagram.com/{{.}}/" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-instagram"></i></a> 
+<a href="https://www.instagram.com/{{.}}/" target="_blank" rel="me noopener noreffer" target="_blank"><i class="iconfont icon-instagram"></i></a>
+{{ end }}
+{{ with .Site.Params.Social.TikTok }}
+<a href="https://www.tiktok.com/@{{.}}/" target="_blank" rel="me noopener noreffer" target="_blank"><img src="/images/tiktok.png" width="25px" alt="TikTok" /></a>
 {{ end }}
 {{ with .Site.Params.Social.Email}}
 <a href="mailto:{{.}}" rel="me noopener noreffer"><i class="iconfont icon-mail" target="_blank"></i></a>
