@@ -203,5 +203,15 @@
         "image": "",
         "link": "",
         "audio": ""
+    },
+      {
+        "type": "Podcast",
+        "date": "2022-09-29",
+        "medium": "audio",
+        "title": ".NET Rocks",
+        "description": "Developing .NET on AWS with Isaac Levin",
+        "image": "/images/Isaac-Levin.png",
+        "link": "https://www.dotnetrocks.com/details/1813",
+        "audio": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/51399383/dotnetrocks_1813_developing_dot_net_on_aws.mp3"
     }
 ]
