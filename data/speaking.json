@@ -246,7 +246,7 @@
     "url": "https://www.devintersection.com/",
     "eventName": "DEVintersection Conference Fall 2021",
     "location": "Las Vegas, NV",
-    "talks": "Accelerate .NET to Azure with GitHub Actions|What do I do with my old .NET Framework Apps? Introducing the .NET Upgrade Assistant|A Little Bit of Everything – Get Ready for .NET 6",
+    "talks": "Accelerate .NET to Azure with GitHub Actions|Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared|A Little Bit of Everything – Get Ready for .NET 6",
     "startDate": "2021-12-07",
     "endDate": "2021-12-09",
     "done": "true"
@@ -255,7 +255,7 @@
     "url": "https://www.devintersection.com/",
     "eventName": "DEVintersection Conference Spring 2022",
     "location": "Las Vegas, NV",
-    "talks": "Stretching Your .NET App with Elasticsearch|What do I do with my old .NET Framework Apps? Introducing the .NET Upgrade Assistant|A Little Bit of Everything – Get Ready for .NET 6",
+    "talks": "Stretching Your .NET App with Elasticsearch|Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared|A Little Bit of Everything – Get Ready for .NET 6",
     "startDate": "2022-04-07",
     "endDate": "2022-04-08",
     "done": "true"
@@ -282,7 +282,7 @@
     "url": "https://that.us/activities/wi/2022/",
     "eventName": "THAT Conference Wisconsin",
     "location": "Round Rock, TX",
-    "talks": "What do I do with my old .NET Framework Apps?",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
     "startDate": "2022-07-28",
     "endDate": "2022-07-28",
     "done": "true"
@@ -291,27 +291,45 @@
     "url": "https://www.eventbrite.com/e/net-enterprise-developer-days-2022-hosted-by-amazon-web-services-registration-370692239467",
     "eventName": ".NET Enterprise Developer Days 2022",
     "location": "Austin, TX",
-    "talks": "What do I do with my old .NET Framework Apps?",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
     "startDate": "2022-09-07",
     "endDate": "2022-09-08",
-    "done": "false"
+    "done": "true"
   },
   {
     "url": "https://www.telerik.com/devreach",
     "eventName": "DevReach 2022",
     "location": "Boston, MA",
-    "talks": "What do I do with my old .NET Framework Apps?",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
     "startDate": "2022-09-11",
     "endDate": "2022-09-14",
-    "done": "false"
+    "done": "true"
   },
-    {
+  {
     "url": "https://www.dotnet-developer-conference.de/",
     "eventName": ".NET Developer Conference 22",
     "location": "Cologne, Germany",
     "talks": "A Little Bit of Everything – Get Ready for .NET 7",
     "startDate": "2022-11-28",
     "endDate": "2022-11-28",
+    "done": "true"
+  },
+  {
+    "url": "https://that.us/events/tx/2023/",
+    "eventName": "THAT Conference Texas",
+    "location": "Austin, TX",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+    "startDate": "2023-01-16",
+    "endDate": "2023-01-16",
+    "done": "false"
+  },
+  {
+    "url": "https://www.meetup.com/dotnetoxford/events/289962516/",
+    "eventName": ".NET Oxford",
+    "location": "Oxford, UK",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+    "startDate": "2023-01-24",
+    "endDate": "2023-01-24",
     "done": "false"
   }
 ]

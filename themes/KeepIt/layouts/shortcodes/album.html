@@ -1,9 +1,34 @@
 <!-- put bunch of photos in /static/img/albumName -->
 <!-- and insert shortcode "album albumName" in blogpost.md -->
+
+<style>
+.card {
+  color: white;
+}
+.cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+  }
+  @media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(3, 1fr); }
+  }
+</style>
 <center>
-{{ $albumUrl := print "/static/images/" ($.Get 0) }}
-{{ range readDir $albumUrl }}
-    {{ $imgURL := print "/images/" ($.Get 0) "/" .Name | absURL }}
-    <img height="300px" style="margin: 10px" src="{{ $imgURL }}"/>
-{{ end }}
+  {{ $albumUrl := print "/static/images/" ($.Get 0) }}
+  <div class="cards">
+    {{ range readDir $albumUrl }} {{ $imgURL := print "/images/" ($.Get 0) "/"
+    .Name | absURL }}
+    <div class="card">
+      <img
+        style="margin: 10px; height: 300px"
+        src="/images/shirts/{{ .Name }}"
+        alt="shirt"
+      />
+    </div>
+    {{ end }}
+  </div>
 </center>
