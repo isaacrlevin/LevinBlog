@@ -331,5 +331,23 @@
     "startDate": "2023-01-24",
     "endDate": "2023-01-24",
     "done": "false"
+  },
+  {
+    "url": "https://www.swetugg.se/sthlm-2023",
+    "eventName": "SWETUGG",
+    "location": "Stockholm, Sweden",
+    "talks": ".NET on AWS - Choose your own adventure",
+    "startDate": "2023-02-08",
+    "endDate": "2023-02-09",
+    "done": "false"
+  },
+  {
+    "url": "https://powershellsummit.org/",
+    "eventName": "PowerShell and DevOps Summit",
+    "location": "Bellevue, WA",
+    "talks": "Leveling up on GitHub: Tips + Tricks for Beginners to Become Experts",
+    "startDate": "2023-04-24",
+    "endDate": "2023-04-24",
+    "done": "false"
   }
 ]
