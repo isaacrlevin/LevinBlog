@@ -394,5 +394,14 @@
     "startDate": "2023-04-24",
     "endDate": "2023-04-24",
     "done": "false"
+  },
+  {
+    "url": "https://ndcoslo.com/",
+    "eventName": "NDC Oslo 2023",
+    "location": "Oslo, Norway",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+    "startDate": "2023-05-22",
+    "endDate": "2023-05-26",
+    "done": "false"
   }
 ]
