@@ -12,7 +12,7 @@
               <br />
               <picture class="thumbnail">
                 {{ if eq (.medium) "video" }}
-                <iframe src="https://www.youtube.com/embed/{{ .youtubeid }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="{{ .embed }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 {{else}}
                 <figure>
                   <img src="{{ .image }}">
@@ -21,7 +21,7 @@
               </picture>
               <div class="card-content">
                 {{ if eq (.medium) "video" }}
-                <a href="https://www.youtube.com/watch?v={{ .youtubeid }}">{{ .description }}</a>
+                <a href="{{ .link }}">{{ .description }}</a>
                 {{else}}
                   <a href="{{ .link }}">{{ .description }}</a>
                   {{end}}

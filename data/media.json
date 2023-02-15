@@ -44,22 +44,22 @@
         "medium": "video",
         "date": "2019-11-11",
         "title": "The Work Item Podcast",
-        "youtubeid": "Xw1OqRQxbVg",
+        "embed": "https://www.youtube.com/embed/Xw1OqRQxbVg",
         "description": "#44 - So What Is Product Marketing, with Isaac Levin",
         "image": "",
-        "link": "",
-        "audio": ""
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=Xw1OqRQxbVg"
     },
     {
         "type": "Event",
-        "date" : "2019-09-08",
+        "date": "2019-09-08",
         "medium": "video",
         "title": "Music City Code",
         "description": "What to Expect When You Are Expecting ASP.NET Core 3.0",
-        "youtubeid": "9z-4adcgqS8",
+        "embed": "https://www.youtube.com/embed/9z-4adcgqS8",
         "image": "",
-        "link": "",
-        "audio": ""
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=9z-4adcgqS8"
     },
     {
         "type": "Event",
@@ -67,10 +67,10 @@
         "medium": "video",
         "title": "Intelligent Cloud Conference",
         "description": "Application Insights: The Tool You Never Knew You Needed",
-        "youtubeid": "uA0lLzpYYeY",
+        "embed": "https://www.youtube.com/embed/uA0lLzpYYeY",
         "image": "",
-        "link": "",
-        "audio": ""
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=uA0lLzpYYeY"
     },
     {
         "type": "Event",
@@ -78,10 +78,10 @@
         "medium": "video",
         "title": ".NET Conf 2019",
         "description": "Application Insights: The Tool You Never Knew You Needed",
-        "youtubeid": "SMGokUCi9oo",
+        "embed": "https://www.youtube.com/embed/SMGokUCi9oo",
         "image": "",
-        "link": "",
-        "audio": ""
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=SMGokUCi9oo"
     },
     {
         "type": "Event",
@@ -89,10 +89,10 @@
         "medium": "video",
         "title": ".NET Conf 2020",
         "description": "Accelerate .NET to Azure with GitHub Actions",
-        "youtubeid": "3SP8SgcEFyw",
+        "embed": "https://www.youtube.com/embed/3SP8SgcEFyw",
         "image": "",
-        "link": "",
-        "audio": ""
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=3SP8SgcEFyw"
     },
     {
         "type": "Event",
@@ -100,9 +100,9 @@
         "date": "2021-11-15",
         "title": ".NET Conf 2021",
         "description": "Accelerate .NET to Azure with GitHub Actions... Again?",
-        "youtubeid": "lpqpiQzVTyQ",
+        "embed": "https://www.youtube.com/embed/lpqpiQzVTyQ",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=lpqpiQzVTyQ",
         "audio": ""
     },
     {
@@ -111,9 +111,9 @@
         "medium": "video",
         "title": "Boston Azure",
         "description": "Accelerate .NET to Azure with GitHub Actions... Again?",
-        "youtubeid": "kdlat6VA1-U",
+        "embed": "https://www.youtube.com/embed/kdlat6VA1-U",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=kdlat6VA1-U",
         "audio": ""
     },
     {
@@ -122,9 +122,9 @@
         "medium": "video",
         "title": "Channel 9 On.NET Show",
         "description": "Investigating Production Issues with Azure Monitor and Snapshot Debugger",
-        "youtubeid": "Ug2ZO5zbYmc",
+        "embed": "https://www.youtube.com/embed/Ug2ZO5zbYmc",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=Ug2ZO5zbYmc",
         "audio": ""
     },
     {
@@ -133,9 +133,9 @@
         "medium": "video",
         "title": "Philly Code Camp",
         "description": "Interview",
-        "youtubeid": "ipUCz1Z6B-8?start=11798",
+        "embed": "https://www.youtube.com/embed/ipUCz1Z6B-8?start=11798",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=ipUCz1Z6B-8?start=11798",
         "audio": ""
     },
     {
@@ -144,9 +144,9 @@
         "medium": "video",
         "title": "The .NET Docs Show",
         "description": "Complete the Developer Loop ⭕ with GitHub Codespaces",
-        "youtubeid": "vWzPYYoW0kM",
+        "embed": "https://www.youtube.com/embed/vWzPYYoW0kM",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=vWzPYYoW0kM",
         "audio": ""
     },
     {
@@ -155,9 +155,9 @@
         "date": "2018-06-16",
         "title": "Fritz and Friends",
         "description": "Monitoring Applications",
-        "youtubeid": "m4LW95T7TQE",
+        "embed": "https://www.youtube.com/embed/m4LW95T7TQE",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=m4LW95T7TQE",
         "audio": ""
     },
     {
@@ -166,9 +166,9 @@
         "medium": "video",
         "title": "The .NET Docs Show",
         "description": ".NET open-source projects 👨🏻‍💻 with Isaac Levin 👨🏻‍🦲",
-        "youtubeid": "12XAjpuwByo",
+        "embed": "https://www.youtube.com/embed/12XAjpuwByo",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=12XAjpuwByo",
         "audio": ""
     },
     {
@@ -177,9 +177,9 @@
         "date": "2020-08-20",
         "title": "On .NET Live",
         "description": "Sharing your status with Smart Bulbs and PresenceLight",
-        "youtubeid": "1SSZ13sReis",
+        "embed": "https://www.youtube.com/embed/1SSZ13sReis",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=1SSZ13sReis",
         "audio": ""
     },
     {
@@ -188,9 +188,9 @@
         "medium": "video",
         "title": "Azure Community Live",
         "description": "# 24 - Isaac Levin / Accelerate .NET to Azure with Github Actions",
-        "youtubeid": "rovQfQ4uwuA",
+        "embed": "https://www.youtube.com/embed/rovQfQ4uwuA",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=rovQfQ4uwuA",
         "audio": ""
     },
     {
@@ -199,12 +199,12 @@
         "medium": "video",
         "title": "Azure Friday",
         "description": "Add rich search experiences to your applications in Azure with Elastic",
-        "youtubeid": "s5UFiXlkYI4",
+        "embed": "https://www.youtube.com/embed/s5UFiXlkYI4",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=s5UFiXlkYI4",
         "audio": ""
     },
-      {
+    {
         "type": "Podcast",
         "date": "2022-09-29",
         "medium": "audio",
@@ -213,5 +213,16 @@
         "image": "/images/me/profileimage.jpg",
         "link": "https://www.dotnetrocks.com/details/1813",
         "audio": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/51399383/dotnetrocks_1813_developing_dot_net_on_aws.mp3"
+    },
+    {
+        "type": "Podcast",
+        "date": "2023-02-15",
+        "medium": "video",
+        "title": "Mechanical Ink Podcast",
+        "description": "A conversation with Isaac Levin and Richard Littauer - Sustainable open-source today and in the future.",
+        "image": "https://i.scdn.co/image/ab67656300005f1fc820aaaf5879b458c04cdabe",
+        "embed": "https://open.spotify.com/embed/episode/3DSb2PsYvrsTbKFIr5HIyu?utm_source=generator",
+        "audio": "",
+        "link": "https://open.spotify.com/episode/3DSb2PsYvrsTbKFIr5HIyu?si=iwjj3uCYQR2jm8xUPl-JAA"
     }
 ]
