@@ -223,5 +223,16 @@
         "image": "/images/me/profileimage.jpg",
         "link": "https://unhandledexceptionpodcast.com/posts/0048-isaaclevin/",
         "audio": "https://audio.buzzsprout.com/nybpa9wnddeq260l89m7jmqa13h3?response-content-disposition=inline&"
+    },
+    {
+        "type": "MISC",
+        "date": "2023-02-16",
+        "medium": "video",
+        "title": "Inside dotNET",
+        "description": "Running dotnet on AWS",
+        "youtubeid": "mZRwTKEIrIk",
+        "image": "",
+        "link": "",
+        "audio": ""
     }
 ]
