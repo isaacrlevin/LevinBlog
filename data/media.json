@@ -241,9 +241,9 @@
         "medium": "video",
         "title": "Inside dotNET",
         "description": "Running dotnet on AWS",
-        "youtubeid": "mZRwTKEIrIk",
+        "embed": "https://www.youtube.com/embed/mZRwTKEIrIk",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=mZRwTKEIrIk",
         "audio": ""
     },
     {
@@ -252,9 +252,9 @@
         "medium": "video",
         "title": "Inside dotNET",
         "description": ".NET Serverless on AWS",
-        "youtubeid": "mZRwTKEIrIk",
+        "embed": "https://www.youtube.com/embed/Pr9n_JICrmU",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=Pr9n_JICrmU",
         "audio": ""
     }
 ]
