@@ -339,7 +339,7 @@
     "talks": ".NET on AWS - Choose your own adventure",
     "startDate": "2023-02-08",
     "endDate": "2023-02-09",
-    "done": "false"
+    "done": "true"
   },
   {
     "url": "https://www.meetup.com/swenug-stockholm/events/290473472/",
@@ -348,7 +348,7 @@
     "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
     "startDate": "2023-02-09",
     "endDate": "2023-02-09",
-    "done": "false"
+    "done": "true"
   },
   {
     "url": "https://futuretech.nl/",
@@ -357,7 +357,7 @@
     "talks": "Building and Running .NET Apps on the Cloud- Choose your own adventure",
     "startDate": "2023-03-15",
     "endDate": "2023-03-15",
-    "done": "false"
+    "done": "true"
   },
   {
     "url": "https://www.meetup.com/dotnet-amsterdam/events/291132579/",
@@ -366,7 +366,7 @@
     "talks": "Building and Running .NET Apps on the Cloud- Choose your own adventure",
     "startDate": "2023-03-15",
     "endDate": "2023-03-15",
-    "done": "false"
+    "done": "true"
   },
   {
     "url": "https://orlandocodecamp.com/",
@@ -375,7 +375,7 @@
     "talks": "Running ASP.NET Core Apps without a server? WHAT???",
     "startDate": "2023-03-25",
     "endDate": "2023-03-25",
-    "done": "false"
+    "done": "true"
   },
   {
     "url": "https://techorama.be/",
@@ -402,6 +402,42 @@
     "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
     "startDate": "2023-05-22",
     "endDate": "2023-05-26",
+    "done": "false"
+  },
+  {
+    "url": "https://that.us/events/wi/2023/",
+    "eventName": "THAT Conference Wisconsin",
+    "location": "Wisconsin Dells, WI",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+    "startDate": "2023-07-27",
+    "endDate": "2023-07-27",
+    "done": "false"
+  },
+  {
+    "url": "https://www.meetup.com/copenhagen-net-user-group/events/292356915/",
+    "eventName": "Copenhagen .NET User Group",
+    "location": "Copenhagen, Denmark",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared|Building and Running .NET Apps on the Cloud- Choose your own adventure",
+    "startDate": "2023-05-22",
+    "endDate": "2023-05-22",
+    "done": "false"
+  },
+  {
+    "url": "https://abp.io/conference",
+    "eventName": "abp DOTNET CONF 23",
+    "location": "Virtual",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+    "startDate": "2023-05-10",
+    "endDate": "2023-05-10",
+    "done": "false"
+  },
+  {
+    "url": "https://www.meetup.com/roanoke-valley-net-user-group/events/fbbrnryfcjbcb/",
+    "eventName": "Roanoke Valley .NET User Group (RVNUG)",
+    "location": "Virtual",
+    "talks": "Building and Running .NET Apps on the Cloud- Choose your own adventure",
+    "startDate": "2023-06-01",
+    "endDate": "2023-06-01",
     "done": "false"
   }
 ]
