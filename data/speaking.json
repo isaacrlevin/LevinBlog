@@ -321,7 +321,7 @@
     "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
     "startDate": "2023-01-16",
     "endDate": "2023-01-16",
-    "done": "false"
+    "done": "true"
   },
   {
     "url": "https://www.meetup.com/dotnetoxford/events/289962516/",
@@ -330,6 +330,78 @@
     "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
     "startDate": "2023-01-24",
     "endDate": "2023-01-24",
+    "done": "true"
+  },
+  {
+    "url": "https://www.swetugg.se/sthlm-2023",
+    "eventName": "SWETUGG",
+    "location": "Stockholm, Sweden",
+    "talks": ".NET on AWS - Choose your own adventure",
+    "startDate": "2023-02-08",
+    "endDate": "2023-02-09",
+    "done": "false"
+  },
+  {
+    "url": "https://www.meetup.com/swenug-stockholm/events/290473472/",
+    "eventName": "Swenug Stockholm",
+    "location": "Stockholm, Sweden",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+    "startDate": "2023-02-09",
+    "endDate": "2023-02-09",
+    "done": "false"
+  },
+  {
+    "url": "https://futuretech.nl/",
+    "eventName": "FutureTech",
+    "location": "Utrecht, Netherlands",
+    "talks": "Building and Running .NET Apps on the Cloud- Choose your own adventure",
+    "startDate": "2023-03-15",
+    "endDate": "2023-03-15",
+    "done": "false"
+  },
+  {
+    "url": "https://www.meetup.com/dotnet-amsterdam/events/291132579/",
+    "eventName": ".NET / dotnet Amsterdam meetup",
+    "location": "Amsterdam, Netherlands",
+    "talks": "Building and Running .NET Apps on the Cloud- Choose your own adventure",
+    "startDate": "2023-03-15",
+    "endDate": "2023-03-15",
+    "done": "false"
+  },
+  {
+    "url": "https://orlandocodecamp.com/",
+    "eventName": "Orlando CodeCamp 2023",
+    "location": "Orlanda, FL",
+    "talks": "Running ASP.NET Core Apps without a server? WHAT???",
+    "startDate": "2023-03-25",
+    "endDate": "2023-03-25",
+    "done": "false"
+  },
+  {
+    "url": "https://techorama.be/",
+    "eventName": "Techorama Belgium 2023",
+    "location": "Antwerp, Belgium",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared|Building and Running .NET Apps on the Cloud- Choose your own adventure",
+    "startDate": "2023-05-15",
+    "endDate": "2023-05-17",
+    "done": "false"
+  },
+  {
+    "url": "https://powershellsummit.org/",
+    "eventName": "PowerShell and DevOps Summit",
+    "location": "Bellevue, WA",
+    "talks": "Leveling up on GitHub: Tips + Tricks for Beginners to Become Experts",
+    "startDate": "2023-04-24",
+    "endDate": "2023-04-24",
+    "done": "false"
+  },
+  {
+    "url": "https://ndcoslo.com/",
+    "eventName": "NDC Oslo 2023",
+    "location": "Oslo, Norway",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+    "startDate": "2023-05-22",
+    "endDate": "2023-05-26",
     "done": "false"
   }
 ]
