@@ -6,14 +6,6 @@ menu:
   main: { name: "Projects", weight: "3" }
 ---
 
-#### [AWS for the .NET Developer](https://www.youtube.com/playlist?list=PL_IEvQa-oTVsIJXzFeP2ZmZf1rMD6M1JE)
-
-
-YouTube series on how AWS can empower .NET developers to build awesome things.
-
-<br />
-
-
 #### [Coffee & Open Source](https://www.coffeeandopensource.com/)
 
 

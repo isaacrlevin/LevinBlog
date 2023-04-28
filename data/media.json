@@ -252,9 +252,9 @@
         "medium": "video",
         "title": "Inside dotNET",
         "description": ".NET Serverless on AWS",
-        "embed": "https://www.youtube.com/embed/Pr9n_JICrmU",
+        "youtubeid": "mZRwTKEIrIk",
         "image": "",
-        "link": "https://www.youtube.com/watch?v=Pr9n_JICrmU",
+        "link": "",
         "audio": ""
     }
 ]
