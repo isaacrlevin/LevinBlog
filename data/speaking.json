@@ -414,15 +414,6 @@
     "done": "false"
   },
   {
-    "url": "https://www.meetup.com/copenhagen-net-user-group/events/292356915/",
-    "eventName": "Copenhagen .NET User Group",
-    "location": "Copenhagen, Denmark",
-    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared|Building and Running .NET Apps on the Cloud- Choose your own adventure",
-    "startDate": "2023-05-22",
-    "endDate": "2023-05-22",
-    "done": "false"
-  },
-  {
     "url": "https://abp.io/conference",
     "eventName": "abp DOTNET CONF 23",
     "location": "Virtual",

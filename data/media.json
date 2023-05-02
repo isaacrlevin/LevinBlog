@@ -256,5 +256,15 @@
         "image": "",
         "link": "",
         "audio": ""
+    },
+    {
+        "type": "Podcast",
+        "date": "2023-04-28",
+        "medium": "audio",
+        "title": "The .NET Core Podcast",
+        "description": "A .NET Discussion with Isaac Levin",
+        "image": "https://dotnetcore.show/header-images/IsaacLevinDotnetDiscussion.webp",
+        "link": "https://dotnetcore.show/episode-121-dotnet-discussion-with-isaac-levin/",
+        "audio": "https://content.libsyn.com/p/a/d/6/ad695ee62fa85ee1/121_-_A_.NET_Discussion_with_Isaac_Levin.mp3?c_id=146791476&cs_id=146791476&response-content-type=audio%2Fmpeg&Expires=1683057410&Signature=RyZe7elvK5V0BPlHY4CUKcZy4ls3PBe6w9Vu0-FwXB8xmdlhokw4funJUVWnuol9BnVI9nNvjgk-sN~6dBTx0V9BMKt5pgLfl6nk-ywFgq3ijONNtkM4ovzgzMzT72KY9nWwIhR-0KTpA8PlDBJvP0fOxn8YXvCfZPeWfldxcLIHErWRPCtaPVZMdiGVo4wFU7zZni4TvsnM3yGqu6wzVqTPFFm~HRjW65M345ZO-euG-qwZljkQTYfptBizDfgbwzpyjXoz5aSzkiOZv4Sbjl0FYyRAagWJM97izOZN3hkW6O2~RZC-LF8i18fmDvA2KR2Hq8jCmXYjAdEia1I~jg__&Key-Pair-Id=K1YS7LZGUP96OI"
     }
 ]
