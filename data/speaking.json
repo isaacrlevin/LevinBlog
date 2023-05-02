@@ -378,15 +378,6 @@
     "done": "true"
   },
   {
-    "url": "https://techorama.be/",
-    "eventName": "Techorama Belgium 2023",
-    "location": "Antwerp, Belgium",
-    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared|Building and Running .NET Apps on the Cloud- Choose your own adventure",
-    "startDate": "2023-05-15",
-    "endDate": "2023-05-17",
-    "done": "false"
-  },
-  {
     "url": "https://powershellsummit.org/",
     "eventName": "PowerShell and DevOps Summit",
     "location": "Bellevue, WA",
