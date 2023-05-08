@@ -248,15 +248,15 @@
     },
     {
         "type": "MISC",
-        "date": "2023-04-05",
+        "date": "2023-05-08",
         "medium": "video",
-        "title": "Inside dotNET",
-        "description": ".NET Serverless on AWS",
-        "youtubeid": "mZRwTKEIrIk",
+        "title": "On .NET",
+        "description": "Uplevel your code with the power of .NET community",
+        "youtubeid": "XPHso_XxIWI",
         "image": "",
         "link": "",
         "audio": ""
-    },
+    },    
     {
         "type": "Podcast",
         "date": "2023-04-28",
