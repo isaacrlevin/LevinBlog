@@ -378,15 +378,6 @@
     "done": "true"
   },
   {
-    "url": "https://techorama.be/",
-    "eventName": "Techorama Belgium 2023",
-    "location": "Antwerp, Belgium",
-    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared|Building and Running .NET Apps on the Cloud- Choose your own adventure",
-    "startDate": "2023-05-15",
-    "endDate": "2023-05-17",
-    "done": "false"
-  },
-  {
     "url": "https://powershellsummit.org/",
     "eventName": "PowerShell and DevOps Summit",
     "location": "Bellevue, WA",
@@ -399,7 +390,7 @@
     "url": "https://ndcoslo.com/",
     "eventName": "NDC Oslo 2023",
     "location": "Oslo, Norway",
-    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared|Running ASP.NET Core Apps without a server? WHAT???",
     "startDate": "2023-05-22",
     "endDate": "2023-05-26",
     "done": "false"
@@ -411,15 +402,6 @@
     "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
     "startDate": "2023-07-27",
     "endDate": "2023-07-27",
-    "done": "false"
-  },
-  {
-    "url": "https://www.meetup.com/copenhagen-net-user-group/events/292356915/",
-    "eventName": "Copenhagen .NET User Group",
-    "location": "Copenhagen, Denmark",
-    "talks": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared|Building and Running .NET Apps on the Cloud- Choose your own adventure",
-    "startDate": "2023-05-22",
-    "endDate": "2023-05-22",
     "done": "false"
   },
   {
@@ -435,7 +417,7 @@
     "url": "https://www.meetup.com/roanoke-valley-net-user-group/events/fbbrnryfcjbcb/",
     "eventName": "Roanoke Valley .NET User Group (RVNUG)",
     "location": "Virtual",
-    "talks": "Building and Running .NET Apps on the Cloud- Choose your own adventure",
+    "talks": "Leveling up on GitHub: Tips + Tricks for Beginners to Become Experts",
     "startDate": "2023-06-01",
     "endDate": "2023-06-01",
     "done": "false"
