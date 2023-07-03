@@ -256,5 +256,27 @@
         "image": "",
         "link": "https://www.youtube.com/watch?v=Pr9n_JICrmU",
         "audio": ""
+    },
+    {
+        "type": "Event",
+        "date": "2023-05-24",
+        "medium": "video",
+        "title": "NDC Oslo 2023",
+        "description": "Accelerate .NET to Azure with GitHub Actions",
+        "embed": "https://www.youtube.com/embed/IXCZAFwT5GY",
+        "image": "",
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=IXCZAFwT5GY"
+    },
+    {
+        "type": "Event",
+        "date": "2023-05-24",
+        "medium": "video",
+        "title": "NDC Oslo 2023",
+        "description": "Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+        "embed": "https://www.youtube.com/embed/MpzRe-BSEWs",
+        "image": "",
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=MpzRe-BSEWs"
     }
 ]
