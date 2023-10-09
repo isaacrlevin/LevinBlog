@@ -12,7 +12,7 @@ title: "AZ-203 Developing Solutions for Microsoft Azure Study Guide"
 
 <br />
 
-<strong>Update here, I passed this exam in January 2019 exclusively using this study guide. Let me know if you have any questions using the contact page.</strong>
+<strong>Update here, I passed this exam in January 2019 exclusively using this study guide. </strong>
 <br />
 <br />
 ## Intro
