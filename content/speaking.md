@@ -6,22 +6,8 @@ menu:
   main: { name: "Speaking", weight: "3" }
 ---
 
-## Upcoming Speaking Engagements
 
-<br />
-<br />
-
-{{< speaking "upcoming" >}}
-
-<br />
-<br />
-
-## Previous Speaking Engagements
-
-<br />
-<br />
-
-{{< speaking "previous" >}}
+{{< speaking >}}
 
 <br />
 

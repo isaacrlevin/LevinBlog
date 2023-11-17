@@ -1,4 +1,83 @@
-  <table class="tg">
+{{ $dataJ := getJSON "/data/speaking.json" }}
+{{ $particularDate := now }}
+
+{{ $transformedData := slice }}
+{{ range $dataJ }}
+  {{ $endDate := time .endDate }}
+  {{ $startDate := time .startDate }}
+  {{ $transformedData = $transformedData | append (merge . (dict "endDate" $endDate "startDate" $startDate)) }}
+{{ end }}
+
+{{ $before := where $transformedData ".endDate" "lt" $particularDate }}
+{{ $after := where $transformedData ".endDate" "gt" $particularDate }}
+
+{{ $beforeLength := len $before }}
+{{ $afterLength := len $after }}
+
+{{ if eq $afterLength 0 }}
+No Upcoming Events
+{{else}}
+<h2>Upcoming Speaking Engagements</h2>
+<br />
+<table class="tg">
+  <tr>
+    <th class="tg-0pky">Event</th>
+    <th class="tg-0pky">Location</th>
+    <th class="tg-0pky">Presentation</th>
+    <th class="tg-0pky da">Dates</th>
+  </tr>
+  {{ range sort $after ".startDate" "desc"  }}
+  <tr>
+    <td class="tg-0pky"><a href="{{ .url }}" target="_blank">{{ .eventName }}</a></td>
+    <td class="tg-0pky">{{ .location }}</td>
+    <td class="tg-0pky">{{ replace .talks "|" "<br />" | safeHTML }}</td>
+    {{if (eq .startDate .endDate)}}
+    <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }}</td>
+    {{ else }}
+    <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }} - {{ .endDate | dateFormat "Jan 2, 2006" }}</td>
+    {{end}}
+</tr>
+  {{end}}
+  </table>
+{{ end }}
+<br />
+<br />
+{{ if eq $beforeLength 0 }}
+No Previous Events
+{{else}}
+<h2>Previous Speaking Engagements</h2>
+<br />
+<table class="tg">
+  <tr>
+    <th class="tg-0pky">Event</th>
+    <th class="tg-0pky">Location</th>
+    <th class="tg-0pky">Presentation</th>
+    <th class="tg-0pky da">Dates</th>
+  </tr>
+  {{ range sort $before ".startDate" "desc"  }}
+  <tr>
+    <td class="tg-0pky"><a href="{{ .url }}" target="_blank">{{ .eventName }}</a></td>
+    <td class="tg-0pky">{{ .location }}</td>
+    <td class="tg-0pky">{{ replace .talks "|" "<br />" | safeHTML }}</td>
+    {{if (eq .startDate .endDate)}}
+    <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }}</td>
+    {{ else }}
+    <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }} - {{ .endDate | dateFormat "Jan 2, 2006" }}</td>
+    {{end}}
+</tr>
+  {{end}}
+  </table>
+{{ end }}
+
+
+
+
+
+
+
+
+<!-- Now you can use $before and $after in your templates -->
+<table class="tg">
     <tr>
       <th class="tg-0pky">Event</th>
       <th class="tg-0pky">Location</th>
@@ -29,10 +108,6 @@
         {{ else }}
         <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }} - {{ .endDate | dateFormat "Jan 2, 2006" }}</td>
         {{end}}
-    </tr>
-    {{else}}
-    <tr>
-      <td class="tg-0pky" colspan="5">No Upcoming Events</td> 
     </tr>
     {{end}}
     {{ end }}

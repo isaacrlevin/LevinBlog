@@ -421,5 +421,23 @@
     "startDate": "2023-06-01",
     "endDate": "2023-06-01",
     "done": "false"
+  },
+  {
+    "url": "https://techorama.nl/",
+    "eventName": "Techorama 2023 Netherlands",
+    "location": "Utrecht, Netherlands",
+    "talks": "Application Insights, The Tool You Never Knew You Needed|Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+    "startDate": "2023-10-09",
+    "endDate": "2023-10-11",
+    "done": "false"
+  },
+  {
+    "url": "https://ndcsydney.com/",
+    "eventName": "NDC Sydney 2024",
+    "location": "Sydney, Australia",
+    "talks": "Application Insights, The Tool You Never Knew You Needed",
+    "startDate": "2024-02-12",
+    "endDate": "2024-02-16",
+    "done": "false"
   }
 ]
