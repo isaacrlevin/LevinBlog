@@ -30,6 +30,10 @@
         <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }} - {{ .endDate | dateFormat "Jan 2, 2006" }}</td>
         {{end}}
     </tr>
+    {{else}}
+    <tr>
+      <td class="tg-0pky" colspan="5">No Upcoming Events</td> 
+    </tr>
     {{end}}
     {{ end }}
   </table>
