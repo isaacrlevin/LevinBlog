@@ -38,6 +38,7 @@ jobs:
       uses: peaceiris/actions-hugo@v2.4.13
       with:
         hugo-version: "latest"
+        extended: true
 
     - name: Build App
       run: hugo --minify
