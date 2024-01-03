@@ -24,20 +24,24 @@ jobs:
     - id: log
       name: Store Commit Message
       run: echo "POST_COMMIT_MESSAGE=$(git log --no-merges -1 --pretty=%B)" >> $GITHUB_ENV
-      
+
     - name: Parse Commit Message for Title/Url/Message
       env:
          COMMIT: ${{ env.POST_COMMIT_MESSAGE }}
-      run: ./scripts/parse-commit.sh     
-         
+      run: ./scripts/parse-commit.sh
+
     - id: output
       name: Write Parse Commit Message
       run: echo "${{ env.COMMIT_TITLE }} ${{ env.COMMIT_URL }} ${{ env.COMMIT_CONTENT }}"
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.4.13
-      with:
-        hugo-version: "latest"
+    # - name: Setup Hugo
+    #   uses: peaceiris/actions-hugo@v2.4.13
+    #   with:
+    #     hugo-version: "latest"
+
+    - name: Dubious
+      run: |
+        git config --global safe.directory /github/workspace
 
 
     - name: Build And Deploy
@@ -50,41 +54,41 @@ jobs:
         ###### Repository/Build Configurations - These values can be configured to match you app requirements. ######
         # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
         app_location: "/" # App source code path
-        api_location: "api" # Api source code path - optional
+        api_location: "" # Api source code path - optional
         app_artifact_location: "public" # Built app content directory - optional
         ###### End of Repository/Build Configurations ######
 
 
     - uses: ethomson/send-tweet-action@v1
       name: Send Tweet
-      if: env.COMMIT_URL != ''      
+      if: env.COMMIT_URL != ''
       with:
         status: "NEW BLOG POST: ${{ env.COMMIT_TITLE }} \n ${{ env.COMMIT_URL }} \n ${{ env.COMMIT_CONTENT }}"
         consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
         consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
         access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
         access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-          
+
     - uses: BjornLuG/release-for-reddit-action@v1
       name: Post to Reddit
-      if: env.COMMIT_URL != ''    
+      if: env.COMMIT_URL != ''
       with:
         username: ${{ secrets.REDDIT_USERNAME }}
         password: ${{ secrets.REDDIT_PASSWORD }}
         app-id: ${{ secrets.REDDIT_APP_ID }}
         app-secret: ${{ secrets.REDDIT_APP_SECRET }}
         subreddit: dotnet
-        title: "${{ env.COMMIT_TITLE }}" 
+        title: "${{ env.COMMIT_TITLE }}"
         url: "${{ env.COMMIT_URL }}"
-          
+
     - name: Post to LinkedIn
       uses: fjogeleit/http-request-action@v1.2.0
-      if: env.COMMIT_URL != ''    
+      if: env.COMMIT_URL != ''
       with:
         url: ${{ secrets.LOGIC_APP_URL }}
-        method: "POST" 
+        method: "POST"
         contentType: "application/json"
-        data: "{ \"url\": \"${{ env.COMMIT_URL }}\" }"  
+        data: "{ \"url\": \"${{ env.COMMIT_URL }}\" }"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
