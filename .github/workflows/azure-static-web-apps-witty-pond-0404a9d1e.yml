@@ -34,15 +34,13 @@ jobs:
       name: Write Parse Commit Message
       run: echo "${{ env.COMMIT_TITLE }} ${{ env.COMMIT_URL }} ${{ env.COMMIT_CONTENT }}"
 
-    # - name: Setup Hugo
-    #   uses: peaceiris/actions-hugo@v2.4.13
-    #   with:
-    #     hugo-version: "latest"
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.4.13
+      with:
+        hugo-version: "latest"
 
-    - name: Dubious
-      run: |
-        git config --global safe.directory /github/workspace
-
+    - name: Build App
+      run: hugo --minify
 
     - name: Build And Deploy
       id: builddeploy
@@ -53,9 +51,9 @@ jobs:
         action: "upload"
         ###### Repository/Build Configurations - These values can be configured to match you app requirements. ######
         # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-        app_location: "/" # App source code path
+        app_location: "public" # App source code path
         api_location: "" # Api source code path - optional
-        app_artifact_location: "public" # Built app content directory - optional
+        skip_app_build: true
         ###### End of Repository/Build Configurations ######
 
 
