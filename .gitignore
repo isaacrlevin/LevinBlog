@@ -41,5 +41,6 @@ $RECYCLE.BIN/
 
 # End of https://www.gitignore.io/api/windows,visualstudiocode
 
-deploy-stage.bat
-deploy-stage.ps1
+resources/*
+themes/KeepIt/node_modules/*
+themes/KeepIt/assets/lib/*
