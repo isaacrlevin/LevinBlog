@@ -216,17 +216,6 @@
     },
     {
         "type": "Podcast",
-        "date": "2023-02-15",
-        "medium": "video",
-        "title": "Mechanical Ink Podcast",
-        "description": "A conversation with Isaac Levin and Richard Littauer - Sustainable open-source today and in the future.",
-        "image": "https://i.scdn.co/image/ab67656300005f1fc820aaaf5879b458c04cdabe",
-        "embed": "https://open.spotify.com/embed/episode/3DSb2PsYvrsTbKFIr5HIyu?utm_source=generator",
-        "audio": "",
-        "link": "https://open.spotify.com/episode/3DSb2PsYvrsTbKFIr5HIyu?si=iwjj3uCYQR2jm8xUPl-JAA"
-    },
-    {
-        "type": "Podcast",
         "date": "2023-01-06",
         "medium": "audio",
         "title": "The Unhandled Exception Podcast",
@@ -287,5 +276,16 @@
         "image": "",
         "audio": "",
         "link": "https://www.youtube.com/watch?v=MpzRe-BSEWs"
+    },
+    {
+        "type": "MISC",
+        "date": "2024-03-30",
+        "medium": "video",
+        "title": "SSW TV @ NDC Sydney",
+        "description": "Better Devex: Microsoft Dev Box and Azure Deployment Environments",
+        "embed": "https://www.youtube.com/watch?v=bB3wxhgWcU8",
+        "image": "",
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=bB3wxhgWcU8"
     }
 ]
