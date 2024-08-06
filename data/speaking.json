@@ -439,5 +439,41 @@
     "startDate": "2024-02-12",
     "endDate": "2024-02-16",
     "done": "false"
+  },
+  {
+    "url": "https://www.kcdc.info/",
+    "eventName": "Kansas City Developers Conference 2024",
+    "location": "Kansas City, MO",
+    "talks": "A Little Bit of Everything – The Latest in ASP.NET Core",
+    "startDate": "2024-06-26",
+    "endDate": "2024-06-28",
+    "done": "false"
+  },
+  {
+    "url": "https://that.us/events/wi/2024/",
+    "eventName": "THAT Conference Wisconsin",
+    "location": "Wisconsin Dells, WI",
+    "talks": "Application Insights, The Tool You Never Knew You Needed",
+    "startDate": "2024-07-30",
+    "endDate": "2024-08-01",
+    "done": "false"
+  },
+  {
+    "url": "https://www.swetugg.se/gbg-2024",
+    "eventName": "SWETUGG Göteborg 2024",
+    "location": "Göteborg, Sweden",
+    "talks": "How can AI help us be a better .NET developer?",
+    "startDate": "2024-09-16",
+    "endDate": "2024-09-17",
+    "done": "false"
+  },
+  {
+    "url": "https://www.updateconference.net/",
+    "eventName": "Update Conference Prague 2024",
+    "location": "Prague, Czech Republic",
+    "talks": "NET Aspire: The new way to be cloud native with .NET|Application Insights, The Tool You Never Knew You Needed",
+    "startDate": "2024-11-14",
+    "endDate": "2024-11-15",
+    "done": "false"
   }
 ]
