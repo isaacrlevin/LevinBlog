@@ -295,9 +295,9 @@
         "medium": "video",
         "title": "The Cloud Show",
         "description": "Episode 38: Isaac Levin",
-        "youtubeid": "RgZLGl7ddhU",
+        "embed": "https://www.youtube.com/embed/RgZLGl7ddhU",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=RgZLGl7ddhU",
         "audio": ""
     },
     {
@@ -305,10 +305,10 @@
         "date": "2024-08-01",
         "medium": "video",
         "title": "Visual Studio Toolbox",
-        "description": "Uplevel your code with the power of .NET community",
-        "youtubeid": "Building Apps with Visual Studio in the Cloud with Dev Box",
+        "description": "Building Apps with Visual Studio in the Cloud with Dev Box",
+        "embed": "https://www.youtube.com/embed/9imDpJwrFJE",
         "image": "",
-        "link": "",
+        "link": "https://www.youtube.com/watch?v=9imDpJwrFJE",
         "audio": ""
     }
 ]
