@@ -241,10 +241,11 @@
         "medium": "video",
         "title": "On .NET",
         "description": "Uplevel your code with the power of .NET community",
-        "youtubeid": "XPHso_XxIWI",
+        "youtubeid": "",
+        "embed": "https://www.youtube.com/embed/XPHso_XxIWI",
         "image": "",
-        "link": "",
-        "audio": ""
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=XPHso_XxIWI"
     },
     {
         "type": "Podcast",
