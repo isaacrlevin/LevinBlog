@@ -195,7 +195,7 @@ enableEmoji = true
   # Social config in home page
   [params.social]
     GitHub = "isaacrlevin"
-    Linkedin = "isaacrobinlevin"
+    Linkedin = "isaacrlevin"
     Twitter = "isaacrlevin"
     Instagram = "isaacrlevin"
     TikTok = "@isaacrlevin"
