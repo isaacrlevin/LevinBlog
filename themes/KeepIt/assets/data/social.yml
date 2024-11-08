@@ -514,6 +514,13 @@ rss:
 tiktok:
   Weight: 65
   Prefix: https://tiktok.com/
-  Title: tiktok
+  Title: TikTok
   Icon:
     Class: fab fa-tiktok fa-fw
+
+bluesky:
+  Weight: 66
+  Prefix: https://bsky.app/profile/
+  Title: Bluesky
+  Icon:
+    Class: fab fa-bluesky fa-fw

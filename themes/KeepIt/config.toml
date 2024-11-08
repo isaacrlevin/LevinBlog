@@ -81,7 +81,7 @@
     # whether to show the author
     author = true
     # site creation time
-    since = 2022
+
     # ICP info only in China (HTML format is supported)
     icp = ""
     # license info (HTML format is supported)
@@ -397,12 +397,12 @@
       [params.page.library.css]
         # someCSS = "some.css"
         # located in "assets/"
-        # Or 
+        # Or
         # someCSS = "https://cdn.example.com/some.css"
       [params.page.library.js]
         # someJavascript = "some.js"
-        # located in "assets/" 
-        # Or 
+        # located in "assets/"
+        # Or
         # someJavascript = "https://cdn.example.com/some.js"
     # Page SEO config
     [params.page.seo]
