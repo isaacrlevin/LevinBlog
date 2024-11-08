@@ -18,7 +18,11 @@ languageName = "English"
 hasCJKLanguage = false
 
 # default amount of posts in each pages
-paginate = 12
+[pagination]
+  disableAliases = false
+  pagerSize = 12
+  path = 'page'
+
 # google analytics code [UA-XXXXXXXX-X]
 googleAnalytics = "G-C98918YD7X"
 # copyright description used only for seo schema
@@ -37,7 +41,7 @@ enableEmoji = true
   noreferrerLinks = true
 
 # Author config
-[author]
+[params.author]
   name = "Isaac Levin"
   email = "isaac@isaaclevin.com"
   link = "isaaclevin.com"
@@ -564,4 +568,3 @@ enableEmoji = true
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]

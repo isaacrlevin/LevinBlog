@@ -20,7 +20,7 @@ I have [blogged](/post/building-blog) about the changes I made to streamline my 
       <th class="tg-0pky">Presentation</th>
       <th class="tg-0pky da">Dates</th>
     </tr>
-    {{ $dataJ := getJSON "/data/speaking.json" }}
+    {{ $dataJ := .Site.Data.speaking }}
     {{ $sortOrder := "asc"}}
     {{if (eq ($.Get 0) "true" )}}
     {{ $sortOrder = "desc"}}

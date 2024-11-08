@@ -1,4 +1,4 @@
-{{ $dataJ := getJSON "/data/speaking.json" }}
+{{ $dataJ := .Site.Data.speaking }}
 {{ $particularDate := now }}
 
 {{ $transformedData := slice }}
@@ -84,7 +84,7 @@ No Previous Events
       <th class="tg-0pky">Presentation</th>
       <th class="tg-0pky da">Dates</th>
     </tr>
-    {{ $dataJ := getJSON "/data/speaking.json" }}
+    {{ $dataJ := .Site.Data.speaking }}
     {{ $sortOrder := "asc"}}
     {{if (eq ($.Get 0) "previous" )}}
     {{ $sortOrder = "desc"}}
