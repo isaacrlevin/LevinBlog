@@ -44,7 +44,7 @@ enableEmoji = true
 [params.author]
   name = "Isaac Levin"
   email = "isaac@isaaclevin.com"
-  link = "isaaclevin.com"
+  link = "isaacrlevin.com"
 
 # Menu config
 [menu]
@@ -203,7 +203,7 @@ enableEmoji = true
     Twitter = "isaacrlevin"
     Instagram = "isaacrlevin"
     TikTok = "@isaacrlevin"
-    Bluesky = "isaaclevin.com"
+    Bluesky = "isaacrlevin.com"
     Facebook = ""
     Telegram = ""
     Medium = ""
