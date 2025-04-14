@@ -476,4 +476,14 @@
     "endDate": "2024-11-15",
     "done": "false"
   }
+  ,
+  {
+    "url": "https://www.kcdc.info/",
+    "eventName": "Kansas City Developers Conference 2025",
+    "location": "Kansas City, MO",
+    "talks": "NET Aspire: The new way to be cloud native with .NET|Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
+    "startDate": "2025-08-13",
+    "endDate": "2025-08-15",
+    "done": "false"
+  }
 ]
