@@ -478,12 +478,31 @@
   }
   ,
   {
+    "url": "https://vslive.com/events/las-vegas-2025",
+    "eventName": "Visual Studio Live Las Vegas",
+    "location": "Las Vegas, NV",
+    "talks": "Navigating the World of Cloud Developer Environments with GitHub Codespaces and Microsoft Dev Box",
+    "startDate": "2025-03-10",
+    "endDate": "2025-03-15",
+    "done": "false"
+  }
+  ,
+  {
     "url": "https://www.kcdc.info/",
     "eventName": "Kansas City Developers Conference 2025",
     "location": "Kansas City, MO",
     "talks": "NET Aspire: The new way to be cloud native with .NET|Updating Old .NET Framework Apps: Tips + Tricks to Help Make You More Prepared",
     "startDate": "2025-08-13",
     "endDate": "2025-08-15",
+    "done": "false"
+  },
+  {
+    "url": "https://www.updateconference.net/",
+    "eventName": "Update Conference Prague 2025",
+    "location": "Prague, Czech Republic",
+    "talks": "Leveling up on GitHub: Tips + Tricks for Beginners to Become Experts",
+    "startDate": "2025-11-13",
+    "endDate": "2025-11-14",
     "done": "false"
   }
 ]

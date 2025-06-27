@@ -280,6 +280,17 @@
         "link": "https://www.youtube.com/watch?v=MpzRe-BSEWs"
     },
     {
+        "type": "Event",
+        "date": "2024-02-24",
+        "medium": "video",
+        "title": "NDC Sydney 2024",
+        "description": "Application Insights: The Tool You Never Knew You Needed",
+        "embed": "nXLWQSAyw6w",
+        "image": "",
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=nXLWQSAyw6w"
+    },
+    {
         "type": "MISC",
         "date": "2024-03-30",
         "medium": "video",
@@ -311,5 +322,15 @@
         "image": "",
         "link": "https://www.youtube.com/watch?v=9imDpJwrFJE",
         "audio": ""
+    },
+    {
+        "type": "Podcast",
+        "date": "2025-01-23",
+        "medium": "audio",
+        "title": ".NET Rocks",
+        "description": "Microsoft Dev Box with Isaac Levin",
+        "image": "/images/me/profileimage.jpg",
+        "link": "https://www.dotnetrocks.com/details/1934",
+        "audio": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/63835802/dotnetrocks_1934_microsoft_dev_box.mp3"
     }
 ]
