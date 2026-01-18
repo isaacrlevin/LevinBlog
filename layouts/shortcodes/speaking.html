@@ -26,7 +26,7 @@ No Upcoming Events
     <th class="tg-0pky">Presentation</th>
     <th class="tg-0pky da">Dates</th>
   </tr>
-  {{ range sort $after ".startDate" "desc"  }}
+  {{ range sort $after ".startDate" "asc"  }}
   <tr>
     <td class="tg-0pky"><a href="{{ .url }}" target="_blank">{{ .eventName }}</a></td>
     <td class="tg-0pky">{{ .location }}</td>
@@ -47,69 +47,150 @@ No Previous Events
 {{else}}
 <h2>Previous Speaking Engagements</h2>
 <br />
-<table class="tg">
-  <tr>
-    <th class="tg-0pky">Event</th>
-    <th class="tg-0pky">Location</th>
-    <th class="tg-0pky">Presentation</th>
-    <th class="tg-0pky da">Dates</th>
-  </tr>
-  {{ range sort $before ".startDate" "desc"  }}
-  <tr>
-    <td class="tg-0pky"><a href="{{ .url }}" target="_blank">{{ .eventName }}</a></td>
-    <td class="tg-0pky">{{ .location }}</td>
-    <td class="tg-0pky">{{ replace .talks "|" "<br />" | safeHTML }}</td>
-    {{if (eq .startDate .endDate)}}
-    <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }}</td>
-    {{ else }}
-    <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }} - {{ .endDate | dateFormat "Jan 2, 2006" }}</td>
-    {{end}}
-</tr>
-  {{end}}
-  </table>
-{{ end }}
 
+{{ $itemsPerPage := 15 }}
+{{ $sortedBefore := sort $before ".startDate" "desc" }}
 
-
-
-
-
-
-
-<!-- Now you can use $before and $after in your templates -->
-<table class="tg">
+<div id="historical-events">
+  <table class="tg">
     <tr>
       <th class="tg-0pky">Event</th>
       <th class="tg-0pky">Location</th>
       <th class="tg-0pky">Presentation</th>
       <th class="tg-0pky da">Dates</th>
     </tr>
-    {{ $dataJ := .Site.Data.speaking }}
-    {{ $sortOrder := "asc"}}
-    {{if (eq ($.Get 0) "previous" )}}
-    {{ $sortOrder = "desc"}}
-    {{end}}
-    {{ range sort $dataJ ".startDate" $sortOrder  }}
-    {{ $t := (time .endDate) }}
-    {{ $show := false}}
-    {{ if and (eq ($.Get 0) "upcoming" ) ($t.After now) }}
-    {{ $show = true}}
-    {{end}}
-    {{ if and (eq ($.Get 0) "previous" ) ($t.Before now) }}
-    {{ $show = true}}
-    {{end}}
-    {{ if $show}}
-    <tr>
-        <td class="tg-0pky"><a href="{{ .url }}" target="_blank">{{ .eventName }}</a></td>
-        <td class="tg-0pky">{{ .location }}</td>
-        <td class="tg-0pky">{{ replace .talks "|" "<br />" | safeHTML }}</td>
-        {{if (eq .startDate .endDate)}}
-        <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }}</td>
-        {{ else }}
-        <td class="tg-0pky">{{ .startDate | dateFormat "Jan 2, 2006" }} - {{ .endDate | dateFormat "Jan 2, 2006" }}</td>
-        {{end}}
+    {{ range $index, $event := $sortedBefore }}
+    <tr class="historical-event-row" data-page="{{ div $index $itemsPerPage }}" style="{{ if ge $index $itemsPerPage }}display: none;{{ end }}">
+      <td class="tg-0pky"><a href="{{ $event.url }}" target="_blank">{{ $event.eventName }}</a></td>
+      <td class="tg-0pky">{{ $event.location }}</td>
+      <td class="tg-0pky">{{ replace $event.talks "|" "<br />" | safeHTML }}</td>
+      {{if (eq $event.startDate $event.endDate)}}
+      <td class="tg-0pky">{{ $event.startDate | dateFormat "Jan 2, 2006" }}</td>
+      {{ else }}
+      <td class="tg-0pky">{{ $event.startDate | dateFormat "Jan 2, 2006" }} - {{ $event.endDate | dateFormat "Jan 2, 2006" }}</td>
+      {{end}}
     </tr>
     {{end}}
-    {{ end }}
   </table>
+
+  {{ if gt $beforeLength $itemsPerPage }}
+  <br />
+  <div id="pagination" style="text-align: center; margin: 20px 0;">
+    <button id="prev-btn" onclick="changePage(-1)" style="padding: 8px 16px; margin: 0 5px; cursor: pointer; background-color: #0066cc; color: white; border: none; border-radius: 3px;">
+      Previous
+    </button>
+    <span id="page-numbers" style="margin: 0 10px;"></span>
+    <button id="next-btn" onclick="changePage(1)" style="padding: 8px 16px; margin: 0 5px; cursor: pointer; background-color: #0066cc; color: white; border: none; border-radius: 3px;">
+      Next
+    </button>
+  </div>
+
+  <style>
+    .page-number {
+      display: inline-block;
+      padding: 8px 12px;
+      margin: 0 3px;
+      cursor: pointer;
+      background-color: #f0f0f0;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      color: #333;
+    }
+    .page-number:hover {
+      background-color: #e0e0e0;
+    }
+    .page-number.active {
+      background-color: #0066cc;
+      color: white;
+      border-color: #0066cc;
+    }
+  </style>
+
+  <script>
+    var itemsPerPage = {{ $itemsPerPage }};
+    var totalItems = {{ $beforeLength }};
+    var totalPages = Math.ceil(totalItems / itemsPerPage);
+    var currentPage = 0;
+
+    function showPage(pageNum) {
+      var rows = document.querySelectorAll('.historical-event-row');
+      rows.forEach(function(row) {
+        var rowPage = parseInt(row.getAttribute('data-page'));
+        row.style.display = (rowPage === pageNum) ? '' : 'none';
+      });
+
+      currentPage = pageNum;
+      updatePagination();
+    }
+
+    function updatePagination() {
+      var pageNumbersContainer = document.getElementById('page-numbers');
+      pageNumbersContainer.innerHTML = '';
+
+      var startPage = Math.max(0, currentPage - 2);
+      var endPage = Math.min(totalPages - 1, currentPage + 2);
+
+      if (startPage > 0) {
+        var firstPage = document.createElement('span');
+        firstPage.className = 'page-number';
+        firstPage.textContent = '1';
+        firstPage.onclick = function() { showPage(0); };
+        pageNumbersContainer.appendChild(firstPage);
+
+        if (startPage > 1) {
+          var ellipsis = document.createElement('span');
+          ellipsis.textContent = '...';
+          ellipsis.style.margin = '0 5px';
+          pageNumbersContainer.appendChild(ellipsis);
+        }
+      }
+
+      for (var i = startPage; i <= endPage; i++) {
+        var pageNum = document.createElement('span');
+        pageNum.className = 'page-number' + (i === currentPage ? ' active' : '');
+        pageNum.textContent = i + 1;
+        pageNum.setAttribute('data-page', i);
+        pageNum.onclick = function() {
+          showPage(parseInt(this.getAttribute('data-page')));
+        };
+        pageNumbersContainer.appendChild(pageNum);
+      }
+
+      if (endPage < totalPages - 1) {
+        if (endPage < totalPages - 2) {
+          var ellipsis = document.createElement('span');
+          ellipsis.textContent = '...';
+          ellipsis.style.margin = '0 5px';
+          pageNumbersContainer.appendChild(ellipsis);
+        }
+
+        var lastPage = document.createElement('span');
+        lastPage.className = 'page-number';
+        lastPage.textContent = totalPages;
+        lastPage.onclick = function() { showPage(totalPages - 1); };
+        pageNumbersContainer.appendChild(lastPage);
+      }
+
+      document.getElementById('prev-btn').disabled = currentPage === 0;
+      document.getElementById('prev-btn').style.opacity = currentPage === 0 ? '0.5' : '1';
+      document.getElementById('prev-btn').style.cursor = currentPage === 0 ? 'not-allowed' : 'pointer';
+
+      document.getElementById('next-btn').disabled = currentPage === totalPages - 1;
+      document.getElementById('next-btn').style.opacity = currentPage === totalPages - 1 ? '0.5' : '1';
+      document.getElementById('next-btn').style.cursor = currentPage === totalPages - 1 ? 'not-allowed' : 'pointer';
+    }
+
+    function changePage(delta) {
+      var newPage = currentPage + delta;
+      if (newPage >= 0 && newPage < totalPages) {
+        showPage(newPage);
+      }
+    }
+
+    // Initialize pagination
+    updatePagination();
+  </script>
+  {{ end }}
+</div>
+{{ end }}
 

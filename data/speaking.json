@@ -504,5 +504,32 @@
     "startDate": "2025-11-13",
     "endDate": "2025-11-14",
     "done": "false"
+  },
+  {
+    "url": "https://orlandocodecamp.com/",
+    "eventName": "Orlando CodeCamp 2026",
+    "location": "Orlanda, FL",
+    "talks": "How can AI help us be better .NET developers?",
+    "startDate": "2026-04-11",
+    "endDate": "2026-04-11",
+    "done": "true"
+  },
+  {
+    "url": "https://ndctoronto.com",
+    "eventName": "NDC Toronto 2026",
+    "location": "Toronto, ON, Canada",
+    "talks": "Copilot, Cursor, and Custom LLMs: Navigating the New .NET Developer Experience",
+    "startDate": "2026-05-05",
+    "endDate": "2026-05-08",
+    "done": "true"
+  },
+  {
+    "url": "https://ndcsydney.com/",
+    "eventName": "NDC Sydney 2026",
+    "location": "Sydney, Australia",
+    "talks": "Evaluating AI Developer Tools: A Practical Comparison",
+    "startDate": "2026-04-22",
+    "endDate": "2026-04-24",
+    "done": "true"
   }
 ]
