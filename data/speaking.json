@@ -522,14 +522,5 @@
     "startDate": "2026-05-05",
     "endDate": "2026-05-08",
     "done": "true"
-  },
-  {
-    "url": "https://ndcsydney.com/",
-    "eventName": "NDC Sydney 2026",
-    "location": "Sydney, Australia",
-    "talks": "Evaluating AI Developer Tools: A Practical Comparison",
-    "startDate": "2026-04-22",
-    "endDate": "2026-04-24",
-    "done": "true"
   }
 ]
