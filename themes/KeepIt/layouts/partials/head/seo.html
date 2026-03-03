@@ -1,4 +1,22 @@
 {{- $params := .Scratch.Get "params" -}}
+{{- /* Resolve site author (supports string or map in Site.Params.author) */ -}}
+{{- $sa := .Site.Params.author -}}
+{{- $siteAuthorName := "" -}}
+{{- $siteAuthorLink := "" -}}
+{{- $siteAuthorEmail := "" -}}
+{{- if $sa -}}
+    {{- if (isset $sa "name") -}}
+        {{- $siteAuthorName = index $sa "name" -}}
+    {{- else -}}
+        {{- $siteAuthorName = $sa -}}
+    {{- end -}}
+    {{- if (isset $sa "link") -}}
+        {{- $siteAuthorLink = index $sa "link" -}}
+    {{- end -}}
+    {{- if (isset $sa "email") -}}
+        {{- $siteAuthorEmail = index $sa "email" -}}
+    {{- end -}}
+{{- end -}}
 
 {{- with .Site.Params.verification.google -}}
     <meta name="google-site-verification" content="{{ . }}" />
@@ -26,7 +44,7 @@
         {{- with .Site.LanguageCode -}}
             "inLanguage": "{{ . }}",
         {{- end -}}
-        {{- with .Site.Author.name -}}
+        {{- with $siteAuthorName -}}
             "author": {
                 "@type": "Person",
                 "name": {{ . | safeHTML }}
@@ -122,7 +140,7 @@
         {{- with .Site.Copyright -}}
             "license": {{ . | safeHTML }},
         {{- end -}}
-        {{- $publisher := .Params.author | default .Site.Author.name | default (T "author") | dict "name" -}}
+        {{- $publisher := .Params.author | default $siteAuthorName | default (T "author") | dict "name" -}}
         {{- $publisher = $params.seo.publisher | default dict | merge $publisher -}}
         "publisher": {
             "@type": "Organization",
@@ -141,7 +159,7 @@
                 {{- end -}}
             {{- end -}}
         },
-        {{- with .Params.author | default .Site.Author.name | default (T "author") -}}
+        {{- with .Params.author | default $siteAuthorName | default (T "author") -}}
             "author": {
                 "@type": "Person",
                 "name": {{ . | safeHTML }}

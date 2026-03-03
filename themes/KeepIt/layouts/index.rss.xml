@@ -15,12 +15,26 @@
                 {{- . -}}
             </language>
         {{- end -}}
-        {{- with .Site.Author.email -}}
+        {{- /* Resolve site author for RSS metadata */ -}}
+        {{- $sa := .Site.Params.author -}}
+        {{- $siteAuthorEmail := "" -}}
+        {{- $siteAuthorName := "" -}}
+        {{- if $sa -}}
+            {{- if (isset $sa "email") -}}
+                {{- $siteAuthorEmail = index $sa "email" -}}
+            {{- end -}}
+            {{- if (isset $sa "name") -}}
+                {{- $siteAuthorName = index $sa "name" -}}
+            {{- else -}}
+                {{- $siteAuthorName = $sa -}}
+            {{- end -}}
+        {{- end -}}
+        {{- with $siteAuthorEmail -}}
             <managingEditor>
-                {{- . }}{{ with $.Site.Author.name }} ({{ . }}){{ end -}}
+                {{- . }}{{ with $siteAuthorName }} ({{ . }}){{ end -}}
             </managingEditor>
             <webMaster>
-                {{- . }}{{ with $.Site.Author.name }} ({{ . }}){{ end -}}
+                {{- . }}{{ with $siteAuthorName }} ({{ . }}){{ end -}}
             </webMaster>
         {{- end -}}
         {{- with .Site.Copyright -}}

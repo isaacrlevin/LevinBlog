@@ -32,7 +32,21 @@
 
                 {{- /* Author */ -}}
                 {{- if ne .Site.Params.footer.author false -}}
-                    <span class="author" itemprop="copyrightHolder">&nbsp;<a href="{{ $.Site.Author.link | default .Site.Home.RelPermalink }}" target="_blank">{{ .Site.Author.name }}</a></span>
+                    {{- /* Resolve site author (supports string or map in Site.Params.author) */ -}}
+                    {{- $sa := .Site.Params.author -}}
+                    {{- $siteAuthorName := "" -}}
+                    {{- $siteAuthorLink := "" -}}
+                    {{- if $sa -}}
+                        {{- if (isset $sa "name") -}}
+                            {{- $siteAuthorName = index $sa "name" -}}
+                        {{- else -}}
+                            {{- $siteAuthorName = $sa -}}
+                        {{- end -}}
+                        {{- if (isset $sa "link") -}}
+                            {{- $siteAuthorLink = index $sa "link" -}}
+                        {{- end -}}
+                    {{- end -}}
+                    <span class="author" itemprop="copyrightHolder">&nbsp;<a href="{{ $siteAuthorLink | default .Site.Home.RelPermalink }}" target="_blank">{{ $siteAuthorName }}</a></span>
                 {{- end -}}
 
                 {{- /* License */ -}}

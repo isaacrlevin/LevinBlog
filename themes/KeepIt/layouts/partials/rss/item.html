@@ -1,4 +1,14 @@
-{{- $params := .Page.Params | merge .Site.Params.Page | merge (dict "author" .Site.Author.name) -}}
+{{- /* Resolve site author (supports string or map in Site.Params.author) */ -}}
+{{- $sa := .Site.Params.author -}}
+{{- $siteAuthorName := "" -}}
+{{- if $sa -}}
+    {{- if (isset $sa "name") -}}
+        {{- $siteAuthorName = index $sa "name" -}}
+    {{- else -}}
+        {{- $siteAuthorName = $sa -}}
+    {{- end -}}
+{{- end -}}
+{{- $params := .Page.Params | merge .Site.Params.Page | merge (dict "author" $siteAuthorName) -}}
 <item>
     <title>
         {{- .Page.Title -}}
