@@ -2,3 +2,75 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+.videosplitter-page {
+	--vs-accent: #1f8ac0;
+	--vs-accent-soft: rgba(31, 138, 192, 0.12);
+	--vs-border: rgba(31, 138, 192, 0.24);
+
+	.vs-hero {
+		margin: 1.25rem 0 2rem;
+		padding: 1.2rem 1.25rem;
+		border: 1px solid var(--vs-border);
+		border-radius: 14px;
+		background: linear-gradient(145deg, var(--vs-accent-soft), rgba(255, 255, 255, 0));
+	}
+
+	.vs-eyebrow {
+		display: inline-block;
+		margin-bottom: 0.5rem;
+		padding: 0.2rem 0.55rem;
+		border-radius: 999px;
+		font-size: 0.76rem;
+		font-weight: 700;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		color: var(--vs-accent);
+		background: var(--vs-accent-soft);
+	}
+
+	.vs-intro {
+		margin: 0.25rem 0 0;
+		font-size: 1.05rem;
+		line-height: 1.6;
+	}
+
+	.vs-link-row {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.6rem;
+		margin-top: 1rem;
+	}
+
+	.vs-link-pill {
+		padding: 0.45rem 0.8rem;
+		border: 1px solid var(--vs-border);
+		border-radius: 999px;
+		text-decoration: none;
+		font-weight: 600;
+		transition: transform 0.15s ease, box-shadow 0.15s ease;
+	}
+
+	.vs-link-pill:hover {
+		transform: translateY(-1px);
+		box-shadow: 0 5px 14px rgba(0, 0, 0, 0.12);
+	}
+
+	.vs-panel {
+		margin: 1.2rem 0 1.7rem;
+		padding: 0.9rem 1rem;
+		border-left: 3px solid var(--vs-accent);
+		border-radius: 8px;
+		background: var(--vs-accent-soft);
+	}
+
+	.vs-panel p {
+		margin: 0;
+	}
+
+	h2 {
+		margin-top: 1.8rem;
+		padding-top: 0.25rem;
+		border-top: 1px solid rgba(127, 127, 127, 0.2);
+	}
+}
