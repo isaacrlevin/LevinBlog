@@ -519,7 +519,7 @@
     "talks": "Copilot, Cursor, and Custom LLMs: Navigating the New .NET Developer Experience",
     "startDate": "2026-05-05",
     "endDate": "2026-05-08",
-    "done": "true"
+    "done": "false"
   },
   {
     "url": "https://nebraskacode.amegala.com/",
@@ -529,5 +529,14 @@
     "startDate": "2026-07-22",
     "endDate": "2026-07-24",
     "done": "false"
-  }
+  },
+    {
+    "url": "https://kcdc.info",
+    "eventName": "Kansas City Developers Conference 2026",
+    "location": "Kansas City, MO",
+    "talks": "The Art of Falling Face Up: Building Resilience and Embracing Change",
+    "startDate": "2026-09-09",
+    "endDate": "2026-09-11",
+    "done": "false"
+  }  
 ]
