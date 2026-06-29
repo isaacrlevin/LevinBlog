@@ -522,15 +522,6 @@
     "done": "false"
   },
   {
-    "url": "https://nebraskacode.amegala.com/",
-    "eventName": "Nebraska.Code()",
-    "location": "Lincoln, NE",
-    "talks": "A Little Bit of Everything \u2013 The Latest in ASP.NET Core|Still on 4.8 or lower? A Practical Guide to Moving Your \"Un-Migratable\" .NET Apps",
-    "startDate": "2026-07-22",
-    "endDate": "2026-07-24",
-    "done": "false"
-  },
-    {
     "url": "https://kcdc.info",
     "eventName": "Kansas City Developers Conference 2026",
     "location": "Kansas City, MO",
@@ -538,5 +529,5 @@
     "startDate": "2026-09-09",
     "endDate": "2026-09-11",
     "done": "false"
-  }  
+  }
 ]
