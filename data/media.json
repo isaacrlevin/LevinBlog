@@ -281,6 +281,17 @@
     },
     {
         "type": "Event",
+        "date": "2026-05-06",
+        "medium": "video",
+        "title": "NDC Toronto 2026",
+        "description": "Copilot, Cursor, and Custom LLMs: Navigating the New .NET Developer Experience",
+        "embed": "P1DAxnR1fzw",
+        "image": "",
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=P1DAxnR1fzw"
+    },
+    {
+        "type": "Event",
         "date": "2024-02-24",
         "medium": "video",
         "title": "NDC Sydney 2024",
@@ -334,5 +345,3 @@
         "audio": "https://dts.podtrac.com/redirect.mp3/api.spreaker.com/download/episode/63835802/dotnetrocks_1934_microsoft_dev_box.mp3"
     }
 ]
-
-

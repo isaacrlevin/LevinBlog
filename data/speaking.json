@@ -504,15 +504,6 @@
     "done": "false"
   },
   {
-    "url": "https://orlandocodecamp.com/",
-    "eventName": "Orlando CodeCamp 2026",
-    "location": "Orlanda, FL",
-    "talks": "How can AI help us be better .NET developers?",
-    "startDate": "2026-04-11",
-    "endDate": "2026-04-11",
-    "done": "true"
-  },
-  {
     "url": "https://ndctoronto.com",
     "eventName": "NDC Toronto 2026",
     "location": "Toronto, ON, Canada",
@@ -530,4 +521,24 @@
     "endDate": "2026-09-11",
     "done": "false"
   }
+  ,
+  {
+    "url": "https://www.cloudandaisummit.com/",
+    "eventName": "The Cloud and AI Summit 2026",
+    "location": "St. Louis, MO",
+    "talks": "Copilot, Cursor, and Custom LLMs: Navigating the New .NET Developer Experience|GitHub's Hidden Gems: The Productivity Features You're Probably Missing",
+    "startDate": "2026-09-30",
+    "endDate": "2026-10-02",
+    "done": "false"
+  },
+    {
+    "url": "https://prague.updateconference.net/",
+    "eventName": "Update Conference Prague 2026",
+    "location": "Prague, Czech Republic",
+    "talks": "Short Links, Big Impact: Automating Social Distribution with .NET and GenAI",
+    "startDate": "2026-11-12",
+    "endDate": "2026-11-13",
+    "done": "false"
+  },
+  
 ]
