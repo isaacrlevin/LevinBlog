@@ -520,8 +520,7 @@
     "startDate": "2026-09-09",
     "endDate": "2026-09-11",
     "done": "false"
-  }
-  ,
+  },
   {
     "url": "https://www.cloudandaisummit.com/",
     "eventName": "The Cloud and AI Summit 2026",
@@ -531,7 +530,7 @@
     "endDate": "2026-10-02",
     "done": "false"
   },
-    {
+  {
     "url": "https://prague.updateconference.net/",
     "eventName": "Update Conference Prague 2026",
     "location": "Prague, Czech Republic",
@@ -539,6 +538,5 @@
     "startDate": "2026-11-12",
     "endDate": "2026-11-13",
     "done": "false"
-  },
-  
+  }
 ]
