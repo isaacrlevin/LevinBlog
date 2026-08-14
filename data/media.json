@@ -11,6 +11,17 @@
     },
     {
         "type": "Podcast",
+        "medium": "video",
+        "date": "2026-07-23",
+        "title": "Pragmatic AI in .NET Show",
+        "embed": "7LX1GbYtmGg",
+        "description": "Modern Developer Workflows with Isaac Levin",
+        "image": "",
+        "audio": "",
+        "link": "https://www.youtube.com/watch?v=7LX1GbYtmGg"
+    },
+    {
+        "type": "Podcast",
         "date": "2019-03-06",
         "medium": "audio",
         "title": "RunAsRadio",
